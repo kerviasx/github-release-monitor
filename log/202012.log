@@ -183,3 +183,16 @@
 2020-12-02 18:54:25 root:INFO:所有项目均未发布新版本
 2020-12-02 18:54:25 root:INFO:Monitor End
 
+2020-12-02 19:11:48 root:INFO:Monitor Start
+2020-12-02 19:11:48 root:INFO:[ID=140282036778752]:Qv2ray->https://github.com/Qv2ray/Qv2ray/releases
+2020-12-02 19:11:48 root:INFO:[ID=140281953384192]:QvPlugin-SSR->https://github.com/Qv2ray/QvPlugin-SSR/releases
+2020-12-02 19:11:48 root:INFO:[ID=140281936598784]:lx-music->https://github.com/lyswhut/lx-music-desktop/releases
+2020-12-02 19:11:48 root:INFO:[ID=140281919813376]:v2ray-core->https://github.com/v2fly/v2ray-core/releases
+2020-12-02 19:11:48 root:INFO:[ID=140281911420672]:hexo-next->https://github.com/next-theme/hexo-theme-next/releases
+2020-12-02 19:11:48 root:INFO:[ID=140282045171456]:QvPlugin-Trojan->https://github.com/Qv2ray/QvPlugin-Trojan/releases
+2020-12-02 19:11:48 root:INFO:[ID=140281928206080]:QvPlugin-Trojan-GO->https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases
+2020-12-02 19:11:48 root:INFO:[ID=140281903027968]:ProxySU->https://github.com/proxysu/windows/releases
+2020-12-02 19:11:48 root:INFO:[ID=140281944991488]:Halo->https://github.com/halo-dev/halo/releases
+2020-12-02 19:11:51 root:INFO:所有项目均未发布新版本
+2020-12-02 19:11:51 root:INFO:Monitor End
+
