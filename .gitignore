@@ -1,0 +1,4 @@
+data-win10/
+log-win10/*.log
+**/__pycache__/
+.vscode/
