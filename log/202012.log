@@ -1,0 +1,24 @@
+2020-12-03 13:17:27 root:INFO:Monitor Start
+2020-12-03 13:17:27 root:INFO:[ID=140146412181248]:Qv2ray->https://github.com/Qv2ray/Qv2ray/releases
+2020-12-03 13:17:27 root:INFO:[ID=140146403788544]:QvPlugin-SSR->https://github.com/Qv2ray/QvPlugin-SSR/releases
+2020-12-03 13:17:27 root:INFO:[ID=140146192152320]:lx-music->https://github.com/lyswhut/lx-music-desktop/releases
+2020-12-03 13:17:27 root:INFO:[ID=140146175366912]:v2ray-core->https://github.com/v2fly/v2ray-core/releases
+2020-12-03 13:17:27 root:INFO:[ID=140146158581504]:hexo-next->https://github.com/next-theme/hexo-theme-next/releases
+2020-12-03 13:17:27 root:INFO:[ID=140146150188800]:QvPlugin-Trojan->https://github.com/Qv2ray/QvPlugin-Trojan/releases
+2020-12-03 13:17:27 root:INFO:[ID=140146420573952]:QvPlugin-Trojan-GO->https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases
+2020-12-03 13:17:27 root:INFO:[ID=140146166974208]:ProxySU->https://github.com/proxysu/windows/releases
+2020-12-03 13:17:27 root:INFO:[ID=140146183759616]:Halo->https://github.com/halo-dev/halo/releases
+2020-12-03 13:17:30 root:INFO:-*--*--*--*--*--*--*--*--*--*-
+2020-12-03 13:17:30 root:INFO:hexo-next -- v8.1.0
+2020-12-03 13:17:30 root:INFO:QvPlugin-Trojan-GO -- v3.0.0-pre3
+2020-12-03 13:17:30 root:INFO:QvPlugin-Trojan -- v3.0.0-pre3
+2020-12-03 13:17:30 root:INFO:ProxySU -- v2.5.2
+2020-12-03 13:17:30 root:INFO:lx-music -- v1.4.1
+2020-12-03 13:17:30 root:INFO:QvPlugin-SSR -- v3.0.0-pre3
+2020-12-03 13:17:30 root:INFO:Qv2ray -- v2.7.0-pre1
+2020-12-03 13:17:30 root:INFO:Halo -- v1.4.2
+2020-12-03 13:17:30 root:INFO:v2ray-core -- v4.33.0
+2020-12-03 13:17:32 root:INFO:发送邮件成功！
+2020-12-03 13:17:32 root:INFO:-*--*--*--*--*--*--*--*--*--*-
+2020-12-03 13:17:32 root:INFO:Monitor End
+
