@@ -1,0 +1,40 @@
+name: github-release-monitor
+on:
+  push:
+    branches: 
+      - master
+  schedule:
+    - cron: '0 4,14 * * *' # UTC-TIME
+jobs:
+  monitor:
+    runs-on: ubuntu-18.04
+    steps:
+        - name: Setup timezone
+          uses: zcong1993/setup-timezone@master
+          with:
+            timezone: Asia/Shanghai
+        - name: Checkout
+          uses: actions/checkout@v2
+        - name: Set up Python
+          uses: actions/setup-python@v1
+          with:
+            python-version: 3.7
+        - name: Install lib
+          run: pip install -r requirements.txt
+        - name: GithubMonitor
+          env:
+            MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+            MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
+            MAIL_RECEIVERS: ${{ secrets.MAIL_RECEIVERS }}
+          run: |
+            python -u src/main.py
+            tail -n 50 log/$(date +'%Y%m').log
+        - name: Commit files
+          env: 
+            GITHUB_REPO: github.com/kerviasx/github-release-monitor
+          run: |
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add .
+            git commit -m "GitHub Actions Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
+            git push  "https://${{ secrets.ACCESS_TOKEN }}@$GITHUB_REPO" master:master # ACCESS_TOKEN貌似无用
