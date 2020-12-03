@@ -4,10 +4,10 @@ on:
     branches: 
       - master
   schedule:
-    - cron: 0/10 * * * *
+    - cron: '*/10 * * * *'
 jobs:
   myjob:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
         - name: Checkout
           uses: actions/checkout@v2
@@ -23,21 +23,8 @@ jobs:
             MAILPASSWORD: ${{ secrets.MAILPASSWORD }}
             MAIL_RECEIVERS: ${{ secrets.MAIL_RECEIVERS }}
           run: python -u main.py
-        # - name: 'Send mail'
-        #   uses: dawidd6/action-send-mail@master
-        #   with:
-        #     serveraddress: smtp.qq.com
-        #     serverport: 465
-        #     username: ${{ secrets.MAILUSERNAME }}
-        #     password: ${{ secrets.MAILPASSWORD }}
-        #     subject: Github监控服务消息
-        #     body: file://result.html
-        #     to: yifeng.ruan@gmail.com
-        #     from: GitHub Actions
-        #     content_type: text/html
         - name: Commit files
           env: 
-            # Github 倉庫
             GITHUB_REPO: github.com/kerviasx/github-release-monitor
           run: |
             git config --local user.email "action@github.com"
