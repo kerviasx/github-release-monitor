@@ -638,3 +638,29 @@
 2020-12-03 10:51:38 root:INFO:所有项目均未发布新版本
 2020-12-03 10:51:38 root:INFO:Monitor End
 
+2020-12-03 11:04:34 root:INFO:Monitor Start
+2020-12-03 11:04:34 root:INFO:[ID=140702890342144]:Qv2ray->https://github.com/Qv2ray/Qv2ray/releases
+2020-12-03 11:04:34 root:INFO:[ID=140702881949440]:QvPlugin-SSR->https://github.com/Qv2ray/QvPlugin-SSR/releases
+2020-12-03 11:04:34 root:INFO:[ID=140702658852608]:lx-music->https://github.com/lyswhut/lx-music-desktop/releases
+2020-12-03 11:04:34 root:INFO:[ID=140702625281792]:v2ray-core->https://github.com/v2fly/v2ray-core/releases
+2020-12-03 11:04:34 root:INFO:[ID=140702633674496]:hexo-next->https://github.com/next-theme/hexo-theme-next/releases
+2020-12-03 11:04:34 root:INFO:[ID=140702873556736]:QvPlugin-Trojan->https://github.com/Qv2ray/QvPlugin-Trojan/releases
+2020-12-03 11:04:34 root:INFO:[ID=140702642067200]:QvPlugin-Trojan-GO->https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases
+2020-12-03 11:04:34 root:INFO:[ID=140702616889088]:ProxySU->https://github.com/proxysu/windows/releases
+2020-12-03 11:04:34 root:INFO:[ID=140702650459904]:Halo->https://github.com/halo-dev/halo/releases
+2020-12-03 11:04:36 root:INFO:所有项目均未发布新版本
+2020-12-03 11:04:36 root:INFO:Monitor End
+
+2020-12-03 11:05:23 root:INFO:Monitor Start
+2020-12-03 11:05:23 root:INFO:[ID=140077517862656]:Qv2ray->https://github.com/Qv2ray/Qv2ray/releases
+2020-12-03 11:05:23 root:INFO:[ID=140077509469952]:QvPlugin-SSR->https://github.com/Qv2ray/QvPlugin-SSR/releases
+2020-12-03 11:05:23 root:INFO:[ID=140077492684544]:lx-music->https://github.com/lyswhut/lx-music-desktop/releases
+2020-12-03 11:05:23 root:INFO:[ID=140077484291840]:v2ray-core->https://github.com/v2fly/v2ray-core/releases
+2020-12-03 11:05:23 root:INFO:[ID=140077128738560]:hexo-next->https://github.com/next-theme/hexo-theme-next/releases
+2020-12-03 11:05:23 root:INFO:[ID=140077526255360]:QvPlugin-Trojan->https://github.com/Qv2ray/QvPlugin-Trojan/releases
+2020-12-03 11:05:23 root:INFO:[ID=140077137131264]:QvPlugin-Trojan-GO->https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases
+2020-12-03 11:05:23 root:INFO:[ID=140077120345856]:ProxySU->https://github.com/proxysu/windows/releases
+2020-12-03 11:05:23 root:INFO:[ID=140077501077248]:Halo->https://github.com/halo-dev/halo/releases
+2020-12-03 11:05:26 root:INFO:所有项目均未发布新版本
+2020-12-03 11:05:26 root:INFO:Monitor End
+
