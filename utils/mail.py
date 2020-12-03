@@ -28,13 +28,3 @@ class QQMail:
         server.login(self.data['sender'], self.data['password'])  # 括号中对应的是发件人邮箱账号、邮箱密码
         server.sendmail(self.data['sender'], self.data['receive'], message.as_string())  # 括号中对应的是发件人邮箱账号、收件人邮箱账号、发送邮件
         server.quit()  # 关闭连接
-
-
-if __name__ == '__main__':
-    data = {
-        'receive': ['kervia1@qq.com'],
-        'msg': "<h1>你好</h1>",
-        'type': 'html'
-    }
-    mail = Mail(data)
-    mail.send_email()

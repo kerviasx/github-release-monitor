@@ -93,13 +93,3 @@ class TEMPLATE(object):
         
     def template(self):
         return self.ret
-
-
-
-# data = {
-#         'receive': ['kervia1@qq.com'],
-#         'msg': htmlT,
-#         'type': 'html'
-#     }
-# mail = Mail(data)
-# mail.send_email()
