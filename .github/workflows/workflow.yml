@@ -9,6 +9,10 @@ jobs:
   myjob:
     runs-on: ubuntu-18.04
     steps:
+        - name: Setup timezone
+          uses: zcong1993/setup-timezone@master
+          with:
+            timezone: Asia/Shanghai
         - name: Checkout
           uses: actions/checkout@v2
         - name: Set up Python
