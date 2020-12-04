@@ -81,7 +81,7 @@ class GithubReleaseSpider(object):
         for k,v in new_info_dict.items():
             if v != None:
                 file_info_dict[k] = v
-                if k not in old_info_dict.keys() or old_info_dict[k]['time'] != new_info_dict[k]['time']:
+                if k not in old_info_dict.keys() or  ('time' in old_info_dict[k].items() and old_info_dict[k]['time'] != new_info_dict[k]['time']):
                     flag = True
             elif k in old_info_dict.keys():
                 file_info_dict[k] = old_info_dict[k]
