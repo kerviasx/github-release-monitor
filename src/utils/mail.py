@@ -19,12 +19,10 @@ class QQMail:
         message = MIMEMultipart()
         message['From'] = self.data['sender']
         message['To'] = ';'.join(self.data['receive'])
-        #subject = self.data['title']  # 主体内容
-        # subject = unicode(subject)# 更改主题编码
         message['Subject'] = Header(self.data['title'], 'utf-8').encode()
 
-        message.attach(MIMEText(self.data['msg'], self.data['type'], 'utf-8'))  # 如果要发送html需要将plain改成html
-        server = smtplib.SMTP_SSL("smtp.qq.com", 465)  # 发件人邮箱中的SMTP服务器，端口是25
-        server.login(self.data['sender'], self.data['password'])  # 括号中对应的是发件人邮箱账号、邮箱密码
-        server.sendmail(self.data['sender'], self.data['receive'], message.as_string())  # 括号中对应的是发件人邮箱账号、收件人邮箱账号、发送邮件
+        message.attach(MIMEText(self.data['msg'], self.data['type'], 'utf-8'))  
+        server = smtplib.SMTP_SSL("smtp.qq.com", 465)  # 发件人邮箱中的SMTP服务器
+        server.login(self.data['sender'], self.data['password'])
+        server.sendmail(self.data['sender'], self.data['receive'], message.as_string())
         server.quit()  # 关闭连接

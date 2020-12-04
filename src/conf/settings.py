@@ -30,15 +30,12 @@ GITHUB_RELEASES = {
 }
 
 
-
-
 # 发送邮箱配置
 MAIL = {
     "email": None,
     "password": None,
     "receivers": None
 }
-
 
 # Folder Path Settings
 ROOT_FOLDER_PATH = os.path.realpath(os.path.dirname(os.path.abspath(sys.argv[0])))
@@ -53,7 +50,6 @@ if sys == "Windows":
 # File Path Settings
 LOG_FILE_PATH =  "{}/{}.log".format(LOG_FOLDER_PATH, datetime.datetime.now().strftime('%Y%m'))
 DATA_FILE_PATH = DATA_FOLDER_PATH + '/result.json'
-
 
 
 #PATH Check
