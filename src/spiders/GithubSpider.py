@@ -77,14 +77,10 @@ class GithubReleaseSpider(object):
         old_info_dict = self.history_info
         update_info_dict = {}
         file_info_dict = {}
-        flag = False
+
         for k,v in new_info_dict.items():
             if v != None:
                 file_info_dict[k] = v
-                if k not in old_info_dict.keys() or  ('time' in old_info_dict[k].items() and old_info_dict[k]['time'] != new_info_dict[k]['time']):
-                    flag = True
-            elif k in old_info_dict.keys():
-                file_info_dict[k] = old_info_dict[k]
             if v == None: # 获取信息失败的
                 new_info_dict[k] = {
                     'tag': "No Tag",
@@ -93,12 +89,11 @@ class GithubReleaseSpider(object):
                     'url': "ss",  #self.conf.GITHUB_RELEASES[k],
                     'time': ''
                 }
-            if not(k in old_info_dict.keys() and 'time' in old_info_dict[k].items() and old_info_dict[k]['time'] == new_info_dict[k]['time']):
+            if not(k in old_info_dict.keys() and 'time' in old_info_dict[k].keys() and old_info_dict[k]['time'] == new_info_dict[k]['time']):
                 update_info_dict[k] = new_info_dict[k]
 
-        if flag:
-            with open(self.conf.DATA_FILE_PATH, 'w', encoding='utf8') as f:
-                json.dump(file_info_dict, f, indent=4, ensure_ascii=False)
+        with open(self.conf.DATA_FILE_PATH, 'w', encoding='utf8') as f:
+            json.dump(file_info_dict, f, indent=4, ensure_ascii=False)
         
         if len(update_info_dict) != 0:            
             self.send_email(update_info_dict)
