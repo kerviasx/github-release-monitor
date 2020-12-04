@@ -1,11 +1,4 @@
 {
-    "QvPlugin-Trojan-GO": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-Trojan-Go v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-Trojan-Go v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> Only for Qv2ray v2.7.0-pre1. NOT FOR Qv2ray v2.6.3 or v2.7.0-alpha1.</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:24:13Z"
-    },
     "QvPlugin-Trojan": {
         "tag": "v3.0.0-pre3",
         "title": "QvPlugin-Trojan v3.0.0-pre3 prerelease",
@@ -13,12 +6,12 @@
         "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:25:43Z"
     },
-    "lx-music": {
-        "tag": "v1.4.1",
-        "title": "1.4.1",
-        "content": "<h3>修复</h3>\n<ul>\n<li>修复有歌词翻译与无歌词的音乐间切换会导致歌词翻译残留显示的问题</li>\n<li>修复歌曲URL过期时，等待刷新URL的自动切换歌曲时间间隔太短的问题</li>\n<li>修复某些电脑上的某些歌曲没有声音的问题（升级Electron9.3.4导致的，现降级到9.3.3）</li>\n</ul>",
-        "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v1.4.1",
-        "time": "2020-11-25T00:39:32Z"
+    "QvPlugin-Trojan-GO": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-Trojan-Go v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-Trojan-Go v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> Only for Qv2ray v2.7.0-pre1. NOT FOR Qv2ray v2.6.3 or v2.7.0-alpha1.</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:24:13Z"
     },
     "QvPlugin-SSR": {
         "tag": "v3.0.0-pre3",
@@ -26,6 +19,13 @@
         "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
         "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:22:26Z"
+    },
+    "lx-music": {
+        "tag": "v1.4.1",
+        "title": "1.4.1",
+        "content": "<h3>修复</h3>\n<ul>\n<li>修复有歌词翻译与无歌词的音乐间切换会导致歌词翻译残留显示的问题</li>\n<li>修复歌曲URL过期时，等待刷新URL的自动切换歌曲时间间隔太短的问题</li>\n<li>修复某些电脑上的某些歌曲没有声音的问题（升级Electron9.3.4导致的，现降级到9.3.3）</li>\n</ul>",
+        "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v1.4.1",
+        "time": "2020-11-25T00:39:32Z"
     },
     "v2ray-core": {
         "tag": "v4.33.0",
