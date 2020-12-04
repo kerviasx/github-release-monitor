@@ -81,12 +81,14 @@ class GithubReleaseSpider(object):
         for k,v in new_info_dict.items():
             if v != None:
                 file_info_dict[k] = v
-            if v == None: # 获取信息失败的
+            elif k in old_info_dict.keys():
+                file_info_dict[k] = old_info_dict[k]
+            if v == None: # 获取信息失败
                 new_info_dict[k] = {
                     'tag': "No Tag",
                     'title': k,
                     'content': "获取信息失败",
-                    'url': "ss",  #self.conf.GITHUB_RELEASES[k],
+                    'url': self.conf.GITHUB_RELEASES[k],
                     'time': ''
                 }
             if not(k in old_info_dict.keys() and 'time' in old_info_dict[k].keys() and old_info_dict[k]['time'] == new_info_dict[k]['time']):
@@ -117,7 +119,7 @@ class GithubReleaseSpider(object):
         }
         try:
             mail = QQMail(data)
-            #mail.send_email()
+            mail.send_email()
         except Exception as e:
             logging.error("发送邮件失败, {}".format(str(e)))
         else:
