@@ -93,10 +93,9 @@ class GithubReleaseSpider(object):
                     'url': "ss",  #self.conf.GITHUB_RELEASES[k],
                     'time': ''
                 }
-            if k not in old_info_dict.keys():
+            if not(k in old_info_dict.keys() and old_info_dict[k]['time'] == new_info_dict[k]['time']):
                 update_info_dict[k] = new_info_dict[k]
-            elif old_info_dict[k]['time'] != new_info_dict[k]['time']:
-                update_info_dict[k] = new_info_dict[k]
+
         
         if flag:
             with open(self.conf.DATA_FILE_PATH, 'w', encoding='utf8') as f:
