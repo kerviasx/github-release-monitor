@@ -96,7 +96,6 @@ class GithubReleaseSpider(object):
             if not(k in old_info_dict.keys() and old_info_dict[k]['time'] == new_info_dict[k]['time']):
                 update_info_dict[k] = new_info_dict[k]
 
-        
         if flag:
             with open(self.conf.DATA_FILE_PATH, 'w', encoding='utf8') as f:
                 json.dump(file_info_dict, f, indent=4, ensure_ascii=False)
