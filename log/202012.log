@@ -114,3 +114,27 @@ KeyError: 'time'
 
 2020-12-04 14:38:26 root:INFO:Monitor End
 
+2020-12-04 14:40:31 root:INFO:Monitor Start
+2020-12-04 14:40:31 root:INFO:[ID=140292202485504]:Qv2ray->https://github.com/Qv2ray/Qv2ray/releases.atom
+2020-12-04 14:40:31 root:INFO:[ID=140292185700096]:QvPlugin-SSR->https://github.com/Qv2ray/QvPlugin-SSR/releases.atom
+2020-12-04 14:40:31 root:INFO:[ID=140292168914688]:lx-music->https://github.com/lyswhut/lx-music-desktop/releases.atom
+2020-12-04 14:40:31 root:INFO:[ID=140292177307392]:v2ray-core->https://github.com/v2fly/v2ray-core/releases.atom
+2020-12-04 14:40:31 root:INFO:[ID=140291793209088]:hexo-next->https://github.com/next-theme/hexo-theme-next/releases.atom
+2020-12-04 14:40:31 root:INFO:[ID=140292194092800]:QvPlugin-Trojan->https://github.com/Qv2ray/QvPlugin-Trojan/releases.atom
+2020-12-04 14:40:31 root:INFO:[ID=140291801601792]:QvPlugin-Trojan-GO->https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases.atom
+2020-12-04 14:40:31 root:INFO:[ID=140291818387200]:ProxySU->https://github.com/proxysu/windows/releases.atom
+2020-12-04 14:40:31 root:INFO:[ID=140291809994496]:Halo->https://github.com/halo-dev/halo/releases.atom
+2020-12-04 14:40:31 root:INFO:-*--*--*--*--*--*--*--*--*--*-
+2020-12-04 14:40:31 root:INFO:QvPlugin-Trojan-GO -- v3.0.0-pre3
+2020-12-04 14:40:31 root:INFO:QvPlugin-SSR -- v3.0.0-pre3
+2020-12-04 14:40:31 root:INFO:QvPlugin-Trojan -- v3.0.0-pre3
+2020-12-04 14:40:31 root:INFO:Qv2ray -- v2.7.0-pre1
+2020-12-04 14:40:31 root:INFO:lx-music -- v1.4.1
+2020-12-04 14:40:31 root:INFO:ProxySU -- v2.5.3
+2020-12-04 14:40:31 root:INFO:Halo -- v1.4.2
+2020-12-04 14:40:31 root:INFO:hexo-next -- v8.1.0
+2020-12-04 14:40:31 root:INFO:v2ray-core -- v4.33.0
+2020-12-04 14:40:31 root:INFO:发送邮件成功！
+2020-12-04 14:40:31 root:INFO:-*--*--*--*--*--*--*--*--*--*-
+2020-12-04 14:40:31 root:INFO:Monitor End
+
