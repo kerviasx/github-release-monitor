@@ -12,8 +12,8 @@ You need to read `src/conf/setting.py`.
 
 ```python
 GITHUB_RELEASES = {
-    "hexo-next": "https://github.com/next-theme/hexo-theme-next/releases",
-    "Halo": "https://github.com/halo-dev/halo/releases",
+    "hexo-next": "https://github.com/next-theme/hexo-theme-next/releases.atom",
+    "Halo": "https://github.com/halo-dev/halo/releases.atom",
 }
 ```
 
