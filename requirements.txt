@@ -1,4 +1,2 @@
 requests
 threadpool
-beautifulsoup4
-pyyaml

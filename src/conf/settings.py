@@ -18,16 +18,18 @@ THREAD_NUM = 10
 
 # 需要监控的release地址
 GITHUB_RELEASES = {
-    "Qv2ray": "https://github.com/Qv2ray/Qv2ray/releases",
-    "QvPlugin-SSR": "https://github.com/Qv2ray/QvPlugin-SSR/releases",
-    "lx-music": "https://github.com/lyswhut/lx-music-desktop/releases",
-    "v2ray-core": "https://github.com/v2fly/v2ray-core/releases",
-    "hexo-next": "https://github.com/next-theme/hexo-theme-next/releases",
-    "QvPlugin-Trojan": "https://github.com/Qv2ray/QvPlugin-Trojan/releases",
-    "QvPlugin-Trojan-GO": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases",
-    "ProxySU": "https://github.com/proxysu/windows/releases",
-    "Halo": "https://github.com/halo-dev/halo/releases",
+    "Qv2ray": "https://github.com/Qv2ray/Qv2ray/releases.atom",
+    "QvPlugin-SSR": "https://github.com/Qv2ray/QvPlugin-SSR/releases.atom",
+    "lx-music": "https://github.com/lyswhut/lx-music-desktop/releases.atom",
+    "v2ray-core": "https://github.com/v2fly/v2ray-core/releases.atom",
+    "hexo-next": "https://github.com/next-theme/hexo-theme-next/releases.atom",
+    "QvPlugin-Trojan": "https://github.com/Qv2ray/QvPlugin-Trojan/releases.atom",
+    "QvPlugin-Trojan-GO": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases.atom",
+    "ProxySU": "https://github.com/proxysu/windows/releases.atom",
+    "Halo": "https://github.com/halo-dev/halo/releases.atom",
 }
+
+
 
 
 # 发送邮箱配置

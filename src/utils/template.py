@@ -38,7 +38,6 @@ item = """
 <div class="page-header">
 <div class="alert alert-info" role="alert">{name}</div>
              <a href="{url}"><h2>{title}<span class="badge">{tag}</span></h2></a>
-            <h3><small>{label}</small></h3>
         </div>
         <div class="jumbotron">
             <p>
@@ -86,7 +85,7 @@ class TEMPLATE(object):
         temp = ""
         for name, li in data.items():
             if li != None:
-                temp += item.format(name=name,url=li['url'],title=li['title'],tag=li['tag'],label=li['label'],content=li['content'])
+                temp += item.format(name=name,url=li['url'],title=li['title'],tag=li['tag'],content=li['content'])
             else:
                 temp += item_error.format(name=name, content="获取信息失败")
         self.ret = htmlT2.format(temp)
