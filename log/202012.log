@@ -93,3 +93,24 @@ KeyError: 'time'
 
 2020-12-04 14:35:06 root:INFO:Monitor End
 
+2020-12-04 14:38:26 root:INFO:Monitor Start
+2020-12-04 14:38:26 root:INFO:[ID=139921645893376]:Qv2ray->https://github.com/Qv2ray/Qv2ray/releases.atom
+2020-12-04 14:38:26 root:INFO:[ID=139921875187456]:QvPlugin-SSR->https://github.com/Qv2ray/QvPlugin-SSR/releases.atom
+2020-12-04 14:38:26 root:INFO:[ID=139921866794752]:lx-music->https://github.com/lyswhut/lx-music-desktop/releases.atom
+2020-12-04 14:38:26 root:INFO:[ID=139921858402048]:v2ray-core->https://github.com/v2fly/v2ray-core/releases.atom
+2020-12-04 14:38:26 root:INFO:[ID=139921637500672]:hexo-next->https://github.com/next-theme/hexo-theme-next/releases.atom
+2020-12-04 14:38:26 root:INFO:[ID=139921620715264]:QvPlugin-Trojan->https://github.com/Qv2ray/QvPlugin-Trojan/releases.atom
+2020-12-04 14:38:26 root:INFO:[ID=139921883580160]:QvPlugin-Trojan-GO->https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases.atom
+2020-12-04 14:38:26 root:INFO:[ID=139921612322560]:ProxySU->https://github.com/proxysu/windows/releases.atom
+2020-12-04 14:38:26 root:INFO:[ID=139921629107968]:Halo->https://github.com/halo-dev/halo/releases.atom
+2020-12-04 14:38:26 root:ERROR:Traceback (most recent call last):
+  File "src/main.py", line 27, in <module>
+    main(conf)
+  File "src/main.py", line 20, in main
+    githubSpider.check_update_all()
+  File "/home/runner/work/github-release-monitor/github-release-monitor/src/spiders/GithubSpider.py", line 84, in check_update_all
+    if k not in old_info_dict.keys() or old_info_dict[k]['time'] != new_info_dict[k]['time']:
+KeyError: 'time'
+
+2020-12-04 14:38:26 root:INFO:Monitor End
+
