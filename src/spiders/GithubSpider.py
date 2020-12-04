@@ -6,7 +6,7 @@ import threading
 import logging
 import traceback
 
-from utils.template import TEMPLATE
+from spiders.template import TEMPLATE
 from utils.mail import QQMail
 
 class GithubReleaseSpider(object):
@@ -126,10 +126,4 @@ class GithubReleaseSpider(object):
             logging.info("发送邮件成功！")
         logging.info('-*-'*10)
 
-        
-
-if __name__ == "__main__":
-    github = GithubReleaseSpider(None)
-    github.spider(('ProxySU', 'https://github.com/proxysu/ProxySU/releaes.atom'))
-    github.check_update_all()
     
