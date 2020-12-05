@@ -1,25 +1,4 @@
 {
-    "QvPlugin-Trojan-GO": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-Trojan-Go v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-Trojan-Go v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> Only for Qv2ray v2.7.0-pre1. NOT FOR Qv2ray v2.6.3 or v2.7.0-alpha1.</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:24:13Z"
-    },
-    "QvPlugin-Trojan": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-Trojan v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-Trojan v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.7.0-alpha1 or v2.6.3.</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:25:43Z"
-    },
-    "Traffic-Monitor": {
-        "tag": "V1.79.1",
-        "title": "V1.79.1",
-        "content": "<ul>\n<li>修正注册表句柄泄漏的问题。</li>\n<li>修正当主窗口和任务栏窗口都不显示时，不统计CPU和内存利用率的问题。</li>\n</ul>",
-        "url": "https://github.com/zhongyang219/TrafficMonitor/releases/tag/V1.79.1",
-        "time": "2020-08-05T13:01:48Z"
-    },
     "v2ray-core": {
         "tag": "v4.33.0",
         "title": "v4.33.0",
@@ -41,12 +20,19 @@
         "url": "https://github.com/Qv2ray/Qv2ray/releases/tag/v2.7.0-pre1",
         "time": "2020-11-10T09:31:19Z"
     },
-    "ProxySU": {
-        "tag": "v2.5.3",
-        "title": "v2.5.3",
-        "content": "<ul>\n<li>acme.sh 申请证书显示更详细信息</li>\n<li>修复潜在的可能出现域名检测错误 <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"754878176\" data-permission-text=\"Title is private\" data-url=\"https://github.com/proxysu/ProxySU/issues/71\" data-hovercard-type=\"issue\" data-hovercard-url=\"/proxysu/ProxySU/issues/71/hovercard\" href=\"https://github.com/proxysu/ProxySU/issues/71\">#71</a></li>\n</ul>",
-        "url": "https://github.com/proxysu/ProxySU/releases/tag/v2.5.3",
-        "time": "2020-12-05T00:03:14Z"
+    "QvPlugin-Trojan": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-Trojan v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-Trojan v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.7.0-alpha1 or v2.6.3.</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:25:43Z"
+    },
+    "QvPlugin-Trojan-GO": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-Trojan-Go v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-Trojan-Go v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> Only for Qv2ray v2.7.0-pre1. NOT FOR Qv2ray v2.6.3 or v2.7.0-alpha1.</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:24:13Z"
     },
     "QvPlugin-SSR": {
         "tag": "v3.0.0-pre3",
@@ -54,6 +40,20 @@
         "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
         "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:22:26Z"
+    },
+    "Traffic-Monitor": {
+        "tag": "V1.79.1",
+        "title": "V1.79.1",
+        "content": "<ul>\n<li>修正注册表句柄泄漏的问题。</li>\n<li>修正当主窗口和任务栏窗口都不显示时，不统计CPU和内存利用率的问题。</li>\n</ul>",
+        "url": "https://github.com/zhongyang219/TrafficMonitor/releases/tag/V1.79.1",
+        "time": "2020-08-05T13:01:48Z"
+    },
+    "ProxySU": {
+        "tag": "v2.5.3",
+        "title": "v2.5.3",
+        "content": "<ul>\n<li>acme.sh 申请证书显示更详细信息</li>\n<li>修复潜在的可能出现域名检测错误 <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"754878176\" data-permission-text=\"Title is private\" data-url=\"https://github.com/proxysu/ProxySU/issues/71\" data-hovercard-type=\"issue\" data-hovercard-url=\"/proxysu/ProxySU/issues/71/hovercard\" href=\"https://github.com/proxysu/ProxySU/issues/71\">#71</a></li>\n</ul>",
+        "url": "https://github.com/proxysu/ProxySU/releases/tag/v2.5.3",
+        "time": "2020-12-05T00:03:14Z"
     },
     "Halo": {
         "tag": "v1.4.2",
