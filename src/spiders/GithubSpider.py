@@ -7,7 +7,7 @@ import logging
 import traceback
 
 from spiders.template import TEMPLATE
-from utils.mail import QQMail
+from utils.mail import SMTPMail
 
 class GithubReleaseSpider(object):
     def __init__(self, conf):
@@ -118,7 +118,7 @@ class GithubReleaseSpider(object):
             'password': self.conf.MAIL['password']
         }
         try:
-            mail = QQMail(data)
+            mail = SMTPMail(data)
             mail.send_email()
         except Exception as e:
             logging.error("发送邮件失败, {}".format(str(e)))
