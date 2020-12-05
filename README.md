@@ -30,7 +30,6 @@ MAIL = {
     "receivers": None # receivers example: ['xxx@qq.com', 'xxx@email.com']
 }
 ```
-**Note**: Only support QQ Mail for sending now.
 
 ## Run on github action
 You need to set secrets of actions before using.
