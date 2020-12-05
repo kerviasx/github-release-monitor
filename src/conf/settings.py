@@ -19,14 +19,15 @@ THREAD_NUM = 10
 # 需要监控的release地址
 GITHUB_RELEASES = {
     "Qv2ray": "https://github.com/Qv2ray/Qv2ray/releases.atom",
-    "QvPlugin-SSR": "https://github.com/Qv2ray/QvPlugin-SSR/releases.atom",
-    "lx-music": "https://github.com/lyswhut/lx-music-desktop/releases.atom",
-    "v2ray-core": "https://github.com/v2fly/v2ray-core/releases.atom",
-    "hexo-next": "https://github.com/next-theme/hexo-theme-next/releases.atom",
     "QvPlugin-Trojan": "https://github.com/Qv2ray/QvPlugin-Trojan/releases.atom",
     "QvPlugin-Trojan-GO": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases.atom",
+    "QvPlugin-SSR": "https://github.com/Qv2ray/QvPlugin-SSR/releases.atom",
+    "v2ray-core": "https://github.com/v2fly/v2ray-core/releases.atom",
+    "lx-music": "https://github.com/lyswhut/lx-music-desktop/releases.atom",
     "ProxySU": "https://github.com/proxysu/windows/releases.atom",
+    "hexo-next": "https://github.com/next-theme/hexo-theme-next/releases.atom",
     "Halo": "https://github.com/halo-dev/halo/releases.atom",
+    "Traffic-Monitor": "https://github.com/zhongyang219/TrafficMonitor/releases.atom"
 }
 
 

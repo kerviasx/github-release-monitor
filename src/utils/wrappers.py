@@ -1,4 +1,4 @@
-# 定义装饰器time
+
 import functools,time
 from inspect import signature
 
@@ -19,8 +19,6 @@ def MyTimeWrapper(func):
         print('-'*40+"\n")
         return ret
     return wrapper
-
-
 
 
 def TypeAssert(*type_args, **type_kwargs):
