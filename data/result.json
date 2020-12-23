@@ -1,25 +1,4 @@
 {
-    "QvPlugin-Trojan-GO": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-Trojan-Go v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-Trojan-Go v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> Only for Qv2ray v2.7.0-pre1. NOT FOR Qv2ray v2.6.3 or v2.7.0-alpha1.</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:24:13Z"
-    },
-    "Halo": {
-        "tag": "v1.4.2",
-        "title": "1.4.2",
-        "content": "<h2>Feature</h2>\n<ul>\n<li>文章固定链接支持年份型。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"712414676\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1095\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1095/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1095\">#1095</a></li>\n<li>支持添加或修改友链时校验 name 和 url 是否重复。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"706487695\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1079\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1079/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1079\">#1079</a></li>\n<li>支持 MinIO 云存储。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"715713009\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1097\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1097/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1097\">#1097</a></li>\n<li>支持删除主题时，可选是否删除相关配置。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"719277781\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1105\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1105/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1105\">#1105</a></li>\n<li>支持设置定时清理回收站的文章。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"726982039\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1114\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1114/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1114\">#1114</a></li>\n<li>重构后台菜单管理，更方便的管理菜单分组以及排序。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"727431278\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1120\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1120/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1120\">#1120</a></li>\n</ul>\n<h2>Fixed</h2>\n<ul>\n<li>修复 Dockerfile 文件，<code>JAVA_OPTS</code> 环境变量不生效的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"711076986\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1094\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1094/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1094\">#1094</a></li>\n<li>修复新建文章内容为空时无法保存的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"716245863\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1099\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1099/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1099\">#1099</a></li>\n<li>修复上传大体积文件时出现 <code>OutOfMemoryError</code> 异常的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"728227710\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1122\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1122/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1122\">#1122</a></li>\n</ul>\n<h2>升级步骤</h2>\n<ol>\n<li>停止运行 Halo：<code>service halo stop</code>。</li>\n<li>备份数据：<code>cp -r ~/.halo ~/.halo.bak</code>。</li>\n<li>重命名（备份）旧运行包：<code>mv halo-latest.jar halo-latest.jar.bak</code>。</li>\n<li>下载新运行包：<code>wget https://dl.halo.run/release/halo-1.4.2.jar -O halo-latest.jar</code>。</li>\n<li>运行：<code>service halo start</code>。</li>\n</ol>\n<h2>注意事项</h2>\n<ol>\n<li>更新前不要忘了备份数据，不管你是以什么方式部署的，都请备份 <code>~/.halo</code>，当然，如果你使用 docker 部署，并修改了映射路径的话，就备份你的映射路径。</li>\n<li>如果有使用 CDN 全站加速，请更新完毕后，刷新全站缓存，并清空浏览器缓存。</li>\n</ol>",
-        "url": "https://github.com/halo-dev/halo/releases/tag/v1.4.2",
-        "time": "2020-11-03T02:06:54Z"
-    },
-    "QvPlugin-Trojan": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-Trojan v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-Trojan v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.7.0-alpha1 or v2.6.3.</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:25:43Z"
-    },
     "lx-music": {
         "tag": "v1.5.0",
         "title": "1.5.0",
@@ -27,12 +6,33 @@
         "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v1.5.0",
         "time": "2020-12-13T04:06:31Z"
     },
+    "QvPlugin-Trojan-GO": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-Trojan-Go v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-Trojan-Go v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> Only for Qv2ray v2.7.0-pre1. NOT FOR Qv2ray v2.6.3 or v2.7.0-alpha1.</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:24:13Z"
+    },
     "Traffic-Monitor": {
         "tag": "V1.79.1",
         "title": "V1.79.1",
         "content": "<ul>\n<li>修正注册表句柄泄漏的问题。</li>\n<li>修正当主窗口和任务栏窗口都不显示时，不统计CPU和内存利用率的问题。</li>\n</ul>",
         "url": "https://github.com/zhongyang219/TrafficMonitor/releases/tag/V1.79.1",
         "time": "2020-08-05T13:01:48Z"
+    },
+    "QvPlugin-SSR": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-SSR v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:22:26Z"
+    },
+    "QvPlugin-Trojan": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-Trojan v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-Trojan v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.7.0-alpha1 or v2.6.3.</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:25:43Z"
     },
     "v2ray-core": {
         "tag": "v4.33.0",
@@ -48,19 +48,19 @@
         "url": "https://github.com/Qv2ray/Qv2ray/releases/tag/v2.7.0-pre1",
         "time": "2020-11-10T09:31:19Z"
     },
-    "QvPlugin-SSR": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-SSR v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:22:26Z"
-    },
     "ProxySU": {
         "tag": "v2.5.4",
         "title": "v2.5.4",
         "content": "<ul>\n<li>acme.sh 申请证书显示更详细信息</li>\n<li>修复潜在的可能出现域名检测错误 <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"754878176\" data-permission-text=\"Title is private\" data-url=\"https://github.com/proxysu/ProxySU/issues/71\" data-hovercard-type=\"issue\" data-hovercard-url=\"/proxysu/ProxySU/issues/71/hovercard\" href=\"https://github.com/proxysu/ProxySU/issues/71\">#71</a></li>\n</ul>",
         "url": "https://github.com/proxysu/ProxySU/releases/tag/v2.5.4",
         "time": "2020-12-06T01:09:12Z"
+    },
+    "Halo": {
+        "tag": "v1.4.2",
+        "title": "1.4.2",
+        "content": "<h2>Feature</h2>\n<ul>\n<li>文章固定链接支持年份型。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"712414676\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1095\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1095/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1095\">#1095</a></li>\n<li>支持添加或修改友链时校验 name 和 url 是否重复。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"706487695\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1079\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1079/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1079\">#1079</a></li>\n<li>支持 MinIO 云存储。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"715713009\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1097\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1097/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1097\">#1097</a></li>\n<li>支持删除主题时，可选是否删除相关配置。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"719277781\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1105\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1105/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1105\">#1105</a></li>\n<li>支持设置定时清理回收站的文章。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"726982039\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1114\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1114/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1114\">#1114</a></li>\n<li>重构后台菜单管理，更方便的管理菜单分组以及排序。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"727431278\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1120\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1120/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1120\">#1120</a></li>\n</ul>\n<h2>Fixed</h2>\n<ul>\n<li>修复 Dockerfile 文件，<code>JAVA_OPTS</code> 环境变量不生效的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"711076986\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1094\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1094/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1094\">#1094</a></li>\n<li>修复新建文章内容为空时无法保存的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"716245863\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1099\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1099/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1099\">#1099</a></li>\n<li>修复上传大体积文件时出现 <code>OutOfMemoryError</code> 异常的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"728227710\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1122\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1122/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1122\">#1122</a></li>\n</ul>\n<h2>升级步骤</h2>\n<ol>\n<li>停止运行 Halo：<code>service halo stop</code>。</li>\n<li>备份数据：<code>cp -r ~/.halo ~/.halo.bak</code>。</li>\n<li>重命名（备份）旧运行包：<code>mv halo-latest.jar halo-latest.jar.bak</code>。</li>\n<li>下载新运行包：<code>wget https://dl.halo.run/release/halo-1.4.2.jar -O halo-latest.jar</code>。</li>\n<li>运行：<code>service halo start</code>。</li>\n</ol>\n<h2>注意事项</h2>\n<ol>\n<li>更新前不要忘了备份数据，不管你是以什么方式部署的，都请备份 <code>~/.halo</code>，当然，如果你使用 docker 部署，并修改了映射路径的话，就备份你的映射路径。</li>\n<li>如果有使用 CDN 全站加速，请更新完毕后，刷新全站缓存，并清空浏览器缓存。</li>\n</ol>",
+        "url": "https://github.com/halo-dev/halo/releases/tag/v1.4.2",
+        "time": "2020-11-03T02:06:54Z"
     },
     "hexo-next": {
         "tag": "v8.1.0",
