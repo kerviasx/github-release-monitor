@@ -28,7 +28,7 @@ GITHUB_RELEASES = {
     "hexo-next": "https://github.com/next-theme/hexo-theme-next/releases.atom",
     "Halo": "https://github.com/halo-dev/halo/releases.atom",
     "Traffic-Monitor": "https://github.com/zhongyang219/TrafficMonitor/releases.atom",
-    "xray-core": "https://github.com/kerviasx/github-release-monitor/releases.atom"
+    "xray-core": "https://github.com/XTLS/Xray-core/releases.atom"
 }
 
 
