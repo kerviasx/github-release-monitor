@@ -27,7 +27,8 @@ GITHUB_RELEASES = {
     "ProxySU": "https://github.com/proxysu/windows/releases.atom",
     "hexo-next": "https://github.com/next-theme/hexo-theme-next/releases.atom",
     "Halo": "https://github.com/halo-dev/halo/releases.atom",
-    "Traffic-Monitor": "https://github.com/zhongyang219/TrafficMonitor/releases.atom"
+    "Traffic-Monitor": "https://github.com/zhongyang219/TrafficMonitor/releases.atom",
+    "xray-core": "https://github.com/kerviasx/github-release-monitor/releases.atom"
 }
 
 
