@@ -783,3 +783,21 @@
 2020-12-27 22:20:07 root:INFO:-*--*--*--*--*--*--*--*--*--*-
 2020-12-27 22:20:07 root:INFO:Monitor End
 
+2020-12-28 12:28:28 root:INFO:Monitor Start
+2020-12-28 12:28:28 root:INFO:[ID=139638432601856]:Qv2ray->https://github.com/Qv2ray/Qv2ray/releases.atom
+2020-12-28 12:28:28 root:INFO:[ID=139638424209152]:QvPlugin-Trojan->https://github.com/Qv2ray/QvPlugin-Trojan/releases.atom
+2020-12-28 12:28:28 root:INFO:[ID=139638415816448]:QvPlugin-Trojan-GO->https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases.atom
+2020-12-28 12:28:28 root:INFO:[ID=139638399031040]:QvPlugin-SSR->https://github.com/Qv2ray/QvPlugin-SSR/releases.atom
+2020-12-28 12:28:28 root:INFO:[ID=139638390638336]:v2ray-core->https://github.com/v2fly/v2ray-core/releases.atom
+2020-12-28 12:28:28 root:INFO:[ID=139638043834112]:lx-music->https://github.com/lyswhut/lx-music-desktop/releases.atom
+2020-12-28 12:28:28 root:INFO:[ID=139638035441408]:ProxySU->https://github.com/proxysu/windows/releases.atom
+2020-12-28 12:28:28 root:INFO:[ID=139638018656000]:hexo-next->https://github.com/next-theme/hexo-theme-next/releases.atom
+2020-12-28 12:28:28 root:INFO:[ID=139638027048704]:Halo->https://github.com/halo-dev/halo/releases.atom
+2020-12-28 12:28:28 root:INFO:[ID=139638407423744]:Traffic-Monitor->https://github.com/zhongyang219/TrafficMonitor/releases.atom
+2020-12-28 12:28:28 root:INFO:[ID=139638043834112]:xray-core->https://github.com/XTLS/Xray-core/releases.atom
+2020-12-28 12:28:29 root:INFO:-*--*--*--*--*--*--*--*--*--*-
+2020-12-28 12:28:29 root:INFO:xray-core -- v1.1.5
+2020-12-28 12:28:32 root:INFO:发送邮件成功！
+2020-12-28 12:28:32 root:INFO:-*--*--*--*--*--*--*--*--*--*-
+2020-12-28 12:28:32 root:INFO:Monitor End
+
