@@ -1,11 +1,4 @@
 {
-    "QvPlugin-SSR": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-SSR v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:22:26Z"
-    },
     "QvPlugin-Trojan-GO": {
         "tag": "v3.0.0-pre3",
         "title": "QvPlugin-Trojan-Go v3.0.0-pre3 prerelease",
@@ -20,12 +13,26 @@
         "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:25:43Z"
     },
+    "QvPlugin-SSR": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-SSR v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:22:26Z"
+    },
     "lx-music": {
         "tag": "v1.5.0",
         "title": "1.5.0",
         "content": "<h3>新增</h3>\n<ul>\n<li>直接从歌单详情收藏的列表新增同步功能。注意：这将会覆盖本地的目标列表，歌曲将被替换成最新的在线列表</li>\n</ul>\n<h3>优化</h3>\n<ul>\n<li>优化软件启动时恢复上一次播放的歌曲进度功能</li>\n</ul>\n<h3>修复</h3>\n<ul>\n<li>修复MAC平台上下载歌曲封面嵌入无法显示的问题</li>\n<li>修复MAC平台首次运行软件最小化、关闭控制按钮默认在右边的问题</li>\n<li>修复酷狗源的某些歌曲没有专辑字段导致的列表加载失败问题</li>\n<li>修复某些酷狗源歌单链接无法打开的问题</li>\n</ul>",
         "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v1.5.0",
         "time": "2020-12-13T04:06:31Z"
+    },
+    "v2ray-core": {
+        "tag": "v4.33.0",
+        "title": "v4.33.0",
+        "content": "<h2>Breaking Changes</h2>\n<ul>\n<li>Remove XTLS</li>\n</ul>\n<h2>Features</h2>\n<ul>\n<li>Add support for Debian package</li>\n<li>API: Reflection Service Support <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Vigilans/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Vigilans\">@Vigilans</a></li>\n<li>Update to IETF QUIC draft-32 (draft-29 is still supported)</li>\n</ul>\n<h2>Chores</h2>\n<ul>\n<li>Transfer VSign and related project to V2Fly and share under the same</li>\n<li>Update security policy with renewed GPG public key</li>\n<li>Use Go 1.15.5</li>\n<li>Refine Code <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/chinsyo/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/chinsyo\">@chinsyo</a></li>\n</ul>\n<h2>Notices</h2>\n<ul>\n<li>You are able to compile exactly the same binaries as the ones in Assets section below by simply following the <a href=\"https://www.v2fly.org/developer/intro/compile.html\" rel=\"nofollow\">Compiling Guide</a></li>\n<li>And you can check the integrity of binaries of the latest release by using the project <a href=\"https://github.com/v2fly/reproducible-builds\">Reproducible Builds</a></li>\n</ul>",
+        "url": "https://github.com/v2fly/v2ray-core/releases/tag/v4.33.0",
+        "time": "2020-11-22T16:21:18Z"
     },
     "Traffic-Monitor": {
         "tag": "V1.79.1",
@@ -40,13 +47,6 @@
         "content": "<p>Qv2ray v2.7.0-pre1 预览版</p>\n<h1>插件更新</h1>\n<p>使用此版本需要更新插件，不更新可能会导致崩溃问题<br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-Command/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-Command/releases/tag/v3.0.0-pre3</a></p>\n<h1>本次更新重点功能</h1>\n<ul>\n<li>链式代理编辑器，即 ProxyChains （流量 A-&gt;B-&gt;C-&gt;D）</li>\n<li>使用复杂配置中 链式代理编辑器 进行操作</li>\n<li>链式代理支持所有 (插件/非插件) 协议</li>\n</ul>\n<h2>新增功能</h2>\n<p>新增 SIP008 订阅格式支持<br>\n新增 V2Ray 日志格式化<br>\n新增打开配置目录按钮<br>\n新增更多翻译<br>\n新增链式代理编辑器，支持所有插件<br>\n新增首选项关于页面链接选择<br>\nAppImage 新增 fcitx5 支持</p>\n<h2>问题修复</h2>\n<p>修复 HTTP/SOCKS 入站/出站 的用户名密码问题<br>\n修复 VLESS flow 编辑器问题<br>\n修复主界面更新订阅问题<br>\n修复复杂配置编辑器连线问题 <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"725454881\" data-permission-text=\"Title is private\" data-url=\"https://github.com/Qv2ray/Qv2ray/issues/1045\" data-hovercard-type=\"issue\" data-hovercard-url=\"/Qv2ray/Qv2ray/issues/1045/hovercard\" href=\"https://github.com/Qv2ray/Qv2ray/issues/1045\">#1045</a><br>\n修复插件图标加载问题</p>\n<h2>移除</h2>\n<p>移除 Deepin 系统代理设置提示框<br>\n移除主界面左右分栏大小保存<br>\n移除了 v2ctl 的权限检查<br>\n移除默认 ALPN 中的 h2</p>\n<h2>其他修改</h2>\n<p>调高最大 log 长度<br>\n重命名 dokodemo-door， 首选项入站文案</p>",
         "url": "https://github.com/Qv2ray/Qv2ray/releases/tag/v2.7.0-pre1",
         "time": "2020-11-10T09:31:19Z"
-    },
-    "v2ray-core": {
-        "tag": "v4.33.0",
-        "title": "v4.33.0",
-        "content": "<h2>Breaking Changes</h2>\n<ul>\n<li>Remove XTLS</li>\n</ul>\n<h2>Features</h2>\n<ul>\n<li>Add support for Debian package</li>\n<li>API: Reflection Service Support <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Vigilans/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Vigilans\">@Vigilans</a></li>\n<li>Update to IETF QUIC draft-32 (draft-29 is still supported)</li>\n</ul>\n<h2>Chores</h2>\n<ul>\n<li>Transfer VSign and related project to V2Fly and share under the same</li>\n<li>Update security policy with renewed GPG public key</li>\n<li>Use Go 1.15.5</li>\n<li>Refine Code <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/chinsyo/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/chinsyo\">@chinsyo</a></li>\n</ul>\n<h2>Notices</h2>\n<ul>\n<li>You are able to compile exactly the same binaries as the ones in Assets section below by simply following the <a href=\"https://www.v2fly.org/developer/intro/compile.html\" rel=\"nofollow\">Compiling Guide</a></li>\n<li>And you can check the integrity of binaries of the latest release by using the project <a href=\"https://github.com/v2fly/reproducible-builds\">Reproducible Builds</a></li>\n</ul>",
-        "url": "https://github.com/v2fly/v2ray-core/releases/tag/v4.33.0",
-        "time": "2020-11-22T16:21:18Z"
     },
     "Halo": {
         "tag": "v1.4.2",
