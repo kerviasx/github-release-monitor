@@ -1,10 +1,10 @@
 {
-    "lx-music": {
-        "tag": "v1.5.0",
-        "title": "1.5.0",
-        "content": "<h3>新增</h3>\n<ul>\n<li>直接从歌单详情收藏的列表新增同步功能。注意：这将会覆盖本地的目标列表，歌曲将被替换成最新的在线列表</li>\n</ul>\n<h3>优化</h3>\n<ul>\n<li>优化软件启动时恢复上一次播放的歌曲进度功能</li>\n</ul>\n<h3>修复</h3>\n<ul>\n<li>修复MAC平台上下载歌曲封面嵌入无法显示的问题</li>\n<li>修复MAC平台首次运行软件最小化、关闭控制按钮默认在右边的问题</li>\n<li>修复酷狗源的某些歌曲没有专辑字段导致的列表加载失败问题</li>\n<li>修复某些酷狗源歌单链接无法打开的问题</li>\n</ul>",
-        "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v1.5.0",
-        "time": "2020-12-13T04:06:31Z"
+    "v2ray-core": {
+        "tag": "v4.33.0",
+        "title": "v4.33.0",
+        "content": "<h2>Breaking Changes</h2>\n<ul>\n<li>Remove XTLS</li>\n</ul>\n<h2>Features</h2>\n<ul>\n<li>Add support for Debian package</li>\n<li>API: Reflection Service Support <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Vigilans/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Vigilans\">@Vigilans</a></li>\n<li>Update to IETF QUIC draft-32 (draft-29 is still supported)</li>\n</ul>\n<h2>Chores</h2>\n<ul>\n<li>Transfer VSign and related project to V2Fly and share under the same</li>\n<li>Update security policy with renewed GPG public key</li>\n<li>Use Go 1.15.5</li>\n<li>Refine Code <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/chinsyo/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/chinsyo\">@chinsyo</a></li>\n</ul>\n<h2>Notices</h2>\n<ul>\n<li>You are able to compile exactly the same binaries as the ones in Assets section below by simply following the <a href=\"https://www.v2fly.org/developer/intro/compile.html\" rel=\"nofollow\">Compiling Guide</a></li>\n<li>And you can check the integrity of binaries of the latest release by using the project <a href=\"https://github.com/v2fly/reproducible-builds\">Reproducible Builds</a></li>\n</ul>",
+        "url": "https://github.com/v2fly/v2ray-core/releases/tag/v4.33.0",
+        "time": "2020-11-22T16:21:18Z"
     },
     "QvPlugin-Trojan-GO": {
         "tag": "v3.0.0-pre3",
@@ -13,19 +13,19 @@
         "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:24:13Z"
     },
-    "Traffic-Monitor": {
-        "tag": "V1.79.1",
-        "title": "V1.79.1",
-        "content": "<ul>\n<li>修正注册表句柄泄漏的问题。</li>\n<li>修正当主窗口和任务栏窗口都不显示时，不统计CPU和内存利用率的问题。</li>\n</ul>",
-        "url": "https://github.com/zhongyang219/TrafficMonitor/releases/tag/V1.79.1",
-        "time": "2020-08-05T13:01:48Z"
-    },
     "Qv2ray": {
         "tag": "v2.7.0-pre1",
         "title": "Qv2ray v2.7.0-pre1 预览版",
         "content": "<p>Qv2ray v2.7.0-pre1 预览版</p>\n<h1>插件更新</h1>\n<p>使用此版本需要更新插件，不更新可能会导致崩溃问题<br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-Command/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-Command/releases/tag/v3.0.0-pre3</a></p>\n<h1>本次更新重点功能</h1>\n<ul>\n<li>链式代理编辑器，即 ProxyChains （流量 A-&gt;B-&gt;C-&gt;D）</li>\n<li>使用复杂配置中 链式代理编辑器 进行操作</li>\n<li>链式代理支持所有 (插件/非插件) 协议</li>\n</ul>\n<h2>新增功能</h2>\n<p>新增 SIP008 订阅格式支持<br>\n新增 V2Ray 日志格式化<br>\n新增打开配置目录按钮<br>\n新增更多翻译<br>\n新增链式代理编辑器，支持所有插件<br>\n新增首选项关于页面链接选择<br>\nAppImage 新增 fcitx5 支持</p>\n<h2>问题修复</h2>\n<p>修复 HTTP/SOCKS 入站/出站 的用户名密码问题<br>\n修复 VLESS flow 编辑器问题<br>\n修复主界面更新订阅问题<br>\n修复复杂配置编辑器连线问题 <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"725454881\" data-permission-text=\"Title is private\" data-url=\"https://github.com/Qv2ray/Qv2ray/issues/1045\" data-hovercard-type=\"issue\" data-hovercard-url=\"/Qv2ray/Qv2ray/issues/1045/hovercard\" href=\"https://github.com/Qv2ray/Qv2ray/issues/1045\">#1045</a><br>\n修复插件图标加载问题</p>\n<h2>移除</h2>\n<p>移除 Deepin 系统代理设置提示框<br>\n移除主界面左右分栏大小保存<br>\n移除了 v2ctl 的权限检查<br>\n移除默认 ALPN 中的 h2</p>\n<h2>其他修改</h2>\n<p>调高最大 log 长度<br>\n重命名 dokodemo-door， 首选项入站文案</p>",
         "url": "https://github.com/Qv2ray/Qv2ray/releases/tag/v2.7.0-pre1",
         "time": "2020-11-10T09:31:19Z"
+    },
+    "lx-music": {
+        "tag": "v1.5.0",
+        "title": "1.5.0",
+        "content": "<h3>新增</h3>\n<ul>\n<li>直接从歌单详情收藏的列表新增同步功能。注意：这将会覆盖本地的目标列表，歌曲将被替换成最新的在线列表</li>\n</ul>\n<h3>优化</h3>\n<ul>\n<li>优化软件启动时恢复上一次播放的歌曲进度功能</li>\n</ul>\n<h3>修复</h3>\n<ul>\n<li>修复MAC平台上下载歌曲封面嵌入无法显示的问题</li>\n<li>修复MAC平台首次运行软件最小化、关闭控制按钮默认在右边的问题</li>\n<li>修复酷狗源的某些歌曲没有专辑字段导致的列表加载失败问题</li>\n<li>修复某些酷狗源歌单链接无法打开的问题</li>\n</ul>",
+        "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v1.5.0",
+        "time": "2020-12-13T04:06:31Z"
     },
     "QvPlugin-Trojan": {
         "tag": "v3.0.0-pre3",
@@ -34,13 +34,6 @@
         "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:25:43Z"
     },
-    "v2ray-core": {
-        "tag": "v4.33.0",
-        "title": "v4.33.0",
-        "content": "<h2>Breaking Changes</h2>\n<ul>\n<li>Remove XTLS</li>\n</ul>\n<h2>Features</h2>\n<ul>\n<li>Add support for Debian package</li>\n<li>API: Reflection Service Support <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Vigilans/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Vigilans\">@Vigilans</a></li>\n<li>Update to IETF QUIC draft-32 (draft-29 is still supported)</li>\n</ul>\n<h2>Chores</h2>\n<ul>\n<li>Transfer VSign and related project to V2Fly and share under the same</li>\n<li>Update security policy with renewed GPG public key</li>\n<li>Use Go 1.15.5</li>\n<li>Refine Code <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/chinsyo/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/chinsyo\">@chinsyo</a></li>\n</ul>\n<h2>Notices</h2>\n<ul>\n<li>You are able to compile exactly the same binaries as the ones in Assets section below by simply following the <a href=\"https://www.v2fly.org/developer/intro/compile.html\" rel=\"nofollow\">Compiling Guide</a></li>\n<li>And you can check the integrity of binaries of the latest release by using the project <a href=\"https://github.com/v2fly/reproducible-builds\">Reproducible Builds</a></li>\n</ul>",
-        "url": "https://github.com/v2fly/v2ray-core/releases/tag/v4.33.0",
-        "time": "2020-11-22T16:21:18Z"
-    },
     "Halo": {
         "tag": "v1.4.2",
         "title": "1.4.2",
@@ -48,19 +41,19 @@
         "url": "https://github.com/halo-dev/halo/releases/tag/v1.4.2",
         "time": "2020-11-03T02:06:54Z"
     },
-    "ProxySU": {
-        "tag": "v2.5.4",
-        "title": "v2.5.4",
-        "content": "<ul>\n<li>acme.sh 申请证书显示更详细信息</li>\n<li>修复潜在的可能出现域名检测错误 <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"754878176\" data-permission-text=\"Title is private\" data-url=\"https://github.com/proxysu/ProxySU/issues/71\" data-hovercard-type=\"issue\" data-hovercard-url=\"/proxysu/ProxySU/issues/71/hovercard\" href=\"https://github.com/proxysu/ProxySU/issues/71\">#71</a></li>\n</ul>",
-        "url": "https://github.com/proxysu/ProxySU/releases/tag/v2.5.4",
-        "time": "2020-12-06T01:09:12Z"
-    },
     "QvPlugin-SSR": {
         "tag": "v3.0.0-pre3",
         "title": "QvPlugin-SSR v3.0.0-pre3 prerelease",
         "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
         "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:22:26Z"
+    },
+    "ProxySU": {
+        "tag": "v2.5.4",
+        "title": "v2.5.4",
+        "content": "<ul>\n<li>acme.sh 申请证书显示更详细信息</li>\n<li>修复潜在的可能出现域名检测错误 <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"754878176\" data-permission-text=\"Title is private\" data-url=\"https://github.com/proxysu/ProxySU/issues/71\" data-hovercard-type=\"issue\" data-hovercard-url=\"/proxysu/ProxySU/issues/71/hovercard\" href=\"https://github.com/proxysu/ProxySU/issues/71\">#71</a></li>\n</ul>",
+        "url": "https://github.com/proxysu/ProxySU/releases/tag/v2.5.4",
+        "time": "2020-12-06T01:09:12Z"
     },
     "hexo-next": {
         "tag": "v8.2.0",
@@ -75,5 +68,12 @@
         "content": "<h2>Topic: Shadowsocks &amp; Trojan UDP FullCone NAT，Xray-core 的进化</h2>\n<h3>Background</h3>\n<p>v2ray 的 UDP 支持存在一些众所周知的问题，旷日持久，以至于大型联机游戏几乎和 v2 系列绝缘。相关 issues 很多，在此就不列举了。</p>\n<h3>Progress</h3>\n<p>在过去的两周内，Xray-core 进行了大量的重构与反复测试，终于迈出了一大步：全面 <strong>FullCone</strong> 化（基本完成）</p>\n<p>Xray-core 现支持 Cone 和 Symmetric 两种策略，完美支持 <strong>FullCone</strong> 的协议有</p>\n<ul>\n<li><strong>Shadowsocks</strong> 入站、出站</li>\n<li><strong>Trojan</strong> 入站、出站</li>\n<li><strong>Socks</strong> 入站、出站</li>\n<li>Dokodemo-door <strong>TPROXY</strong> 入站（透明代理）</li>\n<li><strong>Freedom</strong> 出站，支持域名解析</li>\n</ul>\n<p>VLESS、VMess 目前是 Symmetric，出站有其一且无 SS/Trojan 时，Xray-core 将会选择 Symmetric 模式，否则是 Cone 模式。</p>\n<h3>Usage</h3>\n<ol>\n<li>首先，确保客户端与服务端均更新至 Xray-core v1.2.0+，或者其它没问题的软件。</li>\n<li>注意服务端的防火墙设置（测试时建议关闭），以及客户端不能开 Mux</li>\n<li>比如本地 TPROXY/Socks 入 + SS/Trojan + VPS Freedom 出，即可实现 <strong>FullCone</strong></li>\n<li>解锁更多玩法：TPROXY 入、Socks 出（替代 <strong>ip2socks</strong>），Socks 入、出分流等。</li>\n</ol>\n<p>对于透明代理，<strong>尤其</strong> 注意本机和网关设备的防火墙，此外 iptables 的 UDP DIVERT 规则 <strong>可能</strong> 会导致 UDP 表现不符合预期。</p>\n<h3>Future</h3>\n<p>我们很高兴地宣布，<strong>Xray-core 成为了有史以来第一个不受限制的多协议平台</strong>：只需 Xray 即可解决问题，再也不会不得不去用其它实现。</p>\n<p><strong>Xray-core 现支持 四大主流代理协议 的 完整可用实现，且同时包含 客户端 与 服务端</strong></p>\n<ul>\n<li><strong>VLESS</strong> 的 <strong>XTLS</strong></li>\n<li><strong>Trojan</strong> 的 UoT <strong>FullCone</strong>、XTLS</li>\n<li><strong>VMess</strong> 的 <strong>AEAD</strong></li>\n<li><strong>Shadowsocks</strong> 的 UDP <strong>FullCone</strong>、AEAD</li>\n</ul>\n<p>但这远不是终点，Xray 正计划进一步精简架构、优化整体性能、修复历史问题、增强分流功能等（包括客户端与服务端，传统艺能了）</p>\n<p>Xray 还计划推出更多 UDP 增强，比如 XUDP（UoT 聚合隧道）、Shadowsocks 的 UDP 原生多倍发包 + 长度混淆新格式，更适合打游戏。<br>\nXUDP 可以运行在任何协议上，在它出现之前，对于主用 VLESS/VMess 的朋友，可以让 UDP 走 SS/Trojan（没错，这又是新的玩法）</p>\n<p>对于 Shadowsocks，若只用它的原生 UDP，外面看起来就像 mKCP Seed。另外，不建议共享 Shadowsocks，相信你很快会知道原因。</p>\n<h2>Xray's Documentation</h2>\n<p>十分感谢 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/badO1a5A90/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/badO1a5A90\">@badO1a5A90</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/ricuhkaen/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/ricuhkaen\">@ricuhkaen</a> 的长期贡献，Xray 的文档已初步上线：<a href=\"https://xtls.github.io\" rel=\"nofollow\">https://xtls.github.io</a></p>\n<p>不过目前文档还缺很多东西，最近还会有不少大改动，包括外观、目录结构等，欢迎提任何建议/参与建设：<a href=\"https://github.com/XTLS/XTLS.github.io\">XTLS.github.io (GitHub)</a></p>\n<h2>TOML &amp; YAML</h2>\n<p>十分感谢 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/AkinoKaede/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/AkinoKaede\">@AkinoKaede</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/yjh1021317464/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/yjh1021317464\">@yjh1021317464</a> 的贡献，Xray 现已支持 <strong>TOML</strong> &amp; <strong>YAML</strong> 配置格式，原理是先转换为 <strong>JSON</strong></p>\n<p>多文件配置也支持，但注意目前不能混合格式。</p>\n<h2>OCSP Stapling</h2>\n<p>十分感谢 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/eMeab/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/eMeab\">@eMeab</a> 的贡献，现在你可以开启服务端 TLS &amp; XTLS 的 <strong>OCSP Stapling</strong>，再也不用担心 CA 域名被 Q 了。</p>\n<p>至于如何配置，请去文档探索一番吧。</p>\n<h2>Happy New Year <g-emoji class=\"g-emoji\" alias=\"tada\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f389.png\">🎉</g-emoji></h2>",
         "url": "https://github.com/XTLS/Xray-core/releases/tag/v1.2.0",
         "time": "2021-01-01T16:21:35Z"
+    },
+    "Traffic-Monitor": {
+        "tag": "V1.79.1",
+        "title": "V1.79.1",
+        "content": "<ul>\n<li>修正注册表句柄泄漏的问题。</li>\n<li>修正当主窗口和任务栏窗口都不显示时，不统计CPU和内存利用率的问题。</li>\n</ul>",
+        "url": "https://github.com/zhongyang219/TrafficMonitor/releases/tag/V1.79.1",
+        "time": "2020-08-05T13:01:48Z"
     }
 }
