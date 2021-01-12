@@ -1,11 +1,4 @@
 {
-    "lx-music": {
-        "tag": "v1.6.0",
-        "title": "1.6.0",
-        "content": "<h3>新增</h3>\n<ul>\n<li>我的列表右键菜单新增列表排序功能，可调整单曲、多选后的歌曲的顺序。注意：多选排序还将会按照选中歌曲时的顺序排序</li>\n<li>添加鼠标提示的自动关闭功能，鼠标长时间（目前是10秒）不动时鼠标提示将会自动关闭</li>\n<li>添加鼠标指向歌曲封面的提示（对于进度条左边的歌曲封面，你可能不知道的操作-&gt;右击在“我的列表”定位当前播放的歌曲）</li>\n<li>隐藏播放详情页按钮添加快速隐藏详情页提示（你可能不知道的操作-&gt;在播放详情页内的任意非窗口可拖动区域右键双击可以快速隐藏详情页）</li>\n<li>添加桌面歌词字体、透明度调整按钮微调提示（你可能不知道的操作-&gt;对于字体、透明度可右击微调）</li>\n<li>我的列表右键菜单添加搜索当前歌曲功能</li>\n<li>新增<code>-dha</code>参数，添加此启动参数将禁用硬件加速启动（Disable Hardware Acceleration），窗口显示有问题时可以尝试添加此参数启动，Linux系统的界面显示有问题时可尝试添加此参数启动，若不行可尝试添加<code>-dt</code>参数启动</li>\n<li>新增播放自动换源功能~</li>\n</ul>\n<h3>变更</h3>\n<ul>\n<li><code>-nt</code>参数更名为<code>-dt</code>（Disable Transparent），目前原来的<code>-nt</code>参数仍然可用，但将在后续的版本中移除</li>\n</ul>\n<h3>修复</h3>\n<ul>\n<li>修复恢复上次播放的歌曲时在随机播放模式下不把恢复播放的歌曲放入已播放队列的问题（该问题会导致随机模式下会导致未播放完整个列表前就会再次随机到该歌曲，以及无法通过上一曲切回该歌曲）</li>\n<li>修复音乐嵌入的封面在 Mac 系统无法显示的问题</li>\n<li>修复<code>-dt</code>（原来的<code>-nt</code>）启动参数不真正生效的问题</li>\n</ul>",
-        "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v1.6.0",
-        "time": "2021-01-10T05:15:25Z"
-    },
     "QvPlugin-Trojan-GO": {
         "tag": "v3.0.0-pre3",
         "title": "QvPlugin-Trojan-Go v3.0.0-pre3 prerelease",
@@ -13,19 +6,19 @@
         "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:24:13Z"
     },
-    "Qv2ray": {
-        "tag": "v2.7.0-pre1",
-        "title": "Qv2ray v2.7.0-pre1 预览版",
-        "content": "<p>Qv2ray v2.7.0-pre1 预览版</p>\n<h1>插件更新</h1>\n<p>使用此版本需要更新插件，不更新可能会导致崩溃问题<br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-Command/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-Command/releases/tag/v3.0.0-pre3</a></p>\n<h1>本次更新重点功能</h1>\n<ul>\n<li>链式代理编辑器，即 ProxyChains （流量 A-&gt;B-&gt;C-&gt;D）</li>\n<li>使用复杂配置中 链式代理编辑器 进行操作</li>\n<li>链式代理支持所有 (插件/非插件) 协议</li>\n</ul>\n<h2>新增功能</h2>\n<p>新增 SIP008 订阅格式支持<br>\n新增 V2Ray 日志格式化<br>\n新增打开配置目录按钮<br>\n新增更多翻译<br>\n新增链式代理编辑器，支持所有插件<br>\n新增首选项关于页面链接选择<br>\nAppImage 新增 fcitx5 支持</p>\n<h2>问题修复</h2>\n<p>修复 HTTP/SOCKS 入站/出站 的用户名密码问题<br>\n修复 VLESS flow 编辑器问题<br>\n修复主界面更新订阅问题<br>\n修复复杂配置编辑器连线问题 <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"725454881\" data-permission-text=\"Title is private\" data-url=\"https://github.com/Qv2ray/Qv2ray/issues/1045\" data-hovercard-type=\"issue\" data-hovercard-url=\"/Qv2ray/Qv2ray/issues/1045/hovercard\" href=\"https://github.com/Qv2ray/Qv2ray/issues/1045\">#1045</a><br>\n修复插件图标加载问题</p>\n<h2>移除</h2>\n<p>移除 Deepin 系统代理设置提示框<br>\n移除主界面左右分栏大小保存<br>\n移除了 v2ctl 的权限检查<br>\n移除默认 ALPN 中的 h2</p>\n<h2>其他修改</h2>\n<p>调高最大 log 长度<br>\n重命名 dokodemo-door， 首选项入站文案</p>",
-        "url": "https://github.com/Qv2ray/Qv2ray/releases/tag/v2.7.0-pre1",
-        "time": "2020-11-10T09:31:19Z"
-    },
     "QvPlugin-Trojan": {
         "tag": "v3.0.0-pre3",
         "title": "QvPlugin-Trojan v3.0.0-pre3 prerelease",
         "content": "<p>QvPlugin-Trojan v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.7.0-alpha1 or v2.6.3.</p>",
         "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:25:43Z"
+    },
+    "lx-music": {
+        "tag": "v1.6.0",
+        "title": "1.6.0",
+        "content": "<h3>新增</h3>\n<ul>\n<li>我的列表右键菜单新增列表排序功能，可调整单曲、多选后的歌曲的顺序。注意：多选排序还将会按照选中歌曲时的顺序排序</li>\n<li>添加鼠标提示的自动关闭功能，鼠标长时间（目前是10秒）不动时鼠标提示将会自动关闭</li>\n<li>添加鼠标指向歌曲封面的提示（对于进度条左边的歌曲封面，你可能不知道的操作-&gt;右击在“我的列表”定位当前播放的歌曲）</li>\n<li>隐藏播放详情页按钮添加快速隐藏详情页提示（你可能不知道的操作-&gt;在播放详情页内的任意非窗口可拖动区域右键双击可以快速隐藏详情页）</li>\n<li>添加桌面歌词字体、透明度调整按钮微调提示（你可能不知道的操作-&gt;对于字体、透明度可右击微调）</li>\n<li>我的列表右键菜单添加搜索当前歌曲功能</li>\n<li>新增<code>-dha</code>参数，添加此启动参数将禁用硬件加速启动（Disable Hardware Acceleration），窗口显示有问题时可以尝试添加此参数启动，Linux系统的界面显示有问题时可尝试添加此参数启动，若不行可尝试添加<code>-dt</code>参数启动</li>\n<li>新增播放自动换源功能~</li>\n</ul>\n<h3>变更</h3>\n<ul>\n<li><code>-nt</code>参数更名为<code>-dt</code>（Disable Transparent），目前原来的<code>-nt</code>参数仍然可用，但将在后续的版本中移除</li>\n</ul>\n<h3>修复</h3>\n<ul>\n<li>修复恢复上次播放的歌曲时在随机播放模式下不把恢复播放的歌曲放入已播放队列的问题（该问题会导致随机模式下会导致未播放完整个列表前就会再次随机到该歌曲，以及无法通过上一曲切回该歌曲）</li>\n<li>修复音乐嵌入的封面在 Mac 系统无法显示的问题</li>\n<li>修复<code>-dt</code>（原来的<code>-nt</code>）启动参数不真正生效的问题</li>\n</ul>",
+        "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v1.6.0",
+        "time": "2021-01-10T05:15:25Z"
     },
     "Traffic-Monitor": {
         "tag": "V1.79.1",
@@ -40,6 +33,13 @@
         "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
         "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:22:26Z"
+    },
+    "Qv2ray": {
+        "tag": "v2.7.0-pre1",
+        "title": "Qv2ray v2.7.0-pre1 预览版",
+        "content": "<p>Qv2ray v2.7.0-pre1 预览版</p>\n<h1>插件更新</h1>\n<p>使用此版本需要更新插件，不更新可能会导致崩溃问题<br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-Command/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-Command/releases/tag/v3.0.0-pre3</a></p>\n<h1>本次更新重点功能</h1>\n<ul>\n<li>链式代理编辑器，即 ProxyChains （流量 A-&gt;B-&gt;C-&gt;D）</li>\n<li>使用复杂配置中 链式代理编辑器 进行操作</li>\n<li>链式代理支持所有 (插件/非插件) 协议</li>\n</ul>\n<h2>新增功能</h2>\n<p>新增 SIP008 订阅格式支持<br>\n新增 V2Ray 日志格式化<br>\n新增打开配置目录按钮<br>\n新增更多翻译<br>\n新增链式代理编辑器，支持所有插件<br>\n新增首选项关于页面链接选择<br>\nAppImage 新增 fcitx5 支持</p>\n<h2>问题修复</h2>\n<p>修复 HTTP/SOCKS 入站/出站 的用户名密码问题<br>\n修复 VLESS flow 编辑器问题<br>\n修复主界面更新订阅问题<br>\n修复复杂配置编辑器连线问题 <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"725454881\" data-permission-text=\"Title is private\" data-url=\"https://github.com/Qv2ray/Qv2ray/issues/1045\" data-hovercard-type=\"issue\" data-hovercard-url=\"/Qv2ray/Qv2ray/issues/1045/hovercard\" href=\"https://github.com/Qv2ray/Qv2ray/issues/1045\">#1045</a><br>\n修复插件图标加载问题</p>\n<h2>移除</h2>\n<p>移除 Deepin 系统代理设置提示框<br>\n移除主界面左右分栏大小保存<br>\n移除了 v2ctl 的权限检查<br>\n移除默认 ALPN 中的 h2</p>\n<h2>其他修改</h2>\n<p>调高最大 log 长度<br>\n重命名 dokodemo-door， 首选项入站文案</p>",
+        "url": "https://github.com/Qv2ray/Qv2ray/releases/tag/v2.7.0-pre1",
+        "time": "2020-11-10T09:31:19Z"
     },
     "v2ray-core": {
         "tag": "v4.34.0",
