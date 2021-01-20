@@ -23,12 +23,13 @@ GITHUB_RELEASES = {
     "QvPlugin-Trojan-GO": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases.atom",
     "QvPlugin-SSR": "https://github.com/Qv2ray/QvPlugin-SSR/releases.atom",
     "v2ray-core": "https://github.com/v2fly/v2ray-core/releases.atom",
-    "lx-music": "https://github.com/lyswhut/lx-music-desktop/releases.atom",
+    "xray-core": "https://github.com/XTLS/Xray-core/releases.atom",
+    "Trojan-Go-core": "https://github.com/p4gefau1t/trojan-go/releases.atom",
     "ProxySU": "https://github.com/proxysu/windows/releases.atom",
+    "lx-music": "https://github.com/lyswhut/lx-music-desktop/releases.atom",
     "hexo-next": "https://github.com/next-theme/hexo-theme-next/releases.atom",
     "Halo": "https://github.com/halo-dev/halo/releases.atom",
     "Traffic-Monitor": "https://github.com/zhongyang219/TrafficMonitor/releases.atom",
-    "xray-core": "https://github.com/XTLS/Xray-core/releases.atom"
 }
 
 
