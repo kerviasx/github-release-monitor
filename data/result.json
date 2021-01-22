@@ -1,18 +1,4 @@
 {
-    "QvPlugin-Trojan": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-Trojan v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-Trojan v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.7.0-alpha1 or v2.6.3.</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:25:43Z"
-    },
-    "QvPlugin-SSR": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-SSR v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:22:26Z"
-    },
     "Trojan-Go-core": {
         "tag": "v0.8.2",
         "title": "v0.8.2",
@@ -26,6 +12,20 @@
         "content": "<p>QvPlugin-Trojan-Go v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> Only for Qv2ray v2.7.0-pre1. NOT FOR Qv2ray v2.6.3 or v2.7.0-alpha1.</p>",
         "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:24:13Z"
+    },
+    "QvPlugin-SSR": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-SSR v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:22:26Z"
+    },
+    "QvPlugin-Trojan": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-Trojan v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-Trojan v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.7.0-alpha1 or v2.6.3.</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:25:43Z"
     },
     "lx-music": {
         "tag": "v1.6.1",
