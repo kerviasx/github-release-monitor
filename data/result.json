@@ -13,19 +13,19 @@
         "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:25:43Z"
     },
-    "Trojan-Go-core": {
-        "tag": "v0.8.2",
-        "title": "v0.8.2",
-        "content": "<ul>\n<li>\n<p>修复前置代理 bug</p>\n</li>\n<li>\n<p>修复 URL 生成问题</p>\n</li>\n<li>\n<p>修复细微 bug</p>\n</li>\n<li>\n<p>支持泛域名证书</p>\n</li>\n<li>\n<p>Go 版本升级到 1.15</p>\n</li>\n<li>\n<p>新增 YAML 配置示例</p>\n</li>\n</ul>",
-        "url": "https://github.com/p4gefau1t/trojan-go/releases/tag/v0.8.2",
-        "time": "2020-09-06T05:55:25Z"
-    },
     "QvPlugin-SSR": {
         "tag": "v3.0.0-pre3",
         "title": "QvPlugin-SSR v3.0.0-pre3 prerelease",
         "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
         "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:22:26Z"
+    },
+    "Trojan-Go-core": {
+        "tag": "v0.8.2",
+        "title": "v0.8.2",
+        "content": "<ul>\n<li>\n<p>修复前置代理 bug</p>\n</li>\n<li>\n<p>修复 URL 生成问题</p>\n</li>\n<li>\n<p>修复细微 bug</p>\n</li>\n<li>\n<p>支持泛域名证书</p>\n</li>\n<li>\n<p>Go 版本升级到 1.15</p>\n</li>\n<li>\n<p>新增 YAML 配置示例</p>\n</li>\n</ul>",
+        "url": "https://github.com/p4gefau1t/trojan-go/releases/tag/v0.8.2",
+        "time": "2020-09-06T05:55:25Z"
     },
     "lx-music": {
         "tag": "v1.6.1",
@@ -48,19 +48,19 @@
         "url": "https://github.com/v2fly/v2ray-core/releases/tag/v4.34.0",
         "time": "2021-01-06T09:28:50Z"
     },
-    "ProxySU": {
-        "tag": "v2.5.4",
-        "title": "v2.5.4",
-        "content": "<ul>\n<li>acme.sh 申请证书显示更详细信息</li>\n<li>修复潜在的可能出现域名检测错误 <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"754878176\" data-permission-text=\"Title is private\" data-url=\"https://github.com/proxysu/ProxySU/issues/71\" data-hovercard-type=\"issue\" data-hovercard-url=\"/proxysu/ProxySU/issues/71/hovercard\" href=\"https://github.com/proxysu/ProxySU/issues/71\">#71</a></li>\n</ul>",
-        "url": "https://github.com/proxysu/ProxySU/releases/tag/v2.5.4",
-        "time": "2020-12-06T01:09:12Z"
-    },
     "xray-core": {
         "tag": "v1.2.3",
         "title": "Xray-core v1.2.3",
         "content": "<h2>Shadowsocks AEAD Single-port Multi-user</h2>\n<p>Xray-core v1.2.3 提供了配置便捷、开箱即用的 Shadowsocks AEAD 单端口多用户支持。</p>\n<p><a href=\"https://github.com/XTLS/Xray-examples/tree/main/Shadowsocks-AEAD\">https://github.com/XTLS/Xray-examples/tree/main/Shadowsocks-AEAD</a></p>\n<ol>\n<li>AEAD 加密方式使接收方能够验证解密是否成功，这是一切的基础</li>\n<li>服务端便可以通过尝试解密收到的第一个包来找到对应的用户</li>\n</ol>\n<p>以下套件属于 AEAD 加密方式：</p>\n<ul>\n<li>AES-128-GCM</li>\n<li>AES-256-GCM</li>\n<li>ChaCha20-Poly1305 (alias ChaCha20-IETF-Poly1305)</li>\n</ul>\n<p>希望推动 AEAD 被更广泛应用：</p>\n<ol>\n<li>我们只建议使用 AEAD 加密方式，且后续对 Shadowsocks 的增强只支持 AEAD</li>\n<li>老旧加密方式虽然不会被移除，但属于 deprecated，在文档中会做隐藏处理</li>\n</ol>\n<p>端口复用有待进一步增强，比如实现同 IP 优先尝试机制、支持 API 动态增删用户等。</p>\n<p>推荐一个高性能的 Shadowsocks AEAD 端口复用中转方案：<a href=\"https://github.com/Qv2ray/mmp-go\">mmp-go</a></p>\n<h2>Optimizations</h2>\n<h3>TPROXY</h3>\n<p>为 <code>FakeUDP socket</code> 设置 <code>SO_REUSEPORT</code>，优化了 TPROXY UDP 的代码与 err 处理逻辑。</p>\n<h3>Trojan</h3>\n<p>Trojan fallbacks 也支持匹配请求的 SNI 了，配置方式与 VLESS fallbacks 完全一致，详见 <a href=\"https://github.com/XTLS/Xray-core/releases/tag/v1.2.2\">Xray-core v1.2.2</a></p>\n<h3>Sniffing</h3>\n<p>Feature: Exclude some domains in sniffing destOverride (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"783083315\" data-permission-text=\"Title is private\" data-url=\"https://github.com/XTLS/Xray-core/issues/151\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/XTLS/Xray-core/pull/151/hovercard\" href=\"https://github.com/XTLS/Xray-core/pull/151\">#151</a>) <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/AkinoKaede/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/AkinoKaede\">@AkinoKaede</a></p>\n<h2>Fixes</h2>\n<ul>\n<li>Fix fallbacks xver when original address is not TCP address (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"788253343\" data-permission-text=\"Title is private\" data-url=\"https://github.com/XTLS/Xray-core/issues/182\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/XTLS/Xray-core/pull/182/hovercard\" href=\"https://github.com/XTLS/Xray-core/pull/182\">#182</a>) <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/bohanyang/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/bohanyang\">@bohanyang</a></li>\n<li>Convert domain names to lowercase before matching (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"791527653\" data-permission-text=\"Title is private\" data-url=\"https://github.com/XTLS/Xray-core/issues/195\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/XTLS/Xray-core/pull/195/hovercard\" href=\"https://github.com/XTLS/Xray-core/pull/195\">#195</a>) <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/badO1a5A90/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/badO1a5A90\">@badO1a5A90</a></li>\n</ul>\n<h2>Chores</h2>\n<ul>\n<li>Regenerate .pb.go files <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JimhHan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JimhHan\">@JimhHan</a></li>\n<li>Use Go 1.15.7 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Beginner-Go/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Beginner-Go\">@Beginner-Go</a></li>\n<li>Upgrade dependencies</li>\n<li>Update geoip.dat, geosite.dat</li>\n</ul>\n<h2>Notices</h2>\n<ul>\n<li>已知此版本的 fallbacks xver 可能不会生效，<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/XTLS/Xray-core/commit/8ffc43035179964e8472486339b220ffccafed29/hovercard\" href=\"https://github.com/XTLS/Xray-core/commit/8ffc43035179964e8472486339b220ffccafed29\"><tt>8ffc430</tt></a></li>\n<li>M1 版本由 Go 1.16beta1 直接编译，Reproducible</li>\n</ul>",
         "url": "https://github.com/XTLS/Xray-core/releases/tag/v1.2.3",
         "time": "2021-01-23T21:26:07Z"
+    },
+    "ProxySU": {
+        "tag": "v2.5.4",
+        "title": "v2.5.4",
+        "content": "<ul>\n<li>acme.sh 申请证书显示更详细信息</li>\n<li>修复潜在的可能出现域名检测错误 <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"754878176\" data-permission-text=\"Title is private\" data-url=\"https://github.com/proxysu/ProxySU/issues/71\" data-hovercard-type=\"issue\" data-hovercard-url=\"/proxysu/ProxySU/issues/71/hovercard\" href=\"https://github.com/proxysu/ProxySU/issues/71\">#71</a></li>\n</ul>",
+        "url": "https://github.com/proxysu/ProxySU/releases/tag/v2.5.4",
+        "time": "2020-12-06T01:09:12Z"
     },
     "hexo-next": {
         "tag": "v8.2.0",
