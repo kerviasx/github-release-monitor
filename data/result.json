@@ -1,17 +1,17 @@
 {
-    "lx-music": {
-        "tag": "v1.7.1",
-        "title": "1.7.1",
-        "content": "<h3>修复</h3>\n<ul>\n<li>修复非透明模式下右侧滚动条无法拖动的问题</li>\n<li>修复MAC下xm音乐滑块验证问题</li>\n</ul>",
-        "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v1.7.1",
-        "time": "2021-01-30T06:57:19Z"
+    "QvPlugin-Trojan": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-Trojan v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-Trojan v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.7.0-alpha1 or v2.6.3.</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:25:43Z"
     },
-    "Qv2ray": {
-        "tag": "v2.7.0-pre1",
-        "title": "Qv2ray v2.7.0-pre1 预览版",
-        "content": "<p>Qv2ray v2.7.0-pre1 预览版</p>\n<h1>插件更新</h1>\n<p>使用此版本需要更新插件，不更新可能会导致崩溃问题<br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-Command/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-Command/releases/tag/v3.0.0-pre3</a></p>\n<h1>本次更新重点功能</h1>\n<ul>\n<li>链式代理编辑器，即 ProxyChains （流量 A-&gt;B-&gt;C-&gt;D）</li>\n<li>使用复杂配置中 链式代理编辑器 进行操作</li>\n<li>链式代理支持所有 (插件/非插件) 协议</li>\n</ul>\n<h2>新增功能</h2>\n<p>新增 SIP008 订阅格式支持<br>\n新增 V2Ray 日志格式化<br>\n新增打开配置目录按钮<br>\n新增更多翻译<br>\n新增链式代理编辑器，支持所有插件<br>\n新增首选项关于页面链接选择<br>\nAppImage 新增 fcitx5 支持</p>\n<h2>问题修复</h2>\n<p>修复 HTTP/SOCKS 入站/出站 的用户名密码问题<br>\n修复 VLESS flow 编辑器问题<br>\n修复主界面更新订阅问题<br>\n修复复杂配置编辑器连线问题 <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"725454881\" data-permission-text=\"Title is private\" data-url=\"https://github.com/Qv2ray/Qv2ray/issues/1045\" data-hovercard-type=\"issue\" data-hovercard-url=\"/Qv2ray/Qv2ray/issues/1045/hovercard\" href=\"https://github.com/Qv2ray/Qv2ray/issues/1045\">#1045</a><br>\n修复插件图标加载问题</p>\n<h2>移除</h2>\n<p>移除 Deepin 系统代理设置提示框<br>\n移除主界面左右分栏大小保存<br>\n移除了 v2ctl 的权限检查<br>\n移除默认 ALPN 中的 h2</p>\n<h2>其他修改</h2>\n<p>调高最大 log 长度<br>\n重命名 dokodemo-door， 首选项入站文案</p>",
-        "url": "https://github.com/Qv2ray/Qv2ray/releases/tag/v2.7.0-pre1",
-        "time": "2020-11-10T09:31:19Z"
+    "QvPlugin-SSR": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-SSR v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:22:26Z"
     },
     "QvPlugin-Trojan-GO": {
         "tag": "v3.0.0-pre3",
@@ -27,12 +27,19 @@
         "url": "https://github.com/p4gefau1t/trojan-go/releases/tag/v0.8.2",
         "time": "2020-09-06T05:55:25Z"
     },
-    "QvPlugin-Trojan": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-Trojan v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-Trojan v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.7.0-alpha1 or v2.6.3.</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:25:43Z"
+    "Qv2ray": {
+        "tag": "v2.7.0-pre1",
+        "title": "Qv2ray v2.7.0-pre1 预览版",
+        "content": "<p>Qv2ray v2.7.0-pre1 预览版</p>\n<h1>插件更新</h1>\n<p>使用此版本需要更新插件，不更新可能会导致崩溃问题<br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3</a><br>\n<a href=\"https://github.com/Qv2ray/QvPlugin-Command/releases/tag/v3.0.0-pre3\">https://github.com/Qv2ray/QvPlugin-Command/releases/tag/v3.0.0-pre3</a></p>\n<h1>本次更新重点功能</h1>\n<ul>\n<li>链式代理编辑器，即 ProxyChains （流量 A-&gt;B-&gt;C-&gt;D）</li>\n<li>使用复杂配置中 链式代理编辑器 进行操作</li>\n<li>链式代理支持所有 (插件/非插件) 协议</li>\n</ul>\n<h2>新增功能</h2>\n<p>新增 SIP008 订阅格式支持<br>\n新增 V2Ray 日志格式化<br>\n新增打开配置目录按钮<br>\n新增更多翻译<br>\n新增链式代理编辑器，支持所有插件<br>\n新增首选项关于页面链接选择<br>\nAppImage 新增 fcitx5 支持</p>\n<h2>问题修复</h2>\n<p>修复 HTTP/SOCKS 入站/出站 的用户名密码问题<br>\n修复 VLESS flow 编辑器问题<br>\n修复主界面更新订阅问题<br>\n修复复杂配置编辑器连线问题 <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"725454881\" data-permission-text=\"Title is private\" data-url=\"https://github.com/Qv2ray/Qv2ray/issues/1045\" data-hovercard-type=\"issue\" data-hovercard-url=\"/Qv2ray/Qv2ray/issues/1045/hovercard\" href=\"https://github.com/Qv2ray/Qv2ray/issues/1045\">#1045</a><br>\n修复插件图标加载问题</p>\n<h2>移除</h2>\n<p>移除 Deepin 系统代理设置提示框<br>\n移除主界面左右分栏大小保存<br>\n移除了 v2ctl 的权限检查<br>\n移除默认 ALPN 中的 h2</p>\n<h2>其他修改</h2>\n<p>调高最大 log 长度<br>\n重命名 dokodemo-door， 首选项入站文案</p>",
+        "url": "https://github.com/Qv2ray/Qv2ray/releases/tag/v2.7.0-pre1",
+        "time": "2020-11-10T09:31:19Z"
+    },
+    "lx-music": {
+        "tag": "v1.7.1",
+        "title": "1.7.1",
+        "content": "<h3>修复</h3>\n<ul>\n<li>修复非透明模式下右侧滚动条无法拖动的问题</li>\n<li>修复MAC下xm音乐滑块验证问题</li>\n</ul>",
+        "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v1.7.1",
+        "time": "2021-01-30T06:57:19Z"
     },
     "xray-core": {
         "tag": "v1.2.4",
@@ -41,12 +48,12 @@
         "url": "https://github.com/XTLS/Xray-core/releases/tag/v1.2.4",
         "time": "2021-02-01T01:20:41Z"
     },
-    "QvPlugin-SSR": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-SSR v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:22:26Z"
+    "ProxySU": {
+        "tag": "v2.5.6",
+        "title": "v2.5.6",
+        "content": "<ol>\n<li>修复安装证书时，线程同步报错问题。</li>\n</ol>",
+        "url": "https://github.com/proxysu/ProxySU/releases/tag/v2.5.6",
+        "time": "2021-02-02T11:08:11Z"
     },
     "v2ray-core": {
         "tag": "v4.34.0",
@@ -55,12 +62,12 @@
         "url": "https://github.com/v2fly/v2ray-core/releases/tag/v4.34.0",
         "time": "2021-01-06T09:28:50Z"
     },
-    "ProxySU": {
-        "tag": "v2.5.6",
-        "title": "v2.5.6",
-        "content": "<ol>\n<li>修复安装证书时，线程同步报错问题。</li>\n</ol>",
-        "url": "https://github.com/proxysu/ProxySU/releases/tag/v2.5.6",
-        "time": "2021-02-02T11:08:11Z"
+    "Traffic-Monitor": {
+        "tag": "V1.79.1",
+        "title": "V1.79.1",
+        "content": "<ul>\n<li>修正注册表句柄泄漏的问题。</li>\n<li>修正当主窗口和任务栏窗口都不显示时，不统计CPU和内存利用率的问题。</li>\n</ul>",
+        "url": "https://github.com/zhongyang219/TrafficMonitor/releases/tag/V1.79.1",
+        "time": "2020-08-05T13:01:48Z"
     },
     "Halo": {
         "tag": "v1.4.5",
@@ -75,12 +82,5 @@
         "content": "<h2><g-emoji class=\"g-emoji\" alias=\"hammer_and_wrench\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png\">🛠</g-emoji> Improvements</h2>\n<ul>\n<li>Explicitly use HTTPS for Vendors (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"792706803\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/187\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/187/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/187\">#187</a>)</li>\n<li>Use correct language codes in multi-language sites (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"777469807\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/170\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/170/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/170\">#170</a>)</li>\n</ul>\n<h2><g-emoji class=\"g-emoji\" alias=\"cyclone\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f300.png\">🌀</g-emoji> External Changes</h2>\n<ul>\n<li>Update dependency husky to v4.3.8 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"780970188\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/175\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/175/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/175\">#175</a>)</li>\n<li>Update dependency js-yaml to v4 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"777650677\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/172\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/172/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/172\">#172</a>)</li>\n<li>Update dependency eslint to v7.19.0 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"777404559\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/169\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/169/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/169\">#169</a>)</li>\n</ul>\n<hr>\n<p>For full changes, see the <a href=\"https://github.com/next-theme/hexo-theme-next/compare/v8.2.0...v8.2.1\">comparison between v8.2.0 and v8.2.1</a></p>",
         "url": "https://github.com/next-theme/hexo-theme-next/releases/tag/v8.2.1",
         "time": "2021-02-01T01:00:59Z"
-    },
-    "Traffic-Monitor": {
-        "tag": "V1.79.1",
-        "title": "V1.79.1",
-        "content": "<ul>\n<li>修正注册表句柄泄漏的问题。</li>\n<li>修正当主窗口和任务栏窗口都不显示时，不统计CPU和内存利用率的问题。</li>\n</ul>",
-        "url": "https://github.com/zhongyang219/TrafficMonitor/releases/tag/V1.79.1",
-        "time": "2020-08-05T13:01:48Z"
     }
 }
