@@ -6,12 +6,12 @@
         "url": "https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:30:39Z"
     },
-    "QvPlugin-Trojan": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-Trojan v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-Trojan v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.7.0-alpha1 or v2.6.3.</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:25:43Z"
+    "Qv2ray": {
+        "tag": "v2.7.0-pre2",
+        "title": "针对 Qv2ray Preview 版本的累积更新",
+        "content": "<p><del>没错，就是 Windows 累积更新那种东西</del></p>\n<p>不知不觉间，已经过去了一年，从 Qv2ray v2.0 到现在的 v2.7 pre2 预览版，感谢大家对我们以及对整个 Anti-Censorship 团队的支持</p>\n<p>由于种种原因，我们无法及时更新 Qv2ray 的功能。距离 v2.7 正式版发布还有很长时间，为了避免「遇到问题只能从 GitHub Actions 下载开发版」的窘境，我们在此发布一版累积更新。<br>\n此版本基于最新的 <code>dev</code> 分支发布，具有部分新功能和不确定性</p>\n<p>祝大家新春快乐</p>\n<blockquote>\n<p>Qv2ray Founder <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/U-v-U/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/U-v-U\">@U-v-U</a></p>\n</blockquote>\n<p>另说明：从此版本以后我们不再提供 x86 版本</p>",
+        "url": "https://github.com/Qv2ray/Qv2ray/releases/tag/v2.7.0-pre2",
+        "time": "2021-02-11T14:26:47Z"
     },
     "QvPlugin-Trojan-GO": {
         "tag": "v3.0.0-pre3",
@@ -20,19 +20,19 @@
         "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:24:13Z"
     },
+    "QvPlugin-Trojan": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-Trojan v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-Trojan v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.7.0-alpha1 or v2.6.3.</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:25:43Z"
+    },
     "Trojan-Go-core": {
         "tag": "v0.8.2",
         "title": "v0.8.2",
         "content": "<ul>\n<li>\n<p>修复前置代理 bug</p>\n</li>\n<li>\n<p>修复 URL 生成问题</p>\n</li>\n<li>\n<p>修复细微 bug</p>\n</li>\n<li>\n<p>支持泛域名证书</p>\n</li>\n<li>\n<p>Go 版本升级到 1.15</p>\n</li>\n<li>\n<p>新增 YAML 配置示例</p>\n</li>\n</ul>",
         "url": "https://github.com/p4gefau1t/trojan-go/releases/tag/v0.8.2",
         "time": "2020-09-06T05:55:25Z"
-    },
-    "lx-music": {
-        "tag": "v1.7.1",
-        "title": "1.7.1",
-        "content": "<h3>修复</h3>\n<ul>\n<li>修复非透明模式下右侧滚动条无法拖动的问题</li>\n<li>修复MAC下xm音乐滑块验证问题</li>\n</ul>",
-        "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v1.7.1",
-        "time": "2021-01-30T06:57:19Z"
     },
     "QvPlugin-SSR": {
         "tag": "v3.0.0-pre3",
@@ -41,19 +41,12 @@
         "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:22:26Z"
     },
-    "Qv2ray": {
-        "tag": "v2.7.0-pre2",
-        "title": "针对 Qv2ray Preview 版本的累积更新",
-        "content": "<p><del>没错，就是 Windows 累积更新那种东西</del></p>\n<p>不知不觉间，已经过去了一年，从 Qv2ray v2.0 到现在的 v2.7 pre2 预览版，感谢大家对我们以及对整个 Anti-Censorship 团队的支持</p>\n<p>由于种种原因，我们无法及时更新 Qv2ray 的功能。距离 v2.7 正式版发布还有很长时间，为了避免「遇到问题只能从 GitHub Actions 下载开发版」的窘境，我们在此发布一版累积更新。<br>\n此版本基于最新的 <code>dev</code> 分支发布，具有部分新功能和不确定性</p>\n<p>祝大家新春快乐</p>\n<blockquote>\n<p>Qv2ray Founder <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/U-v-U/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/U-v-U\">@U-v-U</a></p>\n</blockquote>\n<p>另说明：从此版本以后我们不再提供 x86 版本</p>",
-        "url": "https://github.com/Qv2ray/Qv2ray/releases/tag/v2.7.0-pre2",
-        "time": "2021-02-11T14:26:47Z"
-    },
-    "ProxySU": {
-        "tag": "v2.5.6",
-        "title": "v2.5.6",
-        "content": "<ol>\n<li>修复安装证书时，线程同步报错问题。</li>\n</ol>",
-        "url": "https://github.com/proxysu/ProxySU/releases/tag/v2.5.6",
-        "time": "2021-02-02T11:08:11Z"
+    "lx-music": {
+        "tag": "v1.7.1",
+        "title": "1.7.1",
+        "content": "<h3>修复</h3>\n<ul>\n<li>修复非透明模式下右侧滚动条无法拖动的问题</li>\n<li>修复MAC下xm音乐滑块验证问题</li>\n</ul>",
+        "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v1.7.1",
+        "time": "2021-01-30T06:57:19Z"
     },
     "Xray-core": {
         "tag": "v1.3.0",
@@ -68,6 +61,13 @@
         "content": "<h2>Release Notes</h2>\n<ul>\n<li>TLS Session Resumption is now disabled by default (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"777232460\" data-permission-text=\"Title is private\" data-url=\"https://github.com/v2fly/v2ray-core/issues/569\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/v2fly/v2ray-core/pull/569/hovercard\" href=\"https://github.com/v2fly/v2ray-core/pull/569\">#569</a>). See <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"775676862\" data-permission-text=\"Title is private\" data-url=\"https://github.com/v2fly/v2ray-core/issues/557\" data-hovercard-type=\"issue\" data-hovercard-url=\"/v2fly/v2ray-core/issues/557/hovercard\" href=\"https://github.com/v2fly/v2ray-core/issues/557\">#557</a> for more information.</li>\n<li>Support for the legacy Shadowsocks protocol with stream ciphers has been removed (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"777150793\" data-permission-text=\"Title is private\" data-url=\"https://github.com/v2fly/v2ray-core/issues/566\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/v2fly/v2ray-core/pull/566/hovercard\" href=\"https://github.com/v2fly/v2ray-core/pull/566\">#566</a>). If you are still using the unsecure stream ciphers, migrate to Shadowsocks AEAD (ChaCha20Poly1305 and AES-GCM) immediately.</li>\n<li>We have added preliminary support for DNS over QUIC (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"772587326\" data-permission-text=\"Title is private\" data-url=\"https://github.com/v2fly/v2ray-core/issues/534\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/v2fly/v2ray-core/pull/534/hovercard\" href=\"https://github.com/v2fly/v2ray-core/pull/534\">#534</a>). Currently only non-proxied lookup is supported.</li>\n<li>Binaries of the following architectures are no longer a part of the release: <code>s390x</code>, <code>ppc64</code>, <code>ppc64le</code>, <code>mips softfloat</code>.</li>\n</ul>\n<h2>Changes</h2>\n<ul>\n<li>DNS: refactoring DNS (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"695615634\" data-permission-text=\"Title is private\" data-url=\"https://github.com/v2fly/v2ray-core/issues/169\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/v2fly/v2ray-core/pull/169/hovercard\" href=\"https://github.com/v2fly/v2ray-core/pull/169\">#169</a>)</li>\n<li>DNS: support DNS over QUIC (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"772587326\" data-permission-text=\"Title is private\" data-url=\"https://github.com/v2fly/v2ray-core/issues/534\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/v2fly/v2ray-core/pull/534/hovercard\" href=\"https://github.com/v2fly/v2ray-core/pull/534\">#534</a>) (currently only non-proxied lookup)</li>\n<li>DNS: add <code>clientIp</code> feature support for every nameserver (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"762380822\" data-permission-text=\"Title is private\" data-url=\"https://github.com/v2fly/v2ray-core/issues/504\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/v2fly/v2ray-core/pull/504/hovercard\" href=\"https://github.com/v2fly/v2ray-core/pull/504\">#504</a>)</li>\n<li>Release: add Android release (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"765474959\" data-permission-text=\"Title is private\" data-url=\"https://github.com/v2fly/v2ray-core/issues/512\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/v2fly/v2ray-core/pull/512/hovercard\" href=\"https://github.com/v2fly/v2ray-core/pull/512\">#512</a>)</li>\n<li>Android: default dns set to 8.8.8.8:53 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"777276775\" data-permission-text=\"Title is private\" data-url=\"https://github.com/v2fly/v2ray-core/issues/572\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/v2fly/v2ray-core/pull/572/hovercard\" href=\"https://github.com/v2fly/v2ray-core/pull/572\">#572</a>)</li>\n<li>TLS Session Resumption is now disabled by default (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"777232460\" data-permission-text=\"Title is private\" data-url=\"https://github.com/v2fly/v2ray-core/issues/569\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/v2fly/v2ray-core/pull/569/hovercard\" href=\"https://github.com/v2fly/v2ray-core/pull/569\">#569</a>). See <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"775676862\" data-permission-text=\"Title is private\" data-url=\"https://github.com/v2fly/v2ray-core/issues/557\" data-hovercard-type=\"issue\" data-hovercard-url=\"/v2fly/v2ray-core/issues/557/hovercard\" href=\"https://github.com/v2fly/v2ray-core/issues/557\">#557</a> for more information.</li>\n<li>SessionTicketsDisabled is now <code>true</code> by default. See <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"775676862\" data-permission-text=\"Title is private\" data-url=\"https://github.com/v2fly/v2ray-core/issues/557\" data-hovercard-type=\"issue\" data-hovercard-url=\"/v2fly/v2ray-core/issues/557/hovercard\" href=\"https://github.com/v2fly/v2ray-core/issues/557\">#557</a> for more information.</li>\n<li>SOCKS: Refine socks5 server UdpAssociate response behavior (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"768234956\" data-permission-text=\"Title is private\" data-url=\"https://github.com/v2fly/v2ray-core/issues/523\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/v2fly/v2ray-core/pull/523/hovercard\" href=\"https://github.com/v2fly/v2ray-core/pull/523\">#523</a>)</li>\n<li>SOCKS: Fix socks client UDP outbound's wrong destination (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"767959502\" data-permission-text=\"Title is private\" data-url=\"https://github.com/v2fly/v2ray-core/issues/522\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/v2fly/v2ray-core/pull/522/hovercard\" href=\"https://github.com/v2fly/v2ray-core/pull/522\">#522</a>)</li>\n<li>HTTP2: listen port failed use error level log (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"777466892\" data-permission-text=\"Title is private\" data-url=\"https://github.com/v2fly/v2ray-core/issues/576\" data-hovercard-type=\"issue\" data-hovercard-url=\"/v2fly/v2ray-core/issues/576/hovercard\" href=\"https://github.com/v2fly/v2ray-core/issues/576\">#576</a>)</li>\n<li>DNS: refine skipRoutePick (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"775728537\" data-permission-text=\"Title is private\" data-url=\"https://github.com/v2fly/v2ray-core/issues/558\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/v2fly/v2ray-core/pull/558/hovercard\" href=\"https://github.com/v2fly/v2ray-core/pull/558\">#558</a>)</li>\n<li>DNS: compatible with <code>localhost</code> nameserver (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"771300056\" data-permission-text=\"Title is private\" data-url=\"https://github.com/v2fly/v2ray-core/issues/530\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/v2fly/v2ray-core/pull/530/hovercard\" href=\"https://github.com/v2fly/v2ray-core/pull/530\">#530</a>)</li>\n<li>DNS &amp; Routing: refine rule parsing process (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"770419458\" data-permission-text=\"Title is private\" data-url=\"https://github.com/v2fly/v2ray-core/issues/528\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/v2fly/v2ray-core/pull/528/hovercard\" href=\"https://github.com/v2fly/v2ray-core/pull/528\">#528</a>)</li>\n<li>Config: multi-JSON config overide (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"741548633\" data-permission-text=\"Title is private\" data-url=\"https://github.com/v2fly/v2ray-core/issues/409\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/v2fly/v2ray-core/pull/409/hovercard\" href=\"https://github.com/v2fly/v2ray-core/pull/409\">#409</a>)- Release: migrate release from Azure Pipelines to GitHub Actions (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"749353298\" data-permission-text=\"Title is private\" data-url=\"https://github.com/v2fly/v2ray-core/issues/453\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/v2fly/v2ray-core/pull/453/hovercard\" href=\"https://github.com/v2fly/v2ray-core/pull/453\">#453</a> <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"752735261\" data-permission-text=\"Title is private\" data-url=\"https://github.com/v2fly/v2ray-core/issues/468\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/v2fly/v2ray-core/pull/468/hovercard\" href=\"https://github.com/v2fly/v2ray-core/pull/468\">#468</a>)</li>\n<li>Logging: Prevent trailing whitespaces in logs (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"768615496\" data-permission-text=\"Title is private\" data-url=\"https://github.com/v2fly/v2ray-core/issues/526\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/v2fly/v2ray-core/pull/526/hovercard\" href=\"https://github.com/v2fly/v2ray-core/pull/526\">#526</a>)</li>\n<li>Test: add race detector</li>\n<li>Minor changes and fixes by <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/U-v-U/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/U-v-U\">@U-v-U</a>, <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/CalmLong/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/CalmLong\">@CalmLong</a>, <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/dyhkwong/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dyhkwong\">@dyhkwong</a></li>\n</ul>\n<h2>Notices</h2>\n<p>You are able to compile exactly the same binaries as the ones in Assets section below by simply following the <a href=\"https://www.v2fly.org/developer/intro/compile.html\" rel=\"nofollow\">compiling guide</a>.</p>",
         "url": "https://github.com/v2fly/v2ray-core/releases/tag/v4.34.0",
         "time": "2021-01-06T09:28:50Z"
+    },
+    "ProxySU": {
+        "tag": "v2.5.6",
+        "title": "v2.5.6",
+        "content": "<ol>\n<li>修复安装证书时，线程同步报错问题。</li>\n</ol>",
+        "url": "https://github.com/proxysu/ProxySU/releases/tag/v2.5.6",
+        "time": "2021-02-02T11:08:11Z"
     },
     "Traffic-Monitor": {
         "tag": "V1.79.1",
