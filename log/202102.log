@@ -565,3 +565,19 @@
 2021-02-17 12:19:25 root:INFO:[ID=140584396248832]:Traffic-Monitor->https://github.com/zhongyang219/TrafficMonitor/releases.atom
 2021-02-17 12:19:26 root:INFO:Monitor End
 
+2021-02-17 22:18:15 root:INFO:Monitor Start
+2021-02-17 22:18:15 root:INFO:[ID=139921541469952]:Qv2ray->https://github.com/Qv2ray/Qv2ray/releases.atom
+2021-02-17 22:18:15 root:INFO:[ID=139921533077248]:QvPlugin-Trojan->https://github.com/Qv2ray/QvPlugin-Trojan/releases.atom
+2021-02-17 22:18:15 root:INFO:[ID=139921524684544]:QvPlugin-Trojan-GO->https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases.atom
+2021-02-17 22:18:15 root:INFO:[ID=139921301956352]:QvPlugin-SSR->https://github.com/Qv2ray/QvPlugin-SSR/releases.atom
+2021-02-17 22:18:15 root:INFO:[ID=139921293563648]:QvPlugin-SS->https://github.com/Qv2ray/QvPlugin-SS/releases.atom
+2021-02-17 22:18:15 root:INFO:[ID=139921285170944]:V2ray-core->https://github.com/v2fly/v2ray-core/releases.atom
+2021-02-17 22:18:15 root:INFO:[ID=139921276778240]:Xray-core->https://github.com/XTLS/Xray-core/releases.atom
+2021-02-17 22:18:15 root:INFO:[ID=139921268385536]:Trojan-Go-core->https://github.com/p4gefau1t/trojan-go/releases.atom
+2021-02-17 22:18:15 root:INFO:[ID=139921549862656]:ProxySU->https://github.com/proxysu/windows/releases.atom
+2021-02-17 22:18:15 root:INFO:[ID=139921310349056]:lx-music->https://github.com/lyswhut/lx-music-desktop/releases.atom
+2021-02-17 22:18:15 root:INFO:[ID=139921293563648]:Hexo-next->https://github.com/next-theme/hexo-theme-next/releases.atom
+2021-02-17 22:18:15 root:INFO:[ID=139921310349056]:Halo->https://github.com/halo-dev/halo/releases.atom
+2021-02-17 22:18:15 root:INFO:[ID=139921533077248]:Traffic-Monitor->https://github.com/zhongyang219/TrafficMonitor/releases.atom
+2021-02-17 22:18:15 root:INFO:Monitor End
+
