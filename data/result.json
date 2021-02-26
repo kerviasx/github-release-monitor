@@ -6,12 +6,12 @@
         "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:25:43Z"
     },
-    "Qv2ray": {
-        "tag": "v2.7.0-pre2",
-        "title": "针对 Qv2ray Preview 版本的累积更新",
-        "content": "<p><del>没错，就是 Windows 累积更新那种东西</del></p>\n<p>不知不觉间，已经过去了一年，从 Qv2ray v2.0 到现在的 v2.7 pre2 预览版，感谢大家对我们以及对整个 Anti-Censorship 团队的支持</p>\n<p>由于种种原因，我们无法及时更新 Qv2ray 的功能。距离 v2.7 正式版发布还有很长时间，为了避免「遇到问题只能从 GitHub Actions 下载开发版」的窘境，我们在此发布一版累积更新。<br>\n此版本基于最新的 <code>dev</code> 分支发布，具有部分新功能和不确定性</p>\n<p>祝大家新春快乐</p>\n<blockquote>\n<p>Qv2ray Founder <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/U-v-U/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/U-v-U\">@U-v-U</a></p>\n</blockquote>\n<p>另说明：从此版本以后我们不再提供 x86 版本</p>",
-        "url": "https://github.com/Qv2ray/Qv2ray/releases/tag/v2.7.0-pre2",
-        "time": "2021-02-11T14:26:47Z"
+    "QvPlugin-Trojan-GO": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-Trojan-Go v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-Trojan-Go v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> Only for Qv2ray v2.7.0-pre1. NOT FOR Qv2ray v2.6.3 or v2.7.0-alpha1.</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:24:13Z"
     },
     "QvPlugin-SS": {
         "tag": "v3.0.0-pre3",
@@ -20,33 +20,12 @@
         "url": "https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:30:39Z"
     },
-    "Trojan-Go-core": {
-        "tag": "v0.8.2",
-        "title": "v0.8.2",
-        "content": "<ul>\n<li>\n<p>修复前置代理 bug</p>\n</li>\n<li>\n<p>修复 URL 生成问题</p>\n</li>\n<li>\n<p>修复细微 bug</p>\n</li>\n<li>\n<p>支持泛域名证书</p>\n</li>\n<li>\n<p>Go 版本升级到 1.15</p>\n</li>\n<li>\n<p>新增 YAML 配置示例</p>\n</li>\n</ul>",
-        "url": "https://github.com/p4gefau1t/trojan-go/releases/tag/v0.8.2",
-        "time": "2020-09-06T05:55:25Z"
-    },
-    "QvPlugin-SSR": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-SSR v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:22:26Z"
-    },
-    "lx-music": {
-        "tag": "v1.7.1",
-        "title": "1.7.1",
-        "content": "<h3>修复</h3>\n<ul>\n<li>修复非透明模式下右侧滚动条无法拖动的问题</li>\n<li>修复MAC下xm音乐滑块验证问题</li>\n</ul>",
-        "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v1.7.1",
-        "time": "2021-01-30T06:57:19Z"
-    },
-    "QvPlugin-Trojan-GO": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-Trojan-Go v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-Trojan-Go v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> Only for Qv2ray v2.7.0-pre1. NOT FOR Qv2ray v2.6.3 or v2.7.0-alpha1.</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:24:13Z"
+    "Qv2ray": {
+        "tag": "v2.7.0-pre2",
+        "title": "针对 Qv2ray Preview 版本的累积更新",
+        "content": "<p><del>没错，就是 Windows 累积更新那种东西</del></p>\n<p>不知不觉间，已经过去了一年，从 Qv2ray v2.0 到现在的 v2.7 pre2 预览版，感谢大家对我们以及对整个 Anti-Censorship 团队的支持</p>\n<p>由于种种原因，我们无法及时更新 Qv2ray 的功能。距离 v2.7 正式版发布还有很长时间，为了避免「遇到问题只能从 GitHub Actions 下载开发版」的窘境，我们在此发布一版累积更新。<br>\n此版本基于最新的 <code>dev</code> 分支发布，具有部分新功能和不确定性</p>\n<p>祝大家新春快乐</p>\n<blockquote>\n<p>Qv2ray Founder <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/U-v-U/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/U-v-U\">@U-v-U</a></p>\n</blockquote>\n<p>另说明：从此版本以后我们不再提供 x86 版本</p>",
+        "url": "https://github.com/Qv2ray/Qv2ray/releases/tag/v2.7.0-pre2",
+        "time": "2021-02-11T14:26:47Z"
     },
     "Xray-core": {
         "tag": "v1.3.0",
@@ -55,12 +34,19 @@
         "url": "https://github.com/XTLS/Xray-core/releases/tag/v1.3.0",
         "time": "2021-02-14T14:38:39Z"
     },
-    "ProxySU": {
-        "tag": "v2.5.6",
-        "title": "v2.5.6",
-        "content": "<ol>\n<li>修复安装证书时，线程同步报错问题。</li>\n</ol>",
-        "url": "https://github.com/proxysu/ProxySU/releases/tag/v2.5.6",
-        "time": "2021-02-02T11:08:11Z"
+    "QvPlugin-SSR": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-SSR v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:22:26Z"
+    },
+    "Trojan-Go-core": {
+        "tag": "v0.8.2",
+        "title": "v0.8.2",
+        "content": "<ul>\n<li>\n<p>修复前置代理 bug</p>\n</li>\n<li>\n<p>修复 URL 生成问题</p>\n</li>\n<li>\n<p>修复细微 bug</p>\n</li>\n<li>\n<p>支持泛域名证书</p>\n</li>\n<li>\n<p>Go 版本升级到 1.15</p>\n</li>\n<li>\n<p>新增 YAML 配置示例</p>\n</li>\n</ul>",
+        "url": "https://github.com/p4gefau1t/trojan-go/releases/tag/v0.8.2",
+        "time": "2020-09-06T05:55:25Z"
     },
     "V2ray-core": {
         "tag": "v4.34.0",
@@ -69,12 +55,19 @@
         "url": "https://github.com/v2fly/v2ray-core/releases/tag/v4.34.0",
         "time": "2021-01-06T09:28:50Z"
     },
-    "Traffic-Monitor": {
-        "tag": "V1.79.1",
-        "title": "V1.79.1",
-        "content": "<ul>\n<li>修正注册表句柄泄漏的问题。</li>\n<li>修正当主窗口和任务栏窗口都不显示时，不统计CPU和内存利用率的问题。</li>\n</ul>",
-        "url": "https://github.com/zhongyang219/TrafficMonitor/releases/tag/V1.79.1",
-        "time": "2020-08-05T13:01:48Z"
+    "ProxySU": {
+        "tag": "v2.5.6",
+        "title": "v2.5.6",
+        "content": "<ol>\n<li>修复安装证书时，线程同步报错问题。</li>\n</ol>",
+        "url": "https://github.com/proxysu/ProxySU/releases/tag/v2.5.6",
+        "time": "2021-02-02T11:08:11Z"
+    },
+    "lx-music": {
+        "tag": "v1.7.1",
+        "title": "1.7.1",
+        "content": "<h3>修复</h3>\n<ul>\n<li>修复非透明模式下右侧滚动条无法拖动的问题</li>\n<li>修复MAC下xm音乐滑块验证问题</li>\n</ul>",
+        "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v1.7.1",
+        "time": "2021-01-30T06:57:19Z"
     },
     "Halo": {
         "tag": "v1.4.5",
@@ -82,6 +75,13 @@
         "content": "<h2>Improvements</h2>\n<ul>\n<li>sitemap.xml 新增所有分类和标签的链接。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"803489761\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1267\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1267/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1267\">#1267</a></li>\n</ul>\n<h2>Bug Fixes</h2>\n<ul>\n<li>修复后台因为垂直滚动条导致界面抖动的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"803481002\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo-admin/issues/293\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo-admin/pull/293/hovercard\" href=\"https://github.com/halo-dev/halo-admin/pull/293\">halo-dev/halo-admin#293</a></li>\n<li>修复加密分类页面输入密码后重定向的页面链接不正确的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"803289335\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1264\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1264/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1264\">#1264</a></li>\n</ul>\n<h2>Upgrade guide</h2>\n<p><a href=\"https://docs.halo.run/install/upgrade\" rel=\"nofollow\">https://docs.halo.run/install/upgrade</a></p>",
         "url": "https://github.com/halo-dev/halo/releases/tag/v1.4.5",
         "time": "2021-02-08T12:28:18Z"
+    },
+    "Traffic-Monitor": {
+        "tag": "V1.79.1",
+        "title": "V1.79.1",
+        "content": "<ul>\n<li>修正注册表句柄泄漏的问题。</li>\n<li>修正当主窗口和任务栏窗口都不显示时，不统计CPU和内存利用率的问题。</li>\n</ul>",
+        "url": "https://github.com/zhongyang219/TrafficMonitor/releases/tag/V1.79.1",
+        "time": "2020-08-05T13:01:48Z"
     },
     "Hexo-next": {
         "tag": "v8.2.1",
