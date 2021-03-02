@@ -8,6 +8,7 @@ from email.mime.application import MIMEApplication
 from email.mime.multipart import MIMEMultipart
 from email.header import Header
 
+
 class SMTPMail:
     smtp_dict = {
         '@qq.com': ('smtp.qq.com', 465),
@@ -15,7 +16,7 @@ class SMTPMail:
         '@gmail.com': ('smtp.gmail.com', 465)
     }
 
-    def __init__(self, data={}):
+    def __init__(self, data=dict()):
         self.data = data
         self.smtp_i = self.smtp_port = None
         for k, v in self.smtp_dict.items():
@@ -26,13 +27,12 @@ class SMTPMail:
         if 'smtp_ip' in data.keys() and 'smtp_port' in data.keys():
             self.smtp_ip = data['smtp_ip']
             self.smtp_port = data['smtp_port']
-        
-        if self.smtp_ip == None:
+
+        if self.smtp_ip is None:
             raise Exception("非法发件人邮箱名")
 
         if 'type' not in data:
-       	    self.data['type'] = 'html'  # 可以为plain
-        
+            self.data['type'] = 'html'  # 可以为plain
 
     def send_email(self):
         message = MIMEMultipart()
@@ -46,5 +46,3 @@ class SMTPMail:
         server.sendmail(self.data['sender'],
                         self.data['receive'], message.as_string())
         server.quit()  # 关闭连接
-
-

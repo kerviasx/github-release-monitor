@@ -9,6 +9,7 @@ import traceback
 from spiders.template import TEMPLATE
 from utils.mail import SMTPMail
 
+
 class GithubReleaseSpider(object):
     def __init__(self, conf):
         self.conf = conf
@@ -16,13 +17,11 @@ class GithubReleaseSpider(object):
         self.history_info = {}
         self.init_history_info()
 
-
     def init_history_info(self):
         try:
             self.history_info = json.load(open(self.conf.DATA_FILE_PATH, 'r', encoding='utf8'))
         except Exception as e:
             self.history_info = {}
-
 
     def spider(self, item):
         th_id = threading.currentThread().ident
@@ -55,7 +54,7 @@ class GithubReleaseSpider(object):
         entries = root.getElementsByTagName('entry')
         if len(entries) == 0:
             return None
-        
+
         entry = entries[0]
         tag = entry.getElementsByTagName("id")[0].childNodes[0].data.split("/")[-1]
         time = entry.getElementsByTagName("updated")[0].childNodes[0].data
@@ -70,7 +69,7 @@ class GithubReleaseSpider(object):
             'url': link,
             'time': time
         }
-    
+
     def check_update_all(self):
         size = self.queue.qsize()
         new_info_dict = dict([self.queue.get() for i in range(size)])
@@ -78,12 +77,12 @@ class GithubReleaseSpider(object):
         update_info_dict = {}
         file_info_dict = {}
 
-        for k,v in new_info_dict.items():
-            if v != None:
+        for k, v in new_info_dict.items():
+            if v is not None:
                 file_info_dict[k] = v
             elif k in old_info_dict.keys():
                 file_info_dict[k] = old_info_dict[k]
-            if v == None: # 获取信息失败
+            if v is None:  # 获取信息失败
                 new_info_dict[k] = {
                     'tag': "No Tag",
                     'title': k,
@@ -91,18 +90,18 @@ class GithubReleaseSpider(object):
                     'url': self.conf.GITHUB_RELEASES[k],
                     'time': ''
                 }
-            if not(k in old_info_dict.keys() and 'time' in old_info_dict[k].keys() and old_info_dict[k]['time'] == new_info_dict[k]['time']):
+            if not (k in old_info_dict.keys() and 'time' in old_info_dict[k].keys() and old_info_dict[k]['time'] ==
+                    new_info_dict[k]['time']):
                 update_info_dict[k] = new_info_dict[k]
 
         with open(self.conf.DATA_FILE_PATH, 'w', encoding='utf8') as f:
             json.dump(file_info_dict, f, indent=4, ensure_ascii=False)
-        
-        if len(update_info_dict) != 0:            
+
+        if len(update_info_dict) != 0:
             self.send_email(update_info_dict)
 
-
     def send_email(self, update_info_dict):
-        logging.info('-*-'*10)
+        logging.info('-*-' * 10)
         # output update info
         for name, item in update_info_dict.items():
             logging.info("{} -- {}".format(name, item['tag']))
@@ -124,6 +123,4 @@ class GithubReleaseSpider(object):
             logging.error("发送邮件失败, {}".format(str(e)))
         else:
             logging.info("发送邮件成功！")
-        logging.info('-*-'*10)
-
-    
+        logging.info('-*-' * 10)

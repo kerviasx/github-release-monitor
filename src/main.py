@@ -9,6 +9,7 @@ from spiders.GithubSpider import GithubReleaseSpider
 import logging
 import traceback
 
+
 def main(conf):
     githubSpider = GithubReleaseSpider(conf)
     pool = threadpool.ThreadPool(CONFIG.THREAD_NUM)
