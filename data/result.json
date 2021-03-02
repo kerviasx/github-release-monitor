@@ -1,18 +1,4 @@
 {
-    "QvPlugin-SS": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-SS v3.0.0-pre3 prerelease",
-        "content": "<p><g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.6.x or v2.7.0-alpha1.</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:30:39Z"
-    },
-    "QvPlugin-Trojan": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-Trojan v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-Trojan v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.7.0-alpha1 or v2.6.3.</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:25:43Z"
-    },
     "QvPlugin-Trojan-GO": {
         "tag": "v3.0.0-pre3",
         "title": "QvPlugin-Trojan-Go v3.0.0-pre3 prerelease",
@@ -27,19 +13,33 @@
         "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v1.7.1",
         "time": "2021-01-30T06:57:19Z"
     },
-    "Trojan-Go-core": {
-        "tag": "v0.8.2",
-        "title": "v0.8.2",
-        "content": "<ul>\n<li>\n<p>修复前置代理 bug</p>\n</li>\n<li>\n<p>修复 URL 生成问题</p>\n</li>\n<li>\n<p>修复细微 bug</p>\n</li>\n<li>\n<p>支持泛域名证书</p>\n</li>\n<li>\n<p>Go 版本升级到 1.15</p>\n</li>\n<li>\n<p>新增 YAML 配置示例</p>\n</li>\n</ul>",
-        "url": "https://github.com/p4gefau1t/trojan-go/releases/tag/v0.8.2",
-        "time": "2020-09-06T05:55:25Z"
-    },
     "QvPlugin-SSR": {
         "tag": "v3.0.0-pre3",
         "title": "QvPlugin-SSR v3.0.0-pre3 prerelease",
         "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
         "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:22:26Z"
+    },
+    "QvPlugin-SS": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-SS v3.0.0-pre3 prerelease",
+        "content": "<p><g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.6.x or v2.7.0-alpha1.</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:30:39Z"
+    },
+    "Xray-core": {
+        "tag": "v1.3.0",
+        "title": "Xray-core v1.3.0",
+        "content": "<h2>Topic: VLESS &amp; VMess &amp; Mux UDP FullCone NAT，Xray-core 里程碑</h2>\n<h3>Background</h3>\n<p><a href=\"https://github.com/XTLS/Xray-core/discussions/237\" data-hovercard-type=\"discussion\" data-hovercard-url=\"/XTLS/Xray-core/discussions/237/hovercard\">Xray-core v1.2.x 实现并巩固了 FullCone 特性，而 VLESS、VMess、Mux 受制于协议结构，暂时无法实现 FullCone。</a></p>\n<h3>Progress</h3>\n<p><a href=\"https://github.com/XTLS/Xray-core/discussions/252\" data-hovercard-type=\"discussion\" data-hovercard-url=\"/XTLS/Xray-core/discussions/252/hovercard\">Xray-core v1.3.0 通过非常巧妙的机制实现了 V 系协议全部 FullCone，同时与旧版保持一定的兼容性。</a></p>\n<h3>Usage</h3>\n<p>客户端、服务端均升至 Xray-core v1.3.0+ 即可享受无处不在的 FullCone，软件本身无需任何额外配置，注意：</p>\n<ol>\n<li>服务端防火墙需要放行 UDP 高位端口（1024-65535），Docker 容器的网络模式需要是 Host</li>\n<li>此时 100% 能实现 FullCone，起作用的是 VPS 的公网 IP，与本地的 NAT 环境无关</li>\n<li>客户端 Xray-core v1.3.0+、服务端 v2fly-core 时，会测出假的 FullCone</li>\n</ol>\n<p>若你需要关闭 Xray-core 的 FullCone 特性，可在客户端设置环境变量 <code>XRAY_CONE_DISABLED = true</code></p>\n<h3>Milestone</h3>\n<p>至此，Xray-core 实现了全软件全协议全出入站全传输方式的全面 FullCone，这是一个里程碑式的成就：</p>\n<p><strong>无论你在用 VLESS/VMess/Mux/Trojan/Shadowsocks，无论你选择 XTLS/KCP/CDN/H2/QUIC，无论 Socks 还是 TPROXY... 全部 FullCone</strong></p>\n<p>FullCone 不再是哪个协议的专利，它已经像空气一样自然，随处可见，不留任何遗憾。</p>\n<h2>Features</h2>\n<h3>Single-port Multi-user API</h3>\n<p>Xray-core 的 Shadowsocks AEAD 服务端单端口多用户现已支持 API 动态增删用户 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/AkinoKaede/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/AkinoKaede\">@AkinoKaede</a></p>\n<p>至此，Xray-core 的 VLESS、Trojan、VMess、Shadowsocks 入站全部支持端口复用、API。</p>\n<h3>XTLS &amp; TLS hot reloading</h3>\n<p>服务端更新 OCSP 数据前自动检查并重载证书及私钥文件 @eMeab</p>\n<p>证书、私钥填路径并开启 OCSP Stapling，即可无需在更新上述文件后重启 Xray-core。</p>\n<h3>Mixed JSON/TOML/YAML</h3>\n<p>多文件配置现已支持同时读取不同格式的配置文件 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/yjh1021317464/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/yjh1021317464\">@yjh1021317464</a></p>\n<h2>Chores</h2>\n<ul>\n<li>Use Go 1.15.8</li>\n<li>Update geoip.dat, geosite.dat</li>\n</ul>\n<h2>Happy <g-emoji class=\"g-emoji\" alias=\"cow\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f42e.png\">🐮</g-emoji> Year <g-emoji class=\"g-emoji\" alias=\"tada\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f389.png\">🎉</g-emoji></h2>",
+        "url": "https://github.com/XTLS/Xray-core/releases/tag/v1.3.0",
+        "time": "2021-02-14T14:38:39Z"
+    },
+    "QvPlugin-Trojan": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-Trojan v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-Trojan v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.7.0-alpha1 or v2.6.3.</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:25:43Z"
     },
     "Qv2ray": {
         "tag": "v2.7.0-pre2",
@@ -48,12 +48,12 @@
         "url": "https://github.com/Qv2ray/Qv2ray/releases/tag/v2.7.0-pre2",
         "time": "2021-02-11T14:26:47Z"
     },
-    "ProxySU": {
-        "tag": "v2.5.6",
-        "title": "v2.5.6",
-        "content": "<ol>\n<li>修复安装证书时，线程同步报错问题。</li>\n</ol>",
-        "url": "https://github.com/proxysu/ProxySU/releases/tag/v2.5.6",
-        "time": "2021-02-02T11:08:11Z"
+    "Trojan-Go-core": {
+        "tag": "v0.8.2",
+        "title": "v0.8.2",
+        "content": "<ul>\n<li>\n<p>修复前置代理 bug</p>\n</li>\n<li>\n<p>修复 URL 生成问题</p>\n</li>\n<li>\n<p>修复细微 bug</p>\n</li>\n<li>\n<p>支持泛域名证书</p>\n</li>\n<li>\n<p>Go 版本升级到 1.15</p>\n</li>\n<li>\n<p>新增 YAML 配置示例</p>\n</li>\n</ul>",
+        "url": "https://github.com/p4gefau1t/trojan-go/releases/tag/v0.8.2",
+        "time": "2020-09-06T05:55:25Z"
     },
     "V2ray-core": {
         "tag": "v4.34.0",
@@ -62,12 +62,12 @@
         "url": "https://github.com/v2fly/v2ray-core/releases/tag/v4.34.0",
         "time": "2021-01-06T09:28:50Z"
     },
-    "Xray-core": {
-        "tag": "v1.3.0",
-        "title": "Xray-core v1.3.0",
-        "content": "<h2>Topic: VLESS &amp; VMess &amp; Mux UDP FullCone NAT，Xray-core 里程碑</h2>\n<h3>Background</h3>\n<p><a href=\"https://github.com/XTLS/Xray-core/discussions/237\" data-hovercard-type=\"discussion\" data-hovercard-url=\"/XTLS/Xray-core/discussions/237/hovercard\">Xray-core v1.2.x 实现并巩固了 FullCone 特性，而 VLESS、VMess、Mux 受制于协议结构，暂时无法实现 FullCone。</a></p>\n<h3>Progress</h3>\n<p><a href=\"https://github.com/XTLS/Xray-core/discussions/252\" data-hovercard-type=\"discussion\" data-hovercard-url=\"/XTLS/Xray-core/discussions/252/hovercard\">Xray-core v1.3.0 通过非常巧妙的机制实现了 V 系协议全部 FullCone，同时与旧版保持一定的兼容性。</a></p>\n<h3>Usage</h3>\n<p>客户端、服务端均升至 Xray-core v1.3.0+ 即可享受无处不在的 FullCone，软件本身无需任何额外配置，注意：</p>\n<ol>\n<li>服务端防火墙需要放行 UDP 高位端口（1024-65535），Docker 容器的网络模式需要是 Host</li>\n<li>此时 100% 能实现 FullCone，起作用的是 VPS 的公网 IP，与本地的 NAT 环境无关</li>\n<li>客户端 Xray-core v1.3.0+、服务端 v2fly-core 时，会测出假的 FullCone</li>\n</ol>\n<p>若你需要关闭 Xray-core 的 FullCone 特性，可在客户端设置环境变量 <code>XRAY_CONE_DISABLED = true</code></p>\n<h3>Milestone</h3>\n<p>至此，Xray-core 实现了全软件全协议全出入站全传输方式的全面 FullCone，这是一个里程碑式的成就：</p>\n<p><strong>无论你在用 VLESS/VMess/Mux/Trojan/Shadowsocks，无论你选择 XTLS/KCP/CDN/H2/QUIC，无论 Socks 还是 TPROXY... 全部 FullCone</strong></p>\n<p>FullCone 不再是哪个协议的专利，它已经像空气一样自然，随处可见，不留任何遗憾。</p>\n<h2>Features</h2>\n<h3>Single-port Multi-user API</h3>\n<p>Xray-core 的 Shadowsocks AEAD 服务端单端口多用户现已支持 API 动态增删用户 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/AkinoKaede/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/AkinoKaede\">@AkinoKaede</a></p>\n<p>至此，Xray-core 的 VLESS、Trojan、VMess、Shadowsocks 入站全部支持端口复用、API。</p>\n<h3>XTLS &amp; TLS hot reloading</h3>\n<p>服务端更新 OCSP 数据前自动检查并重载证书及私钥文件 @eMeab</p>\n<p>证书、私钥填路径并开启 OCSP Stapling，即可无需在更新上述文件后重启 Xray-core。</p>\n<h3>Mixed JSON/TOML/YAML</h3>\n<p>多文件配置现已支持同时读取不同格式的配置文件 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/yjh1021317464/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/yjh1021317464\">@yjh1021317464</a></p>\n<h2>Chores</h2>\n<ul>\n<li>Use Go 1.15.8</li>\n<li>Update geoip.dat, geosite.dat</li>\n</ul>\n<h2>Happy <g-emoji class=\"g-emoji\" alias=\"cow\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f42e.png\">🐮</g-emoji> Year <g-emoji class=\"g-emoji\" alias=\"tada\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f389.png\">🎉</g-emoji></h2>",
-        "url": "https://github.com/XTLS/Xray-core/releases/tag/v1.3.0",
-        "time": "2021-02-14T14:38:39Z"
+    "ProxySU": {
+        "tag": "v2.5.6",
+        "title": "v2.5.6",
+        "content": "<ol>\n<li>修复安装证书时，线程同步报错问题。</li>\n</ol>",
+        "url": "https://github.com/proxysu/ProxySU/releases/tag/v2.5.6",
+        "time": "2021-02-02T11:08:11Z"
     },
     "Traffic-Monitor": {
         "tag": "V1.79.1",
