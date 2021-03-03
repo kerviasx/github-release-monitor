@@ -84,3 +84,24 @@
 2021-03-02 22:14:03 root:INFO:[ID=140712658073344]:PicGo->https://github.com/Molunerfinn/PicGo/releases.atom
 2021-03-02 22:14:03 root:INFO:Monitor End
 
+2021-03-03 12:17:33 root:INFO:Monitor Start
+2021-03-03 12:17:33 root:INFO:[ID=140243951052544]:Qv2ray->https://github.com/Qv2ray/Qv2ray/releases.atom
+2021-03-03 12:17:33 root:INFO:[ID=140243942659840]:QvPlugin-Trojan->https://github.com/Qv2ray/QvPlugin-Trojan/releases.atom
+2021-03-03 12:17:33 root:INFO:[ID=140243925874432]:QvPlugin-Trojan-GO->https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases.atom
+2021-03-03 12:17:33 root:INFO:[ID=140243917481728]:QvPlugin-SSR->https://github.com/Qv2ray/QvPlugin-SSR/releases.atom
+2021-03-03 12:17:33 root:INFO:[ID=140243567113984]:QvPlugin-SS->https://github.com/Qv2ray/QvPlugin-SS/releases.atom
+2021-03-03 12:17:33 root:INFO:[ID=140243558721280]:V2ray-core->https://github.com/v2fly/v2ray-core/releases.atom
+2021-03-03 12:17:33 root:INFO:[ID=140243550328576]:Xray-core->https://github.com/XTLS/Xray-core/releases.atom
+2021-03-03 12:17:33 root:INFO:[ID=140243541935872]:Trojan-Go-core->https://github.com/p4gefau1t/trojan-go/releases.atom
+2021-03-03 12:17:33 root:INFO:[ID=140243959445248]:ProxySU->https://github.com/proxysu/windows/releases.atom
+2021-03-03 12:17:33 root:INFO:[ID=140243934267136]:lx-music->https://github.com/lyswhut/lx-music-desktop/releases.atom
+2021-03-03 12:17:33 root:INFO:[ID=140243942659840]:Hexo-next->https://github.com/next-theme/hexo-theme-next/releases.atom
+2021-03-03 12:17:33 root:INFO:[ID=140243567113984]:Halo->https://github.com/halo-dev/halo/releases.atom
+2021-03-03 12:17:33 root:INFO:[ID=140243925874432]:Traffic-Monitor->https://github.com/zhongyang219/TrafficMonitor/releases.atom
+2021-03-03 12:17:33 root:INFO:[ID=140243934267136]:PicGo->https://github.com/Molunerfinn/PicGo/releases.atom
+2021-03-03 12:17:34 root:INFO:-*--*--*--*--*--*--*--*--*--*-
+2021-03-03 12:17:34 root:INFO:Xray-core -- v1.3.1
+2021-03-03 12:17:39 root:INFO:发送邮件成功！
+2021-03-03 12:17:39 root:INFO:-*--*--*--*--*--*--*--*--*--*-
+2021-03-03 12:17:39 root:INFO:Monitor End
+

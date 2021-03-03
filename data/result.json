@@ -6,13 +6,6 @@
         "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:25:43Z"
     },
-    "QvPlugin-SSR": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-SSR v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:22:26Z"
-    },
     "QvPlugin-SS": {
         "tag": "v3.0.0-pre3",
         "title": "QvPlugin-SS v3.0.0-pre3 prerelease",
@@ -27,13 +20,6 @@
         "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:24:13Z"
     },
-    "Qv2ray": {
-        "tag": "v2.7.0-pre2",
-        "title": "针对 Qv2ray Preview 版本的累积更新",
-        "content": "<p><del>没错，就是 Windows 累积更新那种东西</del></p>\n<p>不知不觉间，已经过去了一年，从 Qv2ray v2.0 到现在的 v2.7 pre2 预览版，感谢大家对我们以及对整个 Anti-Censorship 团队的支持</p>\n<p>由于种种原因，我们无法及时更新 Qv2ray 的功能。距离 v2.7 正式版发布还有很长时间，为了避免「遇到问题只能从 GitHub Actions 下载开发版」的窘境，我们在此发布一版累积更新。<br>\n此版本基于最新的 <code>dev</code> 分支发布，具有部分新功能和不确定性</p>\n<p>祝大家新春快乐</p>\n<blockquote>\n<p>Qv2ray Founder <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/U-v-U/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/U-v-U\">@U-v-U</a></p>\n</blockquote>\n<p>另说明：从此版本以后我们不再提供 x86 版本</p>",
-        "url": "https://github.com/Qv2ray/Qv2ray/releases/tag/v2.7.0-pre2",
-        "time": "2021-02-11T14:26:47Z"
-    },
     "lx-music": {
         "tag": "v1.7.1",
         "title": "1.7.1",
@@ -41,12 +27,33 @@
         "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v1.7.1",
         "time": "2021-01-30T06:57:19Z"
     },
+    "Trojan-Go-core": {
+        "tag": "v0.8.2",
+        "title": "v0.8.2",
+        "content": "<ul>\n<li>\n<p>修复前置代理 bug</p>\n</li>\n<li>\n<p>修复 URL 生成问题</p>\n</li>\n<li>\n<p>修复细微 bug</p>\n</li>\n<li>\n<p>支持泛域名证书</p>\n</li>\n<li>\n<p>Go 版本升级到 1.15</p>\n</li>\n<li>\n<p>新增 YAML 配置示例</p>\n</li>\n</ul>",
+        "url": "https://github.com/p4gefau1t/trojan-go/releases/tag/v0.8.2",
+        "time": "2020-09-06T05:55:25Z"
+    },
+    "Qv2ray": {
+        "tag": "v2.7.0-pre2",
+        "title": "针对 Qv2ray Preview 版本的累积更新",
+        "content": "<p><del>没错，就是 Windows 累积更新那种东西</del></p>\n<p>不知不觉间，已经过去了一年，从 Qv2ray v2.0 到现在的 v2.7 pre2 预览版，感谢大家对我们以及对整个 Anti-Censorship 团队的支持</p>\n<p>由于种种原因，我们无法及时更新 Qv2ray 的功能。距离 v2.7 正式版发布还有很长时间，为了避免「遇到问题只能从 GitHub Actions 下载开发版」的窘境，我们在此发布一版累积更新。<br>\n此版本基于最新的 <code>dev</code> 分支发布，具有部分新功能和不确定性</p>\n<p>祝大家新春快乐</p>\n<blockquote>\n<p>Qv2ray Founder <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/U-v-U/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/U-v-U\">@U-v-U</a></p>\n</blockquote>\n<p>另说明：从此版本以后我们不再提供 x86 版本</p>",
+        "url": "https://github.com/Qv2ray/Qv2ray/releases/tag/v2.7.0-pre2",
+        "time": "2021-02-11T14:26:47Z"
+    },
     "Xray-core": {
-        "tag": "v1.3.0",
-        "title": "Xray-core v1.3.0",
-        "content": "<h2>Topic: VLESS &amp; VMess &amp; Mux UDP FullCone NAT，Xray-core 里程碑</h2>\n<h3>Background</h3>\n<p><a href=\"https://github.com/XTLS/Xray-core/discussions/237\" data-hovercard-type=\"discussion\" data-hovercard-url=\"/XTLS/Xray-core/discussions/237/hovercard\">Xray-core v1.2.x 实现并巩固了 FullCone 特性，而 VLESS、VMess、Mux 受制于协议结构，暂时无法实现 FullCone。</a></p>\n<h3>Progress</h3>\n<p><a href=\"https://github.com/XTLS/Xray-core/discussions/252\" data-hovercard-type=\"discussion\" data-hovercard-url=\"/XTLS/Xray-core/discussions/252/hovercard\">Xray-core v1.3.0 通过非常巧妙的机制实现了 V 系协议全部 FullCone，同时与旧版保持一定的兼容性。</a></p>\n<h3>Usage</h3>\n<p>客户端、服务端均升至 Xray-core v1.3.0+ 即可享受无处不在的 FullCone，软件本身无需任何额外配置，注意：</p>\n<ol>\n<li>服务端防火墙需要放行 UDP 高位端口（1024-65535），Docker 容器的网络模式需要是 Host</li>\n<li>此时 100% 能实现 FullCone，起作用的是 VPS 的公网 IP，与本地的 NAT 环境无关</li>\n<li>客户端 Xray-core v1.3.0+、服务端 v2fly-core 时，会测出假的 FullCone</li>\n</ol>\n<p>若你需要关闭 Xray-core 的 FullCone 特性，可在客户端设置环境变量 <code>XRAY_CONE_DISABLED = true</code></p>\n<h3>Milestone</h3>\n<p>至此，Xray-core 实现了全软件全协议全出入站全传输方式的全面 FullCone，这是一个里程碑式的成就：</p>\n<p><strong>无论你在用 VLESS/VMess/Mux/Trojan/Shadowsocks，无论你选择 XTLS/KCP/CDN/H2/QUIC，无论 Socks 还是 TPROXY... 全部 FullCone</strong></p>\n<p>FullCone 不再是哪个协议的专利，它已经像空气一样自然，随处可见，不留任何遗憾。</p>\n<h2>Features</h2>\n<h3>Single-port Multi-user API</h3>\n<p>Xray-core 的 Shadowsocks AEAD 服务端单端口多用户现已支持 API 动态增删用户 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/AkinoKaede/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/AkinoKaede\">@AkinoKaede</a></p>\n<p>至此，Xray-core 的 VLESS、Trojan、VMess、Shadowsocks 入站全部支持端口复用、API。</p>\n<h3>XTLS &amp; TLS hot reloading</h3>\n<p>服务端更新 OCSP 数据前自动检查并重载证书及私钥文件 @eMeab</p>\n<p>证书、私钥填路径并开启 OCSP Stapling，即可无需在更新上述文件后重启 Xray-core。</p>\n<h3>Mixed JSON/TOML/YAML</h3>\n<p>多文件配置现已支持同时读取不同格式的配置文件 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/yjh1021317464/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/yjh1021317464\">@yjh1021317464</a></p>\n<h2>Chores</h2>\n<ul>\n<li>Use Go 1.15.8</li>\n<li>Update geoip.dat, geosite.dat</li>\n</ul>\n<h2>Happy <g-emoji class=\"g-emoji\" alias=\"cow\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f42e.png\">🐮</g-emoji> Year <g-emoji class=\"g-emoji\" alias=\"tada\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f389.png\">🎉</g-emoji></h2>",
-        "url": "https://github.com/XTLS/Xray-core/releases/tag/v1.3.0",
-        "time": "2021-02-14T14:38:39Z"
+        "tag": "v1.3.1",
+        "title": "Xray-core v1.3.1",
+        "content": "<h1>Features</h1>\n<ul>\n<li>Enable (X)TLS hot reloading by default <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"811643290\" data-permission-text=\"Title is private\" data-url=\"https://github.com/XTLS/Xray-core/issues/281\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/XTLS/Xray-core/pull/281/hovercard\" href=\"https://github.com/XTLS/Xray-core/pull/281\">#281</a></li>\n<li>Add <code>/opt/share/xray/</code> to assets location <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/kidonng/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/kidonng\">@kidonng</a></li>\n</ul>\n<h1>Fixes</h1>\n<ul>\n<li>Fix key derivation function panic in Go 1.16 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rprx/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rprx\">@rprx</a></li>\n<li>Fix freedom outbound UDP redirect <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rprx/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rprx\">@rprx</a></li>\n<li>Fix context canceled while dialing HTTP/2 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JimhHan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JimhHan\">@JimhHan</a></li>\n<li>Restrict tags to be unique <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JimhHan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JimhHan\">@JimhHan</a></li>\n<li>Skip closed client being chosen for reverse connection <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Xray9/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Xray9\">@Xray9</a></li>\n<li>Fix ALPN being set to h2 by default when using TCP transport with (X)TLS <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/AkinoKaede/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/AkinoKaede\">@AkinoKaede</a></li>\n<li>Remove useless imports in <code>main/run.go</code> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rprx/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rprx\">@rprx</a></li>\n</ul>\n<h1>Chores</h1>\n<ul>\n<li>Add GitHub Actions <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/kokeri/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/kokeri\">@kokeri</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/xinb/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/xinb\">@xinb</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/AkinoKaede/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/AkinoKaede\">@AkinoKaede</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JimhHan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JimhHan\">@JimhHan</a></li>\n<li>Use Go 1.16.0</li>\n<li>Upgrade dependencies</li>\n</ul>",
+        "url": "https://github.com/XTLS/Xray-core/releases/tag/v1.3.1",
+        "time": "2021-03-02T16:47:17Z"
+    },
+    "QvPlugin-SSR": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-SSR v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:22:26Z"
     },
     "ProxySU": {
         "tag": "v2.5.6",
@@ -62,12 +69,19 @@
         "url": "https://github.com/v2fly/v2ray-core/releases/tag/v4.34.0",
         "time": "2021-01-06T09:28:50Z"
     },
-    "Trojan-Go-core": {
-        "tag": "v0.8.2",
-        "title": "v0.8.2",
-        "content": "<ul>\n<li>\n<p>修复前置代理 bug</p>\n</li>\n<li>\n<p>修复 URL 生成问题</p>\n</li>\n<li>\n<p>修复细微 bug</p>\n</li>\n<li>\n<p>支持泛域名证书</p>\n</li>\n<li>\n<p>Go 版本升级到 1.15</p>\n</li>\n<li>\n<p>新增 YAML 配置示例</p>\n</li>\n</ul>",
-        "url": "https://github.com/p4gefau1t/trojan-go/releases/tag/v0.8.2",
-        "time": "2020-09-06T05:55:25Z"
+    "Traffic-Monitor": {
+        "tag": "V1.79.1",
+        "title": "V1.79.1",
+        "content": "<ul>\n<li>修正注册表句柄泄漏的问题。</li>\n<li>修正当主窗口和任务栏窗口都不显示时，不统计CPU和内存利用率的问题。</li>\n</ul>",
+        "url": "https://github.com/zhongyang219/TrafficMonitor/releases/tag/V1.79.1",
+        "time": "2020-08-05T13:01:48Z"
+    },
+    "Halo": {
+        "tag": "v1.4.5",
+        "title": "1.4.5",
+        "content": "<h2>Improvements</h2>\n<ul>\n<li>sitemap.xml 新增所有分类和标签的链接。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"803489761\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1267\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1267/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1267\">#1267</a></li>\n</ul>\n<h2>Bug Fixes</h2>\n<ul>\n<li>修复后台因为垂直滚动条导致界面抖动的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"803481002\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo-admin/issues/293\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo-admin/pull/293/hovercard\" href=\"https://github.com/halo-dev/halo-admin/pull/293\">halo-dev/halo-admin#293</a></li>\n<li>修复加密分类页面输入密码后重定向的页面链接不正确的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"803289335\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1264\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1264/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1264\">#1264</a></li>\n</ul>\n<h2>Upgrade guide</h2>\n<p><a href=\"https://docs.halo.run/install/upgrade\" rel=\"nofollow\">https://docs.halo.run/install/upgrade</a></p>",
+        "url": "https://github.com/halo-dev/halo/releases/tag/v1.4.5",
+        "time": "2021-02-08T12:28:18Z"
     },
     "PicGo": {
         "tag": "v2.3.0-beta.4",
@@ -76,25 +90,11 @@
         "url": "https://github.com/Molunerfinn/PicGo/releases/tag/v2.3.0-beta.4",
         "time": "2020-12-21T09:35:23Z"
     },
-    "Traffic-Monitor": {
-        "tag": "V1.79.1",
-        "title": "V1.79.1",
-        "content": "<ul>\n<li>修正注册表句柄泄漏的问题。</li>\n<li>修正当主窗口和任务栏窗口都不显示时，不统计CPU和内存利用率的问题。</li>\n</ul>",
-        "url": "https://github.com/zhongyang219/TrafficMonitor/releases/tag/V1.79.1",
-        "time": "2020-08-05T13:01:48Z"
-    },
     "Hexo-next": {
         "tag": "v8.2.2",
         "title": "v8.2.2",
         "content": "<h2><g-emoji class=\"g-emoji\" alias=\"star\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2b50.png\">⭐</g-emoji> Features</h2>\n<ul>\n<li>Add external link icon options (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"797713471\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/192\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/192/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/192\">#192</a>)</li>\n<li>Fix exturl title (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"798505814\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/193\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/193/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/193\">#193</a>)</li>\n<li>New gitalk proxy option (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"807257188\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/205\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/205/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/205\">#205</a>)</li>\n</ul>\n<h2><g-emoji class=\"g-emoji\" alias=\"hammer_and_wrench\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png\">🛠</g-emoji> Improvements</h2>\n<ul>\n<li>Use minified js files for jsdelivr and cdnjs (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"809498924\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/207\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/207/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/207\">#207</a>)</li>\n</ul>\n<h2><g-emoji class=\"g-emoji\" alias=\"cyclone\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f300.png\">🌀</g-emoji> External Changes</h2>\n<ul>\n<li>Update dependency hexo to v5.4.0 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"812805314\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/210\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/210/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/210\">#210</a>)</li>\n<li>Update dependency eslint to v7.21.0 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"807608174\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/206\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/206/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/206\">#206</a>)</li>\n<li>Update dependency mocha to v8.3.0 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"806687985\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/204\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/204/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/204\">#204</a>)</li>\n<li>Update dependency hexo-renderer-marked to v4 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"806588821\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/203\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/203/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/203\">#203</a>)</li>\n<li>Update dependency chai to v4.3.0 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"801243525\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/194\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/194/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/194\">#194</a>)</li>\n<li>Update peaceiris/actions-label-commenter action to v1.9.1 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"805210709\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/202\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/202/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/202\">#202</a>)</li>\n</ul>\n<h2><g-emoji class=\"g-emoji\" alias=\"earth_africa\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f30d.png\">🌍</g-emoji> Localization</h2>\n<ul>\n<li>New Crowdin updates (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"804889088\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/201\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/201/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/201\">#201</a>)</li>\n</ul>\n<hr>\n<p>For full changes, see the <a href=\"https://github.com/next-theme/hexo-theme-next/compare/v8.2.1...v8.2.2\">comparison between v8.2.1 and v8.2.2</a></p>",
         "url": "https://github.com/next-theme/hexo-theme-next/releases/tag/v8.2.2",
         "time": "2021-02-28T13:17:25Z"
-    },
-    "Halo": {
-        "tag": "v1.4.5",
-        "title": "1.4.5",
-        "content": "<h2>Improvements</h2>\n<ul>\n<li>sitemap.xml 新增所有分类和标签的链接。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"803489761\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1267\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1267/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1267\">#1267</a></li>\n</ul>\n<h2>Bug Fixes</h2>\n<ul>\n<li>修复后台因为垂直滚动条导致界面抖动的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"803481002\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo-admin/issues/293\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo-admin/pull/293/hovercard\" href=\"https://github.com/halo-dev/halo-admin/pull/293\">halo-dev/halo-admin#293</a></li>\n<li>修复加密分类页面输入密码后重定向的页面链接不正确的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"803289335\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1264\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1264/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1264\">#1264</a></li>\n</ul>\n<h2>Upgrade guide</h2>\n<p><a href=\"https://docs.halo.run/install/upgrade\" rel=\"nofollow\">https://docs.halo.run/install/upgrade</a></p>",
-        "url": "https://github.com/halo-dev/halo/releases/tag/v1.4.5",
-        "time": "2021-02-08T12:28:18Z"
     }
 }
