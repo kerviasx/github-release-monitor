@@ -29,7 +29,8 @@ GITHUB_RELEASES = {
     "Hexo-next": "https://github.com/next-theme/hexo-theme-next/releases.atom",
     "Halo": "https://github.com/halo-dev/halo/releases.atom",
     "Traffic-Monitor": "https://github.com/zhongyang219/TrafficMonitor/releases.atom",
-    "PicGo": "https://github.com/Molunerfinn/PicGo/releases.atom"
+    "PicGo": "https://github.com/Molunerfinn/PicGo/releases.atom",
+    "V2ray-agent": "https://github.com/mack-a/v2ray-agent/releases.atom"
 }
 
 # 发送邮箱配置
