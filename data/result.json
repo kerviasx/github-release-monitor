@@ -6,13 +6,6 @@
         "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v1.7.1",
         "time": "2021-01-30T06:57:19Z"
     },
-    "QvPlugin-SSR": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-SSR v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:22:26Z"
-    },
     "QvPlugin-SS": {
         "tag": "v3.0.0-pre3",
         "title": "QvPlugin-SS v3.0.0-pre3 prerelease",
@@ -20,19 +13,12 @@
         "url": "https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:30:39Z"
     },
-    "Xray-core": {
-        "tag": "v1.3.1",
-        "title": "Xray-core v1.3.1",
-        "content": "<h2>Features</h2>\n<ul>\n<li>Enable (X)TLS hot reloading by default <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"811643290\" data-permission-text=\"Title is private\" data-url=\"https://github.com/XTLS/Xray-core/issues/281\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/XTLS/Xray-core/pull/281/hovercard\" href=\"https://github.com/XTLS/Xray-core/pull/281\">#281</a></li>\n<li>Add <code>/opt/share/xray/</code> to assets location <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/kidonng/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/kidonng\">@kidonng</a></li>\n</ul>\n<h2>Fixes</h2>\n<ul>\n<li>Fix key derivation function panic in Go 1.16 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rprx/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rprx\">@rprx</a></li>\n<li>Fix freedom outbound UDP redirect <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rprx/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rprx\">@rprx</a></li>\n<li>Fix context canceled while dialing HTTP/2 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JimhHan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JimhHan\">@JimhHan</a></li>\n<li>Restrict tags to be unique <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JimhHan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JimhHan\">@JimhHan</a></li>\n<li>Skip closed client being chosen for reverse connection <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Xray9/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Xray9\">@Xray9</a></li>\n<li>Fix ALPN being set to h2 by default when using TCP transport with (X)TLS <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/AkinoKaede/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/AkinoKaede\">@AkinoKaede</a></li>\n<li>Remove useless imports in <code>main/run.go</code> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rprx/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rprx\">@rprx</a></li>\n</ul>\n<h2>Chores</h2>\n<ul>\n<li>Add GitHub Actions <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/kokeri/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/kokeri\">@kokeri</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/xinb/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/xinb\">@xinb</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/AkinoKaede/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/AkinoKaede\">@AkinoKaede</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JimhHan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JimhHan\">@JimhHan</a></li>\n<li>Use Go 1.16.0</li>\n<li>Upgrade dependencies</li>\n</ul>",
-        "url": "https://github.com/XTLS/Xray-core/releases/tag/v1.3.1",
-        "time": "2021-03-03T05:00:33Z"
-    },
-    "Qv2ray": {
-        "tag": "v2.7.0-pre2",
-        "title": "针对 Qv2ray Preview 版本的累积更新",
-        "content": "<p><del>没错，就是 Windows 累积更新那种东西</del></p>\n<p>不知不觉间，已经过去了一年，从 Qv2ray v2.0 到现在的 v2.7 pre2 预览版，感谢大家对我们以及对整个 Anti-Censorship 团队的支持</p>\n<p>由于种种原因，我们无法及时更新 Qv2ray 的功能。距离 v2.7 正式版发布还有很长时间，为了避免「遇到问题只能从 GitHub Actions 下载开发版」的窘境，我们在此发布一版累积更新。<br>\n此版本基于最新的 <code>dev</code> 分支发布，具有部分新功能和不确定性</p>\n<p>祝大家新春快乐</p>\n<blockquote>\n<p>Qv2ray Founder <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/U-v-U/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/U-v-U\">@U-v-U</a></p>\n</blockquote>\n<p>另说明：从此版本以后我们不再提供 x86 版本</p>",
-        "url": "https://github.com/Qv2ray/Qv2ray/releases/tag/v2.7.0-pre2",
-        "time": "2021-02-11T14:26:47Z"
+    "QvPlugin-Trojan-GO": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-Trojan-Go v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-Trojan-Go v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> Only for Qv2ray v2.7.0-pre1. NOT FOR Qv2ray v2.6.3 or v2.7.0-alpha1.</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:24:13Z"
     },
     "QvPlugin-Trojan": {
         "tag": "v3.0.0-pre3",
@@ -41,12 +27,33 @@
         "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:25:43Z"
     },
-    "QvPlugin-Trojan-GO": {
+    "Trojan-Go-core": {
+        "tag": "v0.8.2",
+        "title": "v0.8.2",
+        "content": "<ul>\n<li>\n<p>修复前置代理 bug</p>\n</li>\n<li>\n<p>修复 URL 生成问题</p>\n</li>\n<li>\n<p>修复细微 bug</p>\n</li>\n<li>\n<p>支持泛域名证书</p>\n</li>\n<li>\n<p>Go 版本升级到 1.15</p>\n</li>\n<li>\n<p>新增 YAML 配置示例</p>\n</li>\n</ul>",
+        "url": "https://github.com/p4gefau1t/trojan-go/releases/tag/v0.8.2",
+        "time": "2020-09-06T05:55:25Z"
+    },
+    "Xray-core": {
+        "tag": "v1.3.1",
+        "title": "Xray-core v1.3.1",
+        "content": "<h2>Features</h2>\n<ul>\n<li>Enable (X)TLS hot reloading by default <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"811643290\" data-permission-text=\"Title is private\" data-url=\"https://github.com/XTLS/Xray-core/issues/281\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/XTLS/Xray-core/pull/281/hovercard\" href=\"https://github.com/XTLS/Xray-core/pull/281\">#281</a></li>\n<li>Add <code>/opt/share/xray/</code> to assets location <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/kidonng/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/kidonng\">@kidonng</a></li>\n</ul>\n<h2>Fixes</h2>\n<ul>\n<li>Fix key derivation function panic in Go 1.16 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rprx/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rprx\">@rprx</a></li>\n<li>Fix freedom outbound UDP redirect <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rprx/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rprx\">@rprx</a></li>\n<li>Fix context canceled while dialing HTTP/2 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JimhHan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JimhHan\">@JimhHan</a></li>\n<li>Restrict tags to be unique <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JimhHan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JimhHan\">@JimhHan</a></li>\n<li>Skip closed client being chosen for reverse connection <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Xray9/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Xray9\">@Xray9</a></li>\n<li>Fix ALPN being set to h2 by default when using TCP transport with (X)TLS <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/AkinoKaede/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/AkinoKaede\">@AkinoKaede</a></li>\n<li>Remove useless imports in <code>main/run.go</code> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rprx/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rprx\">@rprx</a></li>\n</ul>\n<h2>Chores</h2>\n<ul>\n<li>Add GitHub Actions <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/kokeri/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/kokeri\">@kokeri</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/xinb/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/xinb\">@xinb</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/AkinoKaede/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/AkinoKaede\">@AkinoKaede</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JimhHan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JimhHan\">@JimhHan</a></li>\n<li>Use Go 1.16.0</li>\n<li>Upgrade dependencies</li>\n</ul>",
+        "url": "https://github.com/XTLS/Xray-core/releases/tag/v1.3.1",
+        "time": "2021-03-03T05:00:33Z"
+    },
+    "QvPlugin-SSR": {
         "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-Trojan-Go v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-Trojan-Go v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> Only for Qv2ray v2.7.0-pre1. NOT FOR Qv2ray v2.6.3 or v2.7.0-alpha1.</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:24:13Z"
+        "title": "QvPlugin-SSR v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:22:26Z"
+    },
+    "Qv2ray": {
+        "tag": "v2.7.0-pre2",
+        "title": "针对 Qv2ray Preview 版本的累积更新",
+        "content": "<p><del>没错，就是 Windows 累积更新那种东西</del></p>\n<p>不知不觉间，已经过去了一年，从 Qv2ray v2.0 到现在的 v2.7 pre2 预览版，感谢大家对我们以及对整个 Anti-Censorship 团队的支持</p>\n<p>由于种种原因，我们无法及时更新 Qv2ray 的功能。距离 v2.7 正式版发布还有很长时间，为了避免「遇到问题只能从 GitHub Actions 下载开发版」的窘境，我们在此发布一版累积更新。<br>\n此版本基于最新的 <code>dev</code> 分支发布，具有部分新功能和不确定性</p>\n<p>祝大家新春快乐</p>\n<blockquote>\n<p>Qv2ray Founder <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/U-v-U/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/U-v-U\">@U-v-U</a></p>\n</blockquote>\n<p>另说明：从此版本以后我们不再提供 x86 版本</p>",
+        "url": "https://github.com/Qv2ray/Qv2ray/releases/tag/v2.7.0-pre2",
+        "time": "2021-02-11T14:26:47Z"
     },
     "ProxySU": {
         "tag": "v2.5.6",
@@ -62,12 +69,12 @@
         "url": "https://github.com/v2fly/v2ray-core/releases/tag/v4.35.0",
         "time": "2021-03-05T08:01:49Z"
     },
-    "Trojan-Go-core": {
-        "tag": "v0.8.2",
-        "title": "v0.8.2",
-        "content": "<ul>\n<li>\n<p>修复前置代理 bug</p>\n</li>\n<li>\n<p>修复 URL 生成问题</p>\n</li>\n<li>\n<p>修复细微 bug</p>\n</li>\n<li>\n<p>支持泛域名证书</p>\n</li>\n<li>\n<p>Go 版本升级到 1.15</p>\n</li>\n<li>\n<p>新增 YAML 配置示例</p>\n</li>\n</ul>",
-        "url": "https://github.com/p4gefau1t/trojan-go/releases/tag/v0.8.2",
-        "time": "2020-09-06T05:55:25Z"
+    "V2ray-agent": {
+        "tag": "v2.3.27",
+        "title": "v2.3.27",
+        "content": "<ul>\n<li>fix(脚本): 修改由于格式错误导致设置dns解锁netflix后启动失败</li>\n</ul>",
+        "url": "https://github.com/mack-a/v2ray-agent/releases/tag/v2.3.27",
+        "time": "2021-03-05T01:51:00Z"
     },
     "Traffic-Monitor": {
         "tag": "V1.79.1",
@@ -75,13 +82,6 @@
         "content": "<ul>\n<li>修正注册表句柄泄漏的问题。</li>\n<li>修正当主窗口和任务栏窗口都不显示时，不统计CPU和内存利用率的问题。</li>\n</ul>",
         "url": "https://github.com/zhongyang219/TrafficMonitor/releases/tag/V1.79.1",
         "time": "2020-08-05T13:01:48Z"
-    },
-    "V2ray-agent": {
-        "tag": "v2.3.27",
-        "title": "v2.3.27",
-        "content": "<ul>\n<li>fix(脚本): 修改由于格式错误导致设置dns解锁netflix后启动失败</li>\n</ul>",
-        "url": "https://github.com/mack-a/v2ray-agent/releases/tag/v2.3.27",
-        "time": "2021-03-05T01:51:00Z"
     },
     "PicGo": {
         "tag": "v2.3.0-beta.4",
