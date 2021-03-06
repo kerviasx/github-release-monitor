@@ -6,12 +6,12 @@
         "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v1.7.1",
         "time": "2021-01-30T06:57:19Z"
     },
-    "QvPlugin-SS": {
+    "QvPlugin-Trojan": {
         "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-SS v3.0.0-pre3 prerelease",
-        "content": "<p><g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.6.x or v2.7.0-alpha1.</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:30:39Z"
+        "title": "QvPlugin-Trojan v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-Trojan v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.7.0-alpha1 or v2.6.3.</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:25:43Z"
     },
     "QvPlugin-Trojan-GO": {
         "tag": "v3.0.0-pre3",
@@ -20,26 +20,12 @@
         "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:24:13Z"
     },
-    "QvPlugin-Trojan": {
+    "QvPlugin-SS": {
         "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-Trojan v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-Trojan v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.7.0-alpha1 or v2.6.3.</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:25:43Z"
-    },
-    "Trojan-Go-core": {
-        "tag": "v0.8.2",
-        "title": "v0.8.2",
-        "content": "<ul>\n<li>\n<p>修复前置代理 bug</p>\n</li>\n<li>\n<p>修复 URL 生成问题</p>\n</li>\n<li>\n<p>修复细微 bug</p>\n</li>\n<li>\n<p>支持泛域名证书</p>\n</li>\n<li>\n<p>Go 版本升级到 1.15</p>\n</li>\n<li>\n<p>新增 YAML 配置示例</p>\n</li>\n</ul>",
-        "url": "https://github.com/p4gefau1t/trojan-go/releases/tag/v0.8.2",
-        "time": "2020-09-06T05:55:25Z"
-    },
-    "Xray-core": {
-        "tag": "v1.3.1",
-        "title": "Xray-core v1.3.1",
-        "content": "<h2>Features</h2>\n<ul>\n<li>Enable (X)TLS hot reloading by default <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"811643290\" data-permission-text=\"Title is private\" data-url=\"https://github.com/XTLS/Xray-core/issues/281\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/XTLS/Xray-core/pull/281/hovercard\" href=\"https://github.com/XTLS/Xray-core/pull/281\">#281</a></li>\n<li>Add <code>/opt/share/xray/</code> to assets location <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/kidonng/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/kidonng\">@kidonng</a></li>\n</ul>\n<h2>Fixes</h2>\n<ul>\n<li>Fix key derivation function panic in Go 1.16 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rprx/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rprx\">@rprx</a></li>\n<li>Fix freedom outbound UDP redirect <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rprx/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rprx\">@rprx</a></li>\n<li>Fix context canceled while dialing HTTP/2 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JimhHan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JimhHan\">@JimhHan</a></li>\n<li>Restrict tags to be unique <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JimhHan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JimhHan\">@JimhHan</a></li>\n<li>Skip closed client being chosen for reverse connection <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Xray9/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Xray9\">@Xray9</a></li>\n<li>Fix ALPN being set to h2 by default when using TCP transport with (X)TLS <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/AkinoKaede/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/AkinoKaede\">@AkinoKaede</a></li>\n<li>Remove useless imports in <code>main/run.go</code> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rprx/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rprx\">@rprx</a></li>\n</ul>\n<h2>Chores</h2>\n<ul>\n<li>Add GitHub Actions <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/kokeri/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/kokeri\">@kokeri</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/xinb/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/xinb\">@xinb</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/AkinoKaede/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/AkinoKaede\">@AkinoKaede</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JimhHan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JimhHan\">@JimhHan</a></li>\n<li>Use Go 1.16.0</li>\n<li>Upgrade dependencies</li>\n</ul>",
-        "url": "https://github.com/XTLS/Xray-core/releases/tag/v1.3.1",
-        "time": "2021-03-03T05:00:33Z"
+        "title": "QvPlugin-SS v3.0.0-pre3 prerelease",
+        "content": "<p><g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.6.x or v2.7.0-alpha1.</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:30:39Z"
     },
     "QvPlugin-SSR": {
         "tag": "v3.0.0-pre3",
@@ -47,6 +33,13 @@
         "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
         "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:22:26Z"
+    },
+    "Trojan-Go-core": {
+        "tag": "v0.8.2",
+        "title": "v0.8.2",
+        "content": "<ul>\n<li>\n<p>修复前置代理 bug</p>\n</li>\n<li>\n<p>修复 URL 生成问题</p>\n</li>\n<li>\n<p>修复细微 bug</p>\n</li>\n<li>\n<p>支持泛域名证书</p>\n</li>\n<li>\n<p>Go 版本升级到 1.15</p>\n</li>\n<li>\n<p>新增 YAML 配置示例</p>\n</li>\n</ul>",
+        "url": "https://github.com/p4gefau1t/trojan-go/releases/tag/v0.8.2",
+        "time": "2020-09-06T05:55:25Z"
     },
     "Qv2ray": {
         "tag": "v2.7.0-pre2",
@@ -69,12 +62,12 @@
         "url": "https://github.com/v2fly/v2ray-core/releases/tag/v4.35.0",
         "time": "2021-03-05T08:01:49Z"
     },
-    "V2ray-agent": {
-        "tag": "v2.3.27",
-        "title": "v2.3.27",
-        "content": "<ul>\n<li>fix(脚本): 修改由于格式错误导致设置dns解锁netflix后启动失败</li>\n</ul>",
-        "url": "https://github.com/mack-a/v2ray-agent/releases/tag/v2.3.27",
-        "time": "2021-03-05T01:51:00Z"
+    "Xray-core": {
+        "tag": "v1.3.1",
+        "title": "Xray-core v1.3.1",
+        "content": "<h2>Features</h2>\n<ul>\n<li>Enable (X)TLS hot reloading by default <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"811643290\" data-permission-text=\"Title is private\" data-url=\"https://github.com/XTLS/Xray-core/issues/281\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/XTLS/Xray-core/pull/281/hovercard\" href=\"https://github.com/XTLS/Xray-core/pull/281\">#281</a></li>\n<li>Add <code>/opt/share/xray/</code> to assets location <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/kidonng/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/kidonng\">@kidonng</a></li>\n</ul>\n<h2>Fixes</h2>\n<ul>\n<li>Fix key derivation function panic in Go 1.16 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rprx/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rprx\">@rprx</a></li>\n<li>Fix freedom outbound UDP redirect <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rprx/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rprx\">@rprx</a></li>\n<li>Fix context canceled while dialing HTTP/2 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JimhHan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JimhHan\">@JimhHan</a></li>\n<li>Restrict tags to be unique <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JimhHan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JimhHan\">@JimhHan</a></li>\n<li>Skip closed client being chosen for reverse connection <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Xray9/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Xray9\">@Xray9</a></li>\n<li>Fix ALPN being set to h2 by default when using TCP transport with (X)TLS <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/AkinoKaede/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/AkinoKaede\">@AkinoKaede</a></li>\n<li>Remove useless imports in <code>main/run.go</code> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rprx/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rprx\">@rprx</a></li>\n</ul>\n<h2>Chores</h2>\n<ul>\n<li>Add GitHub Actions <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/kokeri/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/kokeri\">@kokeri</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/xinb/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/xinb\">@xinb</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/AkinoKaede/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/AkinoKaede\">@AkinoKaede</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JimhHan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JimhHan\">@JimhHan</a></li>\n<li>Use Go 1.16.0</li>\n<li>Upgrade dependencies</li>\n</ul>",
+        "url": "https://github.com/XTLS/Xray-core/releases/tag/v1.3.1",
+        "time": "2021-03-03T05:00:33Z"
     },
     "Traffic-Monitor": {
         "tag": "V1.79.1",
@@ -89,6 +82,13 @@
         "content": "<p><strong>注意：这不是正式版，可以尝鲜新功能，但是并不会保证稳定性。</strong></p>\n<h2>Feature</h2>\n<ul>\n<li>新增：对配置文件自动备份。一旦出现配置文件损坏的问题将会尝试从备份文件恢复。如果不存在备份文件，将重新初始化配置文件。备份文件为 <code>data.bak.json</code>，与配置文件在同一目录。解决因为配置文件损坏导致无法启动PicGo的问题（<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"683993477\" data-permission-text=\"Title is private\" data-url=\"https://github.com/Molunerfinn/PicGo/issues/557\" data-hovercard-type=\"issue\" data-hovercard-url=\"/Molunerfinn/PicGo/issues/557/hovercard\" href=\"https://github.com/Molunerfinn/PicGo/issues/557\">#557</a>）。</li>\n</ul>\n<h2>Bug Fix</h2>\n<ul>\n<li>修复：禁用插件后，重启PicGo，在插件面板无法显示被禁用插件的问题 (<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/Molunerfinn/PicGo/commit/33fdb16dedecde4d1c6a877f76c12883663e7dae/hovercard\" href=\"https://github.com/Molunerfinn/PicGo/commit/33fdb16dedecde4d1c6a877f76c12883663e7dae\"><tt>33fdb16</tt></a>)</li>\n<li>修复：快捷键设置 shortKeyConfig 可能是 undefined 的问题 (<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/Molunerfinn/PicGo/commit/7b5e5ef2ed1067af721668087ec40cb2c47c160c/hovercard\" href=\"https://github.com/Molunerfinn/PicGo/commit/7b5e5ef2ed1067af721668087ec40cb2c47c160c\"><tt>7b5e5ef</tt></a>), closes <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"683993477\" data-permission-text=\"Title is private\" data-url=\"https://github.com/Molunerfinn/PicGo/issues/557\" data-hovercard-type=\"issue\" data-hovercard-url=\"/Molunerfinn/PicGo/issues/557/hovercard\" href=\"https://github.com/Molunerfinn/PicGo/issues/557\">#557</a></li>\n<li>修复：通过URL上传前没有对URL encode 的问题 (<a class=\"commit-link\" data-hovercard-type=\"commit\" data-hovercard-url=\"https://github.com/Molunerfinn/PicGo/commit/ce2b5cdeab13037ea3a0336a32597679b4ac17e9/hovercard\" href=\"https://github.com/Molunerfinn/PicGo/commit/ce2b5cdeab13037ea3a0336a32597679b4ac17e9\"><tt>ce2b5cd</tt></a>), closes <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"735209394\" data-permission-text=\"Title is private\" data-url=\"https://github.com/Molunerfinn/PicGo/issues/581\" data-hovercard-type=\"issue\" data-hovercard-url=\"/Molunerfinn/PicGo/issues/581/hovercard\" href=\"https://github.com/Molunerfinn/PicGo/issues/581\">#581</a></li>\n</ul>\n<h2>Others</h2>\n<p><a href=\"https://github.com/PicGo/PicGo-Core\">PicGo-Core</a> 升级到 v1.4.14</p>",
         "url": "https://github.com/Molunerfinn/PicGo/releases/tag/v2.3.0-beta.4",
         "time": "2020-12-21T09:35:23Z"
+    },
+    "V2ray-agent": {
+        "tag": "v2.3.27",
+        "title": "v2.3.27",
+        "content": "<ul>\n<li>fix(脚本): 修改由于格式错误导致设置dns解锁netflix后启动失败</li>\n</ul>",
+        "url": "https://github.com/mack-a/v2ray-agent/releases/tag/v2.3.27",
+        "time": "2021-03-05T01:51:00Z"
     },
     "Halo": {
         "tag": "v1.4.5",
