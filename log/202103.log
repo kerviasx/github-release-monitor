@@ -287,3 +287,26 @@
 2021-03-07 12:21:03 root:INFO:[ID=139983686661888]:V2ray-agent->https://github.com/mack-a/v2ray-agent/releases.atom
 2021-03-07 12:21:03 root:INFO:Monitor End
 
+2021-03-07 22:16:20 root:INFO:Monitor Start
+2021-03-07 22:16:20 root:INFO:[ID=139808491955968]:Qv2ray->https://github.com/Qv2ray/Qv2ray/releases.atom
+2021-03-07 22:16:20 root:INFO:[ID=139808500348672]:QvPlugin-Trojan->https://github.com/Qv2ray/QvPlugin-Trojan/releases.atom
+2021-03-07 22:16:20 root:INFO:[ID=139808483563264]:QvPlugin-Trojan-GO->https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases.atom
+2021-03-07 22:16:20 root:INFO:[ID=139808466777856]:QvPlugin-SSR->https://github.com/Qv2ray/QvPlugin-SSR/releases.atom
+2021-03-07 22:16:20 root:INFO:[ID=139808449992448]:QvPlugin-SS->https://github.com/Qv2ray/QvPlugin-SS/releases.atom
+2021-03-07 22:16:20 root:INFO:[ID=139807963477760]:V2ray-core->https://github.com/v2fly/v2ray-core/releases.atom
+2021-03-07 22:16:20 root:INFO:[ID=139807955085056]:Xray-core->https://github.com/XTLS/Xray-core/releases.atom
+2021-03-07 22:16:20 root:INFO:[ID=139808583255808]:Trojan-Go-core->https://github.com/p4gefau1t/trojan-go/releases.atom
+2021-03-07 22:16:20 root:INFO:[ID=139808475170560]:ProxySU->https://github.com/proxysu/windows/releases.atom
+2021-03-07 22:16:20 root:INFO:[ID=139808458385152]:lx-music->https://github.com/lyswhut/lx-music-desktop/releases.atom
+2021-03-07 22:16:20 root:INFO:[ID=139808458385152]:Hexo-next->https://github.com/next-theme/hexo-theme-next/releases.atom
+2021-03-07 22:16:20 root:INFO:[ID=139808449992448]:Halo->https://github.com/halo-dev/halo/releases.atom
+2021-03-07 22:16:20 root:INFO:[ID=139808466777856]:Traffic-Monitor->https://github.com/zhongyang219/TrafficMonitor/releases.atom
+2021-03-07 22:16:20 root:INFO:[ID=139808500348672]:PicGo->https://github.com/Molunerfinn/PicGo/releases.atom
+2021-03-07 22:16:20 root:INFO:[ID=139808483563264]:V2ray-agent->https://github.com/mack-a/v2ray-agent/releases.atom
+2021-03-07 22:16:20 root:INFO:-*--*--*--*--*--*--*--*--*--*-
+2021-03-07 22:16:20 root:INFO:lx-music -- v1.8.1
+2021-03-07 22:16:20 root:INFO:V2ray-core -- v4.35.1
+2021-03-07 22:16:23 root:INFO:发送邮件成功！
+2021-03-07 22:16:23 root:INFO:-*--*--*--*--*--*--*--*--*--*-
+2021-03-07 22:16:23 root:INFO:Monitor End
+
