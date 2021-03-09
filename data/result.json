@@ -1,11 +1,4 @@
 {
-    "QvPlugin-SS": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-SS v3.0.0-pre3 prerelease",
-        "content": "<p><g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.6.x or v2.7.0-alpha1.</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:30:39Z"
-    },
     "lx-music": {
         "tag": "v1.8.1",
         "title": "1.8.1",
@@ -20,12 +13,12 @@
         "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:22:26Z"
     },
-    "QvPlugin-Trojan-GO": {
+    "QvPlugin-Trojan": {
         "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-Trojan-Go v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-Trojan-Go v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> Only for Qv2ray v2.7.0-pre1. NOT FOR Qv2ray v2.6.3 or v2.7.0-alpha1.</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:24:13Z"
+        "title": "QvPlugin-Trojan v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-Trojan v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.7.0-alpha1 or v2.6.3.</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:25:43Z"
     },
     "Trojan-Go-core": {
         "tag": "v0.8.2",
@@ -34,12 +27,26 @@
         "url": "https://github.com/p4gefau1t/trojan-go/releases/tag/v0.8.2",
         "time": "2020-09-06T05:55:25Z"
     },
-    "Xray-core": {
-        "tag": "v1.3.1",
-        "title": "Xray-core v1.3.1",
-        "content": "<h2>Features</h2>\n<ul>\n<li>Enable (X)TLS hot reloading by default <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"811643290\" data-permission-text=\"Title is private\" data-url=\"https://github.com/XTLS/Xray-core/issues/281\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/XTLS/Xray-core/pull/281/hovercard\" href=\"https://github.com/XTLS/Xray-core/pull/281\">#281</a></li>\n<li>Add <code>/opt/share/xray/</code> to assets location <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/kidonng/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/kidonng\">@kidonng</a></li>\n</ul>\n<h2>Fixes</h2>\n<ul>\n<li>Fix key derivation function panic in Go 1.16 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rprx/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rprx\">@rprx</a></li>\n<li>Fix freedom outbound UDP redirect <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rprx/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rprx\">@rprx</a></li>\n<li>Fix context canceled while dialing HTTP/2 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JimhHan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JimhHan\">@JimhHan</a></li>\n<li>Restrict tags to be unique <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JimhHan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JimhHan\">@JimhHan</a></li>\n<li>Skip closed client being chosen for reverse connection <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Xray9/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Xray9\">@Xray9</a></li>\n<li>Fix ALPN being set to h2 by default when using TCP transport with (X)TLS <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/AkinoKaede/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/AkinoKaede\">@AkinoKaede</a></li>\n<li>Remove useless imports in <code>main/run.go</code> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rprx/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rprx\">@rprx</a></li>\n</ul>\n<h2>Chores</h2>\n<ul>\n<li>Add GitHub Actions <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/kokeri/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/kokeri\">@kokeri</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/xinb/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/xinb\">@xinb</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/AkinoKaede/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/AkinoKaede\">@AkinoKaede</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JimhHan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JimhHan\">@JimhHan</a></li>\n<li>Use Go 1.16.0</li>\n<li>Upgrade dependencies</li>\n</ul>",
-        "url": "https://github.com/XTLS/Xray-core/releases/tag/v1.3.1",
-        "time": "2021-03-03T05:00:33Z"
+    "QvPlugin-Trojan-GO": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-Trojan-Go v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-Trojan-Go v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> Only for Qv2ray v2.7.0-pre1. NOT FOR Qv2ray v2.6.3 or v2.7.0-alpha1.</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:24:13Z"
+    },
+    "ProxySU": {
+        "tag": "v2.5.6",
+        "title": "v2.5.6",
+        "content": "<ol>\n<li>修复安装证书时，线程同步报错问题。</li>\n</ol>",
+        "url": "https://github.com/proxysu/ProxySU/releases/tag/v2.5.6",
+        "time": "2021-02-02T11:08:11Z"
+    },
+    "QvPlugin-SS": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-SS v3.0.0-pre3 prerelease",
+        "content": "<p><g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.6.x or v2.7.0-alpha1.</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:30:39Z"
     },
     "Qv2ray": {
         "tag": "v2.7.0-pre2",
@@ -48,12 +55,12 @@
         "url": "https://github.com/Qv2ray/Qv2ray/releases/tag/v2.7.0-pre2",
         "time": "2021-02-11T14:26:47Z"
     },
-    "QvPlugin-Trojan": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-Trojan v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-Trojan v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.7.0-alpha1 or v2.6.3.</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:25:43Z"
+    "Xray-core": {
+        "tag": "v1.3.1",
+        "title": "Xray-core v1.3.1",
+        "content": "<h2>Features</h2>\n<ul>\n<li>Enable (X)TLS hot reloading by default <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"811643290\" data-permission-text=\"Title is private\" data-url=\"https://github.com/XTLS/Xray-core/issues/281\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/XTLS/Xray-core/pull/281/hovercard\" href=\"https://github.com/XTLS/Xray-core/pull/281\">#281</a></li>\n<li>Add <code>/opt/share/xray/</code> to assets location <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/kidonng/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/kidonng\">@kidonng</a></li>\n</ul>\n<h2>Fixes</h2>\n<ul>\n<li>Fix key derivation function panic in Go 1.16 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rprx/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rprx\">@rprx</a></li>\n<li>Fix freedom outbound UDP redirect <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rprx/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rprx\">@rprx</a></li>\n<li>Fix context canceled while dialing HTTP/2 <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JimhHan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JimhHan\">@JimhHan</a></li>\n<li>Restrict tags to be unique <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JimhHan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JimhHan\">@JimhHan</a></li>\n<li>Skip closed client being chosen for reverse connection <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Xray9/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Xray9\">@Xray9</a></li>\n<li>Fix ALPN being set to h2 by default when using TCP transport with (X)TLS <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/AkinoKaede/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/AkinoKaede\">@AkinoKaede</a></li>\n<li>Remove useless imports in <code>main/run.go</code> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/rprx/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rprx\">@rprx</a></li>\n</ul>\n<h2>Chores</h2>\n<ul>\n<li>Add GitHub Actions <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/kokeri/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/kokeri\">@kokeri</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/xinb/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/xinb\">@xinb</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/AkinoKaede/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/AkinoKaede\">@AkinoKaede</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/JimhHan/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/JimhHan\">@JimhHan</a></li>\n<li>Use Go 1.16.0</li>\n<li>Upgrade dependencies</li>\n</ul>",
+        "url": "https://github.com/XTLS/Xray-core/releases/tag/v1.3.1",
+        "time": "2021-03-03T05:00:33Z"
     },
     "V2ray-core": {
         "tag": "v4.35.1",
@@ -62,12 +69,12 @@
         "url": "https://github.com/v2fly/v2ray-core/releases/tag/v4.35.1",
         "time": "2021-03-07T14:08:16Z"
     },
-    "ProxySU": {
-        "tag": "v2.5.6",
-        "title": "v2.5.6",
-        "content": "<ol>\n<li>修复安装证书时，线程同步报错问题。</li>\n</ol>",
-        "url": "https://github.com/proxysu/ProxySU/releases/tag/v2.5.6",
-        "time": "2021-02-02T11:08:11Z"
+    "Traffic-Monitor": {
+        "tag": "V1.79.1",
+        "title": "V1.79.1",
+        "content": "<ul>\n<li>修正注册表句柄泄漏的问题。</li>\n<li>修正当主窗口和任务栏窗口都不显示时，不统计CPU和内存利用率的问题。</li>\n</ul>",
+        "url": "https://github.com/zhongyang219/TrafficMonitor/releases/tag/V1.79.1",
+        "time": "2020-08-05T13:01:48Z"
     },
     "V2ray-agent": {
         "tag": "v2.3.29",
@@ -83,13 +90,6 @@
         "url": "https://github.com/Molunerfinn/PicGo/releases/tag/v2.3.0-beta.4",
         "time": "2020-12-21T09:35:23Z"
     },
-    "Hexo-next": {
-        "tag": "v8.2.2",
-        "title": "v8.2.2",
-        "content": "<h2><g-emoji class=\"g-emoji\" alias=\"star\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2b50.png\">⭐</g-emoji> Features</h2>\n<ul>\n<li>Add external link icon options (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"797713471\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/192\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/192/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/192\">#192</a>)</li>\n<li>Fix exturl title (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"798505814\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/193\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/193/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/193\">#193</a>)</li>\n<li>New gitalk proxy option (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"807257188\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/205\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/205/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/205\">#205</a>)</li>\n</ul>\n<h2><g-emoji class=\"g-emoji\" alias=\"hammer_and_wrench\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png\">🛠</g-emoji> Improvements</h2>\n<ul>\n<li>Use minified js files for jsdelivr and cdnjs (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"809498924\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/207\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/207/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/207\">#207</a>)</li>\n</ul>\n<h2><g-emoji class=\"g-emoji\" alias=\"cyclone\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f300.png\">🌀</g-emoji> External Changes</h2>\n<ul>\n<li>Update dependency hexo to v5.4.0 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"812805314\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/210\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/210/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/210\">#210</a>)</li>\n<li>Update dependency eslint to v7.21.0 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"807608174\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/206\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/206/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/206\">#206</a>)</li>\n<li>Update dependency mocha to v8.3.0 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"806687985\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/204\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/204/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/204\">#204</a>)</li>\n<li>Update dependency hexo-renderer-marked to v4 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"806588821\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/203\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/203/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/203\">#203</a>)</li>\n<li>Update dependency chai to v4.3.0 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"801243525\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/194\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/194/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/194\">#194</a>)</li>\n<li>Update peaceiris/actions-label-commenter action to v1.9.1 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"805210709\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/202\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/202/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/202\">#202</a>)</li>\n</ul>\n<h2><g-emoji class=\"g-emoji\" alias=\"earth_africa\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f30d.png\">🌍</g-emoji> Localization</h2>\n<ul>\n<li>New Crowdin updates (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"804889088\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/201\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/201/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/201\">#201</a>)</li>\n</ul>\n<hr>\n<p>For full changes, see the <a href=\"https://github.com/next-theme/hexo-theme-next/compare/v8.2.1...v8.2.2\">comparison between v8.2.1 and v8.2.2</a></p>",
-        "url": "https://github.com/next-theme/hexo-theme-next/releases/tag/v8.2.2",
-        "time": "2021-02-28T13:17:25Z"
-    },
     "Halo": {
         "tag": "v1.4.6",
         "title": "1.4.6",
@@ -97,11 +97,11 @@
         "url": "https://github.com/halo-dev/halo/releases/tag/v1.4.6",
         "time": "2021-03-07T14:43:57Z"
     },
-    "Traffic-Monitor": {
-        "tag": "V1.79.1",
-        "title": "V1.79.1",
-        "content": "<ul>\n<li>修正注册表句柄泄漏的问题。</li>\n<li>修正当主窗口和任务栏窗口都不显示时，不统计CPU和内存利用率的问题。</li>\n</ul>",
-        "url": "https://github.com/zhongyang219/TrafficMonitor/releases/tag/V1.79.1",
-        "time": "2020-08-05T13:01:48Z"
+    "Hexo-next": {
+        "tag": "v8.2.2",
+        "title": "v8.2.2",
+        "content": "<h2><g-emoji class=\"g-emoji\" alias=\"star\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2b50.png\">⭐</g-emoji> Features</h2>\n<ul>\n<li>Add external link icon options (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"797713471\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/192\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/192/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/192\">#192</a>)</li>\n<li>Fix exturl title (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"798505814\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/193\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/193/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/193\">#193</a>)</li>\n<li>New gitalk proxy option (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"807257188\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/205\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/205/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/205\">#205</a>)</li>\n</ul>\n<h2><g-emoji class=\"g-emoji\" alias=\"hammer_and_wrench\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png\">🛠</g-emoji> Improvements</h2>\n<ul>\n<li>Use minified js files for jsdelivr and cdnjs (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"809498924\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/207\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/207/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/207\">#207</a>)</li>\n</ul>\n<h2><g-emoji class=\"g-emoji\" alias=\"cyclone\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f300.png\">🌀</g-emoji> External Changes</h2>\n<ul>\n<li>Update dependency hexo to v5.4.0 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"812805314\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/210\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/210/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/210\">#210</a>)</li>\n<li>Update dependency eslint to v7.21.0 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"807608174\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/206\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/206/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/206\">#206</a>)</li>\n<li>Update dependency mocha to v8.3.0 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"806687985\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/204\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/204/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/204\">#204</a>)</li>\n<li>Update dependency hexo-renderer-marked to v4 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"806588821\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/203\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/203/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/203\">#203</a>)</li>\n<li>Update dependency chai to v4.3.0 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"801243525\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/194\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/194/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/194\">#194</a>)</li>\n<li>Update peaceiris/actions-label-commenter action to v1.9.1 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"805210709\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/202\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/202/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/202\">#202</a>)</li>\n</ul>\n<h2><g-emoji class=\"g-emoji\" alias=\"earth_africa\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f30d.png\">🌍</g-emoji> Localization</h2>\n<ul>\n<li>New Crowdin updates (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"804889088\" data-permission-text=\"Title is private\" data-url=\"https://github.com/next-theme/hexo-theme-next/issues/201\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/next-theme/hexo-theme-next/pull/201/hovercard\" href=\"https://github.com/next-theme/hexo-theme-next/pull/201\">#201</a>)</li>\n</ul>\n<hr>\n<p>For full changes, see the <a href=\"https://github.com/next-theme/hexo-theme-next/compare/v8.2.1...v8.2.2\">comparison between v8.2.1 and v8.2.2</a></p>",
+        "url": "https://github.com/next-theme/hexo-theme-next/releases/tag/v8.2.2",
+        "time": "2021-02-28T13:17:25Z"
     }
 }
