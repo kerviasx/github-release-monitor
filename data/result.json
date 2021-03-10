@@ -1,11 +1,4 @@
 {
-    "lx-music": {
-        "tag": "v1.8.1",
-        "title": "1.8.1",
-        "content": "<h3>修复</h3>\n<ul>\n<li>修复歌词翻译的主题颜色适配问题</li>\n</ul>",
-        "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v1.8.1",
-        "time": "2021-03-07T10:12:29Z"
-    },
     "QvPlugin-SS": {
         "tag": "v3.0.0-pre3",
         "title": "QvPlugin-SS v3.0.0-pre3 prerelease",
@@ -13,26 +6,19 @@
         "url": "https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:30:39Z"
     },
-    "QvPlugin-Trojan": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-Trojan v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-Trojan v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.7.0-alpha1 or v2.6.3.</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:25:43Z"
-    },
-    "Trojan-Go-core": {
-        "tag": "v0.8.2",
-        "title": "v0.8.2",
-        "content": "<ul>\n<li>\n<p>修复前置代理 bug</p>\n</li>\n<li>\n<p>修复 URL 生成问题</p>\n</li>\n<li>\n<p>修复细微 bug</p>\n</li>\n<li>\n<p>支持泛域名证书</p>\n</li>\n<li>\n<p>Go 版本升级到 1.15</p>\n</li>\n<li>\n<p>新增 YAML 配置示例</p>\n</li>\n</ul>",
-        "url": "https://github.com/p4gefau1t/trojan-go/releases/tag/v0.8.2",
-        "time": "2020-09-06T05:55:25Z"
-    },
     "QvPlugin-Trojan-GO": {
         "tag": "v3.0.0-pre3",
         "title": "QvPlugin-Trojan-Go v3.0.0-pre3 prerelease",
         "content": "<p>QvPlugin-Trojan-Go v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> Only for Qv2ray v2.7.0-pre1. NOT FOR Qv2ray v2.6.3 or v2.7.0-alpha1.</p>",
         "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3",
         "time": "2020-11-05T02:24:13Z"
+    },
+    "QvPlugin-Trojan": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-Trojan v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-Trojan v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.7.0-alpha1 or v2.6.3.</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:25:43Z"
     },
     "QvPlugin-SSR": {
         "tag": "v3.0.0-pre3",
@@ -55,12 +41,26 @@
         "url": "https://github.com/Qv2ray/Qv2ray/releases/tag/v2.7.0-pre2",
         "time": "2021-02-11T14:26:47Z"
     },
+    "Trojan-Go-core": {
+        "tag": "v0.8.2",
+        "title": "v0.8.2",
+        "content": "<ul>\n<li>\n<p>修复前置代理 bug</p>\n</li>\n<li>\n<p>修复 URL 生成问题</p>\n</li>\n<li>\n<p>修复细微 bug</p>\n</li>\n<li>\n<p>支持泛域名证书</p>\n</li>\n<li>\n<p>Go 版本升级到 1.15</p>\n</li>\n<li>\n<p>新增 YAML 配置示例</p>\n</li>\n</ul>",
+        "url": "https://github.com/p4gefau1t/trojan-go/releases/tag/v0.8.2",
+        "time": "2020-09-06T05:55:25Z"
+    },
     "ProxySU": {
         "tag": "v2.5.6",
         "title": "v2.5.6",
         "content": "<ol>\n<li>修复安装证书时，线程同步报错问题。</li>\n</ol>",
         "url": "https://github.com/proxysu/ProxySU/releases/tag/v2.5.6",
         "time": "2021-02-02T11:08:11Z"
+    },
+    "lx-music": {
+        "tag": "v1.8.2",
+        "title": "1.8.2",
+        "content": "<h3>修复</h3>\n<ul>\n<li>修复歌曲ID存储变更导致酷狗图片获取失败的问题</li>\n<li>修复收藏的在线列表id迁移保存出错的问题</li>\n</ul>",
+        "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v1.8.2",
+        "time": "2021-03-10T02:41:46Z"
     },
     "V2ray-core": {
         "tag": "v4.35.1",
