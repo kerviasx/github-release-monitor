@@ -1,4 +1,32 @@
 {
+    "lx-music": {
+        "tag": "v1.8.2",
+        "title": "1.8.2",
+        "content": "<h3>修复</h3>\n<ul>\n<li>修复歌曲ID存储变更导致酷狗图片获取失败的问题</li>\n<li>修复收藏的在线列表id迁移保存出错的问题</li>\n</ul>",
+        "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v1.8.2",
+        "time": "2021-03-10T02:41:46Z"
+    },
+    "QvPlugin-Trojan-GO": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-Trojan-Go v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-Trojan-Go v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> Only for Qv2ray v2.7.0-pre1. NOT FOR Qv2ray v2.6.3 or v2.7.0-alpha1.</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:24:13Z"
+    },
+    "QvPlugin-SS": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-SS v3.0.0-pre3 prerelease",
+        "content": "<p><g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.6.x or v2.7.0-alpha1.</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:30:39Z"
+    },
+    "Qv2ray": {
+        "tag": "v2.7.0-pre2",
+        "title": "针对 Qv2ray Preview 版本的累积更新",
+        "content": "<p><del>没错，就是 Windows 累积更新那种东西</del></p>\n<p>不知不觉间，已经过去了一年，从 Qv2ray v2.0 到现在的 v2.7 pre2 预览版，感谢大家对我们以及对整个 Anti-Censorship 团队的支持</p>\n<p>由于种种原因，我们无法及时更新 Qv2ray 的功能。距离 v2.7 正式版发布还有很长时间，为了避免「遇到问题只能从 GitHub Actions 下载开发版」的窘境，我们在此发布一版累积更新。<br>\n此版本基于最新的 <code>dev</code> 分支发布，具有部分新功能和不确定性</p>\n<p>祝大家新春快乐</p>\n<blockquote>\n<p>Qv2ray Founder <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/U-v-U/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/U-v-U\">@U-v-U</a></p>\n</blockquote>\n<p>另说明：从此版本以后我们不再提供 x86 版本</p>",
+        "url": "https://github.com/Qv2ray/Qv2ray/releases/tag/v2.7.0-pre2",
+        "time": "2021-02-11T14:26:47Z"
+    },
     "Trojan-Go-core": {
         "tag": "v0.8.2",
         "title": "v0.8.2",
@@ -6,12 +34,19 @@
         "url": "https://github.com/p4gefau1t/trojan-go/releases/tag/v0.8.2",
         "time": "2020-09-06T05:55:25Z"
     },
-    "lx-music": {
-        "tag": "v1.8.2",
-        "title": "1.8.2",
-        "content": "<h3>修复</h3>\n<ul>\n<li>修复歌曲ID存储变更导致酷狗图片获取失败的问题</li>\n<li>修复收藏的在线列表id迁移保存出错的问题</li>\n</ul>",
-        "url": "https://github.com/lyswhut/lx-music-desktop/releases/tag/v1.8.2",
-        "time": "2021-03-10T02:41:46Z"
+    "QvPlugin-SSR": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-SSR v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:22:26Z"
+    },
+    "QvPlugin-Trojan": {
+        "tag": "v3.0.0-pre3",
+        "title": "QvPlugin-Trojan v3.0.0-pre3 prerelease",
+        "content": "<p>QvPlugin-Trojan v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.7.0-alpha1 or v2.6.3.</p>",
+        "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
+        "time": "2020-11-05T02:25:43Z"
     },
     "Xray-core": {
         "tag": "v1.3.1",
@@ -34,13 +69,6 @@
         "url": "https://github.com/proxysu/ProxySU/releases/tag/v2.5.6",
         "time": "2021-02-02T11:08:11Z"
     },
-    "QvPlugin-SS": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-SS v3.0.0-pre3 prerelease",
-        "content": "<p><g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.6.x or v2.7.0-alpha1.</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-SS/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:30:39Z"
-    },
     "Traffic-Monitor": {
         "tag": "V1.79.1",
         "title": "V1.79.1",
@@ -48,12 +76,12 @@
         "url": "https://github.com/zhongyang219/TrafficMonitor/releases/tag/V1.79.1",
         "time": "2020-08-05T13:01:48Z"
     },
-    "V2ray-agent": {
-        "tag": "v2.4.3",
-        "title": "v2.4.3",
-        "content": "<ul>\n<li>fix(脚本): 修改mtg开机自启设置错误</li>\n</ul>",
-        "url": "https://github.com/mack-a/v2ray-agent/releases/tag/v2.4.3",
-        "time": "2021-03-12T08:16:38Z"
+    "Halo": {
+        "tag": "v1.4.6",
+        "title": "1.4.6",
+        "content": "<h2>Features</h2>\n<ul>\n<li>主题编写支持继承以及 block 特性。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"821905522\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1295\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1295/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1295\">#1295</a></li>\n</ul>\n<h2>Improvements</h2>\n<ul>\n<li>重构初始化页面，目前分为全新安装和数据导入。从这个版本开始，数据导入将导入所有数据。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"812634103\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo-admin/issues/296\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo-admin/pull/296/hovercard\" href=\"https://github.com/halo-dev/halo-admin/pull/296\">halo-dev/halo-admin#296</a></li>\n<li>优化后台菜单管理的排序拖动体验。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"799015041\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo-admin/issues/291\" data-hovercard-type=\"issue\" data-hovercard-url=\"/halo-dev/halo-admin/issues/291/hovercard\" href=\"https://github.com/halo-dev/halo-admin/issues/291\">halo-dev/halo-admin#291</a></li>\n<li>移除后台设置项字符数的限制。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"817431931\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1287\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1287/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1287\">#1287</a></li>\n</ul>\n<h2>Bug Fixes</h2>\n<ul>\n<li>修复后台上传组件格式限制不生效的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"812634103\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo-admin/issues/296\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo-admin/pull/296/hovercard\" href=\"https://github.com/halo-dev/halo-admin/pull/296\">halo-dev/halo-admin#296</a></li>\n<li>修复后台新建文章页面，点击浏览器回退键不提示保存的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"823674282\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo-admin/issues/302\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo-admin/pull/302/hovercard\" href=\"https://github.com/halo-dev/halo-admin/pull/302\">halo-dev/halo-admin#302</a></li>\n<li>修复后台备份无法下载的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"812105302\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1278\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1278/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1278\">#1278</a></li>\n<li>修复 1.4.5 版本中前台页面渲染不完整的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"823855530\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1301\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1301/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1301\">#1301</a></li>\n<li>修复上传某些格式的图片因为缩略图生成失败导致上传错误的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"823267886\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1298\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1298/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1298\">#1298</a></li>\n<li>修复 Swagger 文档分页数据字段和实际不一致的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"812023932\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1277\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1277/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1277\">#1277</a></li>\n<li>修复 1.4.5 版本中通过主题包升级主题失败的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"815498497\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1284\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1284/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1284\">#1284</a></li>\n</ul>\n<h2>Upgrade guide</h2>\n<p><a href=\"https://docs.halo.run/install/upgrade\" rel=\"nofollow\">https://docs.halo.run/install/upgrade</a></p>",
+        "url": "https://github.com/halo-dev/halo/releases/tag/v1.4.6",
+        "time": "2021-03-07T14:43:57Z"
     },
     "PicGo": {
         "tag": "v2.3.0-beta.4",
@@ -69,39 +97,11 @@
         "url": "https://github.com/next-theme/hexo-theme-next/releases/tag/v8.2.2",
         "time": "2021-02-28T13:17:25Z"
     },
-    "QvPlugin-SSR": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-SSR v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-SSR v3.0.0-pre3 prerelease<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> for Qv2ray v2.7.0-pre1 and later.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> NOT FOR Qv2ray v2.6.3 or Qv2ray v2.7.0-alpha1/2</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:22:26Z"
-    },
-    "QvPlugin-Trojan": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-Trojan v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-Trojan v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> ONLY FOR Qv2ray v2.7.0-pre1. NOT FOR v2.7.0-alpha1 or v2.6.3.</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:25:43Z"
-    },
-    "QvPlugin-Trojan-GO": {
-        "tag": "v3.0.0-pre3",
-        "title": "QvPlugin-Trojan-Go v3.0.0-pre3 prerelease",
-        "content": "<p>QvPlugin-Trojan-Go v3.0.0-pre3 prerelease.<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\">⚠️</g-emoji> Only for Qv2ray v2.7.0-pre1. NOT FOR Qv2ray v2.6.3 or v2.7.0-alpha1.</p>",
-        "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/tag/v3.0.0-pre3",
-        "time": "2020-11-05T02:24:13Z"
-    },
-    "Qv2ray": {
-        "tag": "v2.7.0-pre2",
-        "title": "针对 Qv2ray Preview 版本的累积更新",
-        "content": "<p><del>没错，就是 Windows 累积更新那种东西</del></p>\n<p>不知不觉间，已经过去了一年，从 Qv2ray v2.0 到现在的 v2.7 pre2 预览版，感谢大家对我们以及对整个 Anti-Censorship 团队的支持</p>\n<p>由于种种原因，我们无法及时更新 Qv2ray 的功能。距离 v2.7 正式版发布还有很长时间，为了避免「遇到问题只能从 GitHub Actions 下载开发版」的窘境，我们在此发布一版累积更新。<br>\n此版本基于最新的 <code>dev</code> 分支发布，具有部分新功能和不确定性</p>\n<p>祝大家新春快乐</p>\n<blockquote>\n<p>Qv2ray Founder <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/U-v-U/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/U-v-U\">@U-v-U</a></p>\n</blockquote>\n<p>另说明：从此版本以后我们不再提供 x86 版本</p>",
-        "url": "https://github.com/Qv2ray/Qv2ray/releases/tag/v2.7.0-pre2",
-        "time": "2021-02-11T14:26:47Z"
-    },
-    "Halo": {
-        "tag": "v1.4.6",
-        "title": "1.4.6",
-        "content": "<h2>Features</h2>\n<ul>\n<li>主题编写支持继承以及 block 特性。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"821905522\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1295\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1295/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1295\">#1295</a></li>\n</ul>\n<h2>Improvements</h2>\n<ul>\n<li>重构初始化页面，目前分为全新安装和数据导入。从这个版本开始，数据导入将导入所有数据。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"812634103\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo-admin/issues/296\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo-admin/pull/296/hovercard\" href=\"https://github.com/halo-dev/halo-admin/pull/296\">halo-dev/halo-admin#296</a></li>\n<li>优化后台菜单管理的排序拖动体验。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"799015041\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo-admin/issues/291\" data-hovercard-type=\"issue\" data-hovercard-url=\"/halo-dev/halo-admin/issues/291/hovercard\" href=\"https://github.com/halo-dev/halo-admin/issues/291\">halo-dev/halo-admin#291</a></li>\n<li>移除后台设置项字符数的限制。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"817431931\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1287\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1287/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1287\">#1287</a></li>\n</ul>\n<h2>Bug Fixes</h2>\n<ul>\n<li>修复后台上传组件格式限制不生效的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"812634103\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo-admin/issues/296\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo-admin/pull/296/hovercard\" href=\"https://github.com/halo-dev/halo-admin/pull/296\">halo-dev/halo-admin#296</a></li>\n<li>修复后台新建文章页面，点击浏览器回退键不提示保存的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"823674282\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo-admin/issues/302\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo-admin/pull/302/hovercard\" href=\"https://github.com/halo-dev/halo-admin/pull/302\">halo-dev/halo-admin#302</a></li>\n<li>修复后台备份无法下载的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"812105302\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1278\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1278/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1278\">#1278</a></li>\n<li>修复 1.4.5 版本中前台页面渲染不完整的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"823855530\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1301\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1301/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1301\">#1301</a></li>\n<li>修复上传某些格式的图片因为缩略图生成失败导致上传错误的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"823267886\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1298\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1298/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1298\">#1298</a></li>\n<li>修复 Swagger 文档分页数据字段和实际不一致的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"812023932\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1277\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1277/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1277\">#1277</a></li>\n<li>修复 1.4.5 版本中通过主题包升级主题失败的问题。<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"815498497\" data-permission-text=\"Title is private\" data-url=\"https://github.com/halo-dev/halo/issues/1284\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/halo-dev/halo/pull/1284/hovercard\" href=\"https://github.com/halo-dev/halo/pull/1284\">#1284</a></li>\n</ul>\n<h2>Upgrade guide</h2>\n<p><a href=\"https://docs.halo.run/install/upgrade\" rel=\"nofollow\">https://docs.halo.run/install/upgrade</a></p>",
-        "url": "https://github.com/halo-dev/halo/releases/tag/v1.4.6",
-        "time": "2021-03-07T14:43:57Z"
+    "V2ray-agent": {
+        "tag": "v2.4.3",
+        "title": "v2.4.3",
+        "content": "<ul>\n<li>fix(脚本): 修改mtg开机自启设置错误</li>\n</ul>",
+        "url": "https://github.com/mack-a/v2ray-agent/releases/tag/v2.4.3",
+        "time": "2021-03-12T08:16:38Z"
     }
 }
