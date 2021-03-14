@@ -568,3 +568,25 @@
 2021-03-14 12:21:08 root:INFO:-*--*--*--*--*--*--*--*--*--*-
 2021-03-14 12:21:08 root:INFO:Monitor End
 
+2021-03-14 22:17:07 root:INFO:Monitor Start
+2021-03-14 22:17:07 root:INFO:[ID=139781846030080]:Qv2ray->https://github.com/Qv2ray/Qv2ray/releases.atom
+2021-03-14 22:17:07 root:INFO:[ID=139781837637376]:QvPlugin-Trojan->https://github.com/Qv2ray/QvPlugin-Trojan/releases.atom
+2021-03-14 22:17:07 root:INFO:[ID=139781812459264]:QvPlugin-Trojan-GO->https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases.atom
+2021-03-14 22:17:07 root:INFO:[ID=139781804066560]:QvPlugin-SSR->https://github.com/Qv2ray/QvPlugin-SSR/releases.atom
+2021-03-14 22:17:07 root:INFO:[ID=139781321258752]:QvPlugin-SS->https://github.com/Qv2ray/QvPlugin-SS/releases.atom
+2021-03-14 22:17:07 root:INFO:[ID=139781312866048]:V2ray-core->https://github.com/v2fly/v2ray-core/releases.atom
+2021-03-14 22:17:07 root:INFO:[ID=139781854422784]:Xray-core->https://github.com/XTLS/Xray-core/releases.atom
+2021-03-14 22:17:07 root:INFO:[ID=139781304473344]:Trojan-Go-core->https://github.com/p4gefau1t/trojan-go/releases.atom
+2021-03-14 22:17:07 root:INFO:[ID=139781829244672]:ProxySU->https://github.com/proxysu/windows/releases.atom
+2021-03-14 22:17:07 root:INFO:[ID=139781820851968]:lx-music->https://github.com/lyswhut/lx-music-desktop/releases.atom
+2021-03-14 22:17:08 root:INFO:[ID=139781812459264]:Hexo-next->https://github.com/next-theme/hexo-theme-next/releases.atom
+2021-03-14 22:17:08 root:INFO:[ID=139781837637376]:Traffic-Monitor->https://github.com/zhongyang219/TrafficMonitor/releases.atom
+2021-03-14 22:17:08 root:INFO:[ID=139781820851968]:Halo->https://github.com/halo-dev/halo/releases.atom
+2021-03-14 22:17:08 root:INFO:[ID=139781321258752]:PicGo->https://github.com/Molunerfinn/PicGo/releases.atom
+2021-03-14 22:17:08 root:INFO:[ID=139781304473344]:V2ray-agent->https://github.com/mack-a/v2ray-agent/releases.atom
+2021-03-14 22:17:08 root:INFO:-*--*--*--*--*--*--*--*--*--*-
+2021-03-14 22:17:08 root:INFO:Halo -- v1.4.7
+2021-03-14 22:17:11 root:INFO:发送邮件成功！
+2021-03-14 22:17:11 root:INFO:-*--*--*--*--*--*--*--*--*--*-
+2021-03-14 22:17:11 root:INFO:Monitor End
+
