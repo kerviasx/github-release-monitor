@@ -678,3 +678,38 @@
 2021-03-16 19:41:52 root:INFO:-*--*--*--*--*--*--*--*--*--*-
 2021-03-16 19:41:52 root:INFO:Monitor End
 
+2021-03-16 19:46:06 root:INFO:Monitor Start
+2021-03-16 19:46:06 root:INFO:[ID=140585193363200]:Qv2ray->https://github.com/Qv2ray/Qv2ray/releases.atom
+2021-03-16 19:46:06 root:INFO:[ID=140585176577792]:QvPlugin-Trojan->https://github.com/Qv2ray/QvPlugin-Trojan/releases.atom
+2021-03-16 19:46:06 root:INFO:[ID=140585168185088]:QvPlugin-Trojan-GO->https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases.atom
+2021-03-16 19:46:06 root:INFO:[ID=140585159792384]:QvPlugin-SSR->https://github.com/Qv2ray/QvPlugin-SSR/releases.atom
+2021-03-16 19:46:06 root:INFO:[ID=140584815687424]:QvPlugin-SS->https://github.com/Qv2ray/QvPlugin-SS/releases.atom
+2021-03-16 19:46:06 root:INFO:[ID=140584807294720]:V2ray-core->https://github.com/v2fly/v2ray-core/releases.atom
+2021-03-16 19:46:06 root:INFO:[ID=140584798902016]:Xray-core->https://github.com/XTLS/Xray-core/releases.atom
+2021-03-16 19:46:06 root:INFO:[ID=140584790509312]:Trojan-Go-core->https://github.com/p4gefau1t/trojan-go/releases.atom
+2021-03-16 19:46:06 root:INFO:[ID=140584782116608]:ProxySU->https://github.com/proxysu/windows/releases.atom
+2021-03-16 19:46:06 root:INFO:[ID=140585184970496]:lx-music->https://github.com/lyswhut/lx-music-desktop/releases.atom
+2021-03-16 19:46:06 root:INFO:[ID=140584790509312]:Hexo-next->https://github.com/next-theme/hexo-theme-next/releases.atom
+2021-03-16 19:46:06 root:INFO:[ID=140585176577792]:Halo->https://github.com/halo-dev/halo/releases.atom
+2021-03-16 19:46:06 root:INFO:[ID=140584815687424]:Traffic-Monitor->https://github.com/zhongyang219/TrafficMonitor/releases.atom
+2021-03-16 19:46:06 root:INFO:[ID=140585159792384]:PicGo->https://github.com/Molunerfinn/PicGo/releases.atom
+2021-03-16 19:46:06 root:INFO:[ID=140585168185088]:V2ray-agent->https://github.com/mack-a/v2ray-agent/releases.atom
+2021-03-16 19:46:06 root:INFO:-*--*--*--*--*--*--*--*--*--*-
+2021-03-16 19:46:06 root:INFO:Xray-core -- v1.4.0
+2021-03-16 19:46:06 root:INFO:ProxySU -- v2.5.6
+2021-03-16 19:46:06 root:INFO:V2ray-core -- v4.36.1
+2021-03-16 19:46:06 root:ERROR:Traceback (most recent call last):
+  File "src/main.py", line 28, in <module>
+    main(conf)
+  File "src/main.py", line 21, in main
+    githubSpider.check_update_all()
+  File "/home/runner/work/github-release-monitor/github-release-monitor/src/spiders/GithubSpider.py", line 101, in check_update_all
+    self.send_email(update_info_dict)
+  File "/home/runner/work/github-release-monitor/github-release-monitor/src/spiders/GithubSpider.py", line 108, in send_email
+    temp = TEMPLATE(update_info_dict)
+  File "/home/runner/work/github-release-monitor/github-release-monitor/src/spiders/template.py", line 98, in __init__
+    self.ret = HTMLT1.format(temp)
+KeyError: '\n            margin'
+
+2021-03-16 19:46:06 root:INFO:Monitor End
+
