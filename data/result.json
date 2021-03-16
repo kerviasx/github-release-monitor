@@ -4,7 +4,7 @@
         "title": "v0.8.2",
         "content": "<ul>\n<li>\n<p>修复前置代理 bug</p>\n</li>\n<li>\n<p>修复 URL 生成问题</p>\n</li>\n<li>\n<p>修复细微 bug</p>\n</li>\n<li>\n<p>支持泛域名证书</p>\n</li>\n<li>\n<p>Go 版本升级到 1.15</p>\n</li>\n<li>\n<p>新增 YAML 配置示例</p>\n</li>\n</ul>",
         "url": "https://github.com/p4gefau1t/trojan-go/releases/tag/v0.8.2",
-        "time": "2020-09-06T05:55:25Z"
+        "time": "2020-09-06T115:55:25Z"
     },
     "QvPlugin-Trojan": {
         "tag": "v3.0.0-pre3",

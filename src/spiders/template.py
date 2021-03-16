@@ -82,7 +82,7 @@ HTMLT1 = \
 </head>
 
 <body>
-    {}
+    {content}
 </body>
 </html>
 """
@@ -95,7 +95,7 @@ class TEMPLATE(object):
                 temp += item.format(name=name, url=li['url'],title=li['title'],tag=li['tag'],content=li['content'])
             else:
                 temp += item.format(name=name, content="获取信息失败")
-        self.ret = HTMLT1.format(temp)
+        self.ret = HTMLT1.format(content=temp)
         
     def template(self):
         return self.ret
