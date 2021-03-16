@@ -71,18 +71,21 @@ HTMLT1 = \
             padding: 2px 50px;
             background-color: #eee;
         }
-
+        /*
         @media (min-width: 800px) {
             body {
                 width: 800px;
             }
-        }
+        }*/
     </style>
 
 </head>
 
 <body>
-    {content}
+"""
+
+HTMLT2 = \
+"""
 </body>
 </html>
 """
@@ -95,7 +98,7 @@ class TEMPLATE(object):
                 temp += item.format(name=name, url=li['url'],title=li['title'],tag=li['tag'],content=li['content'])
             else:
                 temp += item.format(name=name, content="获取信息失败")
-        self.ret = HTMLT1.format(content=temp)
+        self.ret = HTMLT1+temp+HTMLT2
         
     def template(self):
         return self.ret
