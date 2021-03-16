@@ -782,3 +782,25 @@ KeyError: '\n            margin'
 2021-03-16 20:04:11 root:INFO:-*--*--*--*--*--*--*--*--*--*-
 2021-03-16 20:04:11 root:INFO:Monitor End
 
+2021-03-16 22:17:21 root:INFO:Monitor Start
+2021-03-16 22:17:21 root:INFO:[ID=139877479868160]:Qv2ray->https://github.com/Qv2ray/Qv2ray/releases.atom
+2021-03-16 22:17:21 root:INFO:[ID=139877488260864]:QvPlugin-Trojan->https://github.com/Qv2ray/QvPlugin-Trojan/releases.atom
+2021-03-16 22:17:21 root:INFO:[ID=139877471475456]:QvPlugin-Trojan-GO->https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases.atom
+2021-03-16 22:17:21 root:INFO:[ID=139877454690048]:QvPlugin-SSR->https://github.com/Qv2ray/QvPlugin-SSR/releases.atom
+2021-03-16 22:17:21 root:INFO:[ID=139877437904640]:QvPlugin-SS->https://github.com/Qv2ray/QvPlugin-SS/releases.atom
+2021-03-16 22:17:21 root:INFO:[ID=139876951389952]:V2ray-core->https://github.com/v2fly/v2ray-core/releases.atom
+2021-03-16 22:17:21 root:INFO:[ID=139876942997248]:Xray-core->https://github.com/XTLS/Xray-core/releases.atom
+2021-03-16 22:17:21 root:INFO:[ID=139877565781760]:Trojan-Go-core->https://github.com/p4gefau1t/trojan-go/releases.atom
+2021-03-16 22:17:21 root:INFO:[ID=139877463082752]:ProxySU->https://github.com/proxysu/windows/releases.atom
+2021-03-16 22:17:21 root:INFO:[ID=139877446297344]:lx-music->https://github.com/lyswhut/lx-music-desktop/releases.atom
+2021-03-16 22:17:21 root:INFO:[ID=139877471475456]:Hexo-next->https://github.com/next-theme/hexo-theme-next/releases.atom
+2021-03-16 22:17:21 root:INFO:[ID=139877446297344]:Halo->https://github.com/halo-dev/halo/releases.atom
+2021-03-16 22:17:21 root:INFO:[ID=139877565781760]:Traffic-Monitor->https://github.com/zhongyang219/TrafficMonitor/releases.atom
+2021-03-16 22:17:21 root:INFO:[ID=139877488260864]:PicGo->https://github.com/Molunerfinn/PicGo/releases.atom
+2021-03-16 22:17:21 root:INFO:[ID=139877454690048]:V2ray-agent->https://github.com/mack-a/v2ray-agent/releases.atom
+2021-03-16 22:17:21 root:INFO:-*--*--*--*--*--*--*--*--*--*-
+2021-03-16 22:17:21 root:INFO:V2ray-core -- v4.36.2
+2021-03-16 22:17:24 root:INFO:发送邮件成功！
+2021-03-16 22:17:24 root:INFO:-*--*--*--*--*--*--*--*--*--*-
+2021-03-16 22:17:24 root:INFO:Monitor End
+
