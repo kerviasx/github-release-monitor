@@ -746,3 +746,39 @@ KeyError: '\n            margin'
 
 2021-03-16 19:50:24 root:INFO:Monitor End
 
+2021-03-16 20:04:07 root:INFO:Monitor Start
+2021-03-16 20:04:07 root:INFO:[ID=140070316091136]:Qv2ray->https://github.com/Qv2ray/Qv2ray/releases.atom
+2021-03-16 20:04:07 root:INFO:[ID=140070307698432]:QvPlugin-Trojan->https://github.com/Qv2ray/QvPlugin-Trojan/releases.atom
+2021-03-16 20:04:07 root:INFO:[ID=140070082307840]:QvPlugin-Trojan-GO->https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases.atom
+2021-03-16 20:04:07 root:INFO:[ID=140070073915136]:QvPlugin-SSR->https://github.com/Qv2ray/QvPlugin-SSR/releases.atom
+2021-03-16 20:04:07 root:INFO:[ID=140070065522432]:QvPlugin-SS->https://github.com/Qv2ray/QvPlugin-SS/releases.atom
+2021-03-16 20:04:07 root:INFO:[ID=140070057129728]:V2ray-core->https://github.com/v2fly/v2ray-core/releases.atom
+2021-03-16 20:04:07 root:INFO:[ID=140070048737024]:Xray-core->https://github.com/XTLS/Xray-core/releases.atom
+2021-03-16 20:04:07 root:INFO:[ID=140070040344320]:Trojan-Go-core->https://github.com/p4gefau1t/trojan-go/releases.atom
+2021-03-16 20:04:07 root:INFO:[ID=140070324483840]:ProxySU->https://github.com/proxysu/windows/releases.atom
+2021-03-16 20:04:07 root:INFO:[ID=140070090700544]:lx-music->https://github.com/lyswhut/lx-music-desktop/releases.atom
+2021-03-16 20:04:07 root:INFO:[ID=140070316091136]:Hexo-next->https://github.com/next-theme/hexo-theme-next/releases.atom
+2021-03-16 20:04:07 root:INFO:[ID=140070082307840]:Halo->https://github.com/halo-dev/halo/releases.atom
+2021-03-16 20:04:07 root:INFO:[ID=140070048737024]:Traffic-Monitor->https://github.com/zhongyang219/TrafficMonitor/releases.atom
+2021-03-16 20:04:07 root:INFO:[ID=140070065522432]:PicGo->https://github.com/Molunerfinn/PicGo/releases.atom
+2021-03-16 20:04:07 root:INFO:[ID=140070073915136]:V2ray-agent->https://github.com/mack-a/v2ray-agent/releases.atom
+2021-03-16 20:04:07 root:INFO:-*--*--*--*--*--*--*--*--*--*-
+2021-03-16 20:04:07 root:INFO:Qv2ray -- v2.7.0-pre2
+2021-03-16 20:04:07 root:INFO:QvPlugin-Trojan-GO -- v3.0.0-pre3
+2021-03-16 20:04:07 root:INFO:Xray-core -- v1.4.0
+2021-03-16 20:04:07 root:INFO:QvPlugin-SS -- v3.0.0-pre3
+2021-03-16 20:04:07 root:INFO:QvPlugin-SSR -- v3.0.0-pre3
+2021-03-16 20:04:07 root:INFO:Trojan-Go-core -- v0.8.2
+2021-03-16 20:04:07 root:INFO:lx-music -- v1.8.2
+2021-03-16 20:04:07 root:INFO:V2ray-core -- v4.36.1
+2021-03-16 20:04:07 root:INFO:QvPlugin-Trojan -- v3.0.0-pre3
+2021-03-16 20:04:07 root:INFO:ProxySU -- v2.5.6
+2021-03-16 20:04:07 root:INFO:Hexo-next -- v8.2.2
+2021-03-16 20:04:07 root:INFO:Halo -- v1.4.7
+2021-03-16 20:04:07 root:INFO:Traffic-Monitor -- V1.79.1
+2021-03-16 20:04:07 root:INFO:PicGo -- v2.3.0-beta.4
+2021-03-16 20:04:07 root:INFO:V2ray-agent -- v2.4.3
+2021-03-16 20:04:11 root:INFO:发送邮件成功！
+2021-03-16 20:04:11 root:INFO:-*--*--*--*--*--*--*--*--*--*-
+2021-03-16 20:04:11 root:INFO:Monitor End
+
